@@ -2,7 +2,7 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
 <task id="C_navigator">
     <title>Navigator</title>
-    <shortdesc>The Navigator Physical view shows the physical hierarchy of your network, with
+    <shortdesc>The Navigator Physical view shows the physical hierarchy of the network, with
             <i>enterprise</i> at the top, followed by the <i>operating platform</i>, and so on. Have
         a look at the levels of the Navigator.</shortdesc>
     <prolog>
