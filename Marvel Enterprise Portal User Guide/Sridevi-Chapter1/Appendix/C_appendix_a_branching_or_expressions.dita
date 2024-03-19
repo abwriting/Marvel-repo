@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_appendix_a_branching_or_expressions">
+    <title>Branching OR Expressions</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Branching OR Expressions</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>If you are building a situation or setting a filter or threshold where you want an
+                <synph>OR</synph> expression to branch at a specific <synph>AND</synph> expression,
+            repeat the <synph>AND</synph> expression in a new row with the <synph>OR</synph>
+            expression.</p>
+        <p>In the situation example below, the comparisons are true if the notepad process exceeds
+            50 seconds <synph>AND</synph> the virtual bytes exceed one million <synph>OR</synph> the
+            notepad process on myserver exceeds 50 seconds <synph>AND</synph> the page faults exceed
+            100,000 per second.</p>
+    </conbody>
+</concept>

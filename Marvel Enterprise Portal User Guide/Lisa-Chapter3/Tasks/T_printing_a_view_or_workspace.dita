@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_printing_a_view_or_workspace">
+    <title>Printing a View or Workspace</title>
+    <shortdesc>You can print the workspace or an individual view and display a preview
+        beforehand.</shortdesc>
+    <taskbody>
+        <context>
+            <p>Do any of the following to see a print preview or print the workspace or selected
+                view:</p>
+            <p>
+                <ul id="ul_vhv_l4f_51c">
+                    <li>To see a print preview of the workspace, click <b>File</b> > <image
+                            href="../Images/59.png" width="15" height="15" id="image_hn1_w4f_51c"
+                            /><b>Print Preview</b>.</li>
+                    <li>To print the current workspace, click <b>File</b> > <image
+                            href="../Images/60.png" width="15" height="15" id="image_f1z_w4f_51c"
+                            /><b>Print</b>.</li>
+                    <li>To see a print preview of the view, right-click in the view and click <image
+                            href="../Images/59.png" width="15" height="15" id="image_ytw_x4f_51c"
+                            /><b>Print preview</b>.</li>
+                    <li>To print the view, right-click in the view and click <image
+                            href="../Images/60.png" width="15" height="15" id="image_vr4_y4f_51c"
+                            /><b>Print</b>.</li>
+                </ul>
+            </p>
+        </context>
+        <result id="result_ivn_z4f_51c">When you print a table that has more columns than will fit
+            the width of the page, they will wrap to the next page. If there are more rows than will
+            fit on the page, they are displayed on subsequent pages.</result>
+        <postreq id="postreq_l4v_1pf_51c">The printing mechanism used by Tivoli Enterprise Portal is
+            provided by Java, and has some limitations. When you print a notepad view, the text
+            prints as an image. If you want a better quality, try selecting and copying the text
+            (Ctrl+C), then pasting into your favorite text editor for formatting and printing. When
+            you print a workspace or chart, try sizing the application window or view pane smaller
+            to improve the clarity of the printed copy. You can also use the <b>Print Screen</b>
+                key.<p>As an alternative to printing in Marvel Enterprise Portal, you can export the
+                view to a comma separated value (.csv) file or text (.txt) file, then import it into
+                the program of your choice, and print there.</p></postreq>
+    </taskbody>
+    <related-links>
+        <link href="T_exporting_a_query_based_view.dita">
+            <desc>Save some or all of the data that was retrieved by the query for a view in a text
+                (.txt) file or comma separated value (.csv) file for further manipulation in another
+                software application.</desc>
+        </link>
+    </related-links>
+</task>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Troubleshooting">
+    <title>Troubleshooting</title>
+    <shortdesc>This list provides some general debugging information.</shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Marvel general troubleshooting<indexterm>Marvel
+                    prerequisites</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <ol id="ol_x4f_tbz_xxb">
+                <li>
+                    <p>When you start the Marvel Run Portal be sure that you direct the output into
+                        a local log file where you can examine it. The log file often contains
+                        useful information. Examine it when you have a problem, and be prepared to
+                        answer questions about it when you talk to a support person.</p>
+                </li>
+                <li>If the Marvel Run Portal appears to have started correctly (which you can
+                    determine from the log file), try running<cmdname> lmstat ‐a </cmdname>and
+                    lmdiag to see if that program has the same problem as your application.</li>
+                <li>If your application is version 1.0, you can use the
+                        <cmdname>Marvel_DIAGNOSTICS</cmdname> environment variable. Set
+                        <cmdname>Marvel_DIAGNOSTICS</cmdname> to 1, 2, or 3. A setting of 3 gives
+                    more information than 2, 2 gives more information than 1 (in particular, the
+                    feature name that was denied).</li>
+                <li>
+                    <p>When you talk to a support person, be prepared with answers to the following
+                        questions:</p>
+                    <ul id="ul_af5_4cz_xxb">
+                        <li>What kind of system is your license server running on?</li>
+                        <li>
+                            <p>What version of the operating system?</p>
+                        </li>
+                        <li>
+                            <p>What system and operating system is the application running on?</p>
+                        </li>
+                        <li>
+                            <p>What version of Marvel Run Portal is in use?</p>
+                        </li>
+                        <li>
+                            <p>What error or warning messages appear in the log file?</p>
+                        </li>
+                        <li>
+                            <p>Did the server start correctly? Look for a message such as:
+                                    <codeph>server xyz started for: feature1 feature2</codeph></p>
+                        </li>
+                        <li>
+                            <p>What is the output from running <cmdname>lmstat ‐a</cmdname>?</p>
+                        </li>
+                        <li>
+                            <p>Are you using a combined license file or separate license files?</p>
+                        </li>
+                        <li>
+                            <p>Are you using three-server redundancy (i.e., there are multiple
+                                SERVER lines in your license file)?</p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+    </conbody>
+</concept>

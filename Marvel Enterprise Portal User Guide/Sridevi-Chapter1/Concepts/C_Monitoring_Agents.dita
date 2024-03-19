@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Monitoring_Agents">
+    <title>Monitoring Agents</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <audience/>
+            <keywords>
+                <indexterm>Monitoring Agents<indexterm>MQSI Agent
+                        </indexterm><indexterm>Threshold</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Marvel Enterprise Monitoring Agents are installed where you have resources you want to
+            monitor. The agents and the operating system, subsystem or computer that they are
+            running on are referred to as managed systems. The Navigator Physical view shows the
+            types of agents installed and running on each managed system.</p>
+        <p>Some agents also have subagents. In such instances the agent is the managing agent. For
+            example, the WebSphere® MQ Integrator Series agent has MQSI Broker subagents. Subagents
+            are displayed in the Navigator below the managing agent and its attribute groups.</p>
+        <p><image href="../../Abrar-Chapter2/Images/I_system_bullet_type.png" width="10" height="10"
+                id="image_sbg_sjc_yxb"/> MQSI Agent- KQIA<ul id="ul_jx1_3jc_yxb">
+                <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png" width="10"
+                        height="10" id="image_xd3_tjc_yxb"/>MQSI Components</li>
+                <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png" width="10"
+                        height="10" id="image_rf5_tjc_yxb"/> Product Events</li>
+                <li><image href="../../Abrar-Chapter2/Images/I_agent_bullet_type.png" width="10"
+                        height="10" id="image_fvh_vjc_yxb"/> MQSI Broker MQSIBroker1::KQIB<ul
+                        id="ul_ymm_njc_yxb">
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_thp_xjc_yxb"/> Broker Events</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_vpw_xjc_yxb"/> Flow Events</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_ay1_yjc_yxb"/> Broker
+                            Information</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_ax2_yjc_yxb"/> Broker
+                            Statistics</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_us3_yjc_yxb"/> Execution Group
+                            Statistics</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_i2t_yjc_yxb"/> Message Flow
+                            Statistics</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_abx_yjc_yxb"/> Neighbors</li>
+                        <li><image href="../../Abrar-Chapter2/Images/I_resource_bullet_type.png"
+                                width="10" height="10" id="image_at1_zjc_yxb"/> Topics</li>
+                    </ul></li>
+            </ul></p>
+        <p>The agent gathers the current values of the attributes (elements) specified in a view.
+            Gathered attribute values can also be tested against a threshold and display an event
+            indicator when conditions exceed the threshold. Some agents have fewer than 100
+            attributes, and many have several hundred. These attribute values are displayed in the
+            table and chart views of workspaces at the system, agent, and attribute group level of
+            the Navigator Physical view. When an attribute value (or range of values) is specified
+            in a situation, as a table threshold, or as a chart or table view filter, Marvel
+            Enterprise Portal compares the current value with the value specified and does the
+            following:</p>
+        <p>
+            <ul id="ul_fvr_5jq_1yb">
+                <li>If the comparison in the situation is met, then the situation is true and event
+                    indicators are displayed in the Navigator.</li>
+                <li>If the compared value exceeds the threshold specified for the table, the cell is
+                    highlighted in red, yellow, or blue.</li>
+                <li>If the compared value meets the filter condition, it is included in the chart or
+                    table display. </li>
+            </ul>
+        </p>
+    </conbody>
+</concept>

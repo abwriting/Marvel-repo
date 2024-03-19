@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_exporting_a_query_based_view">
+    <title>Exporting a Query-based View</title>
+    <shortdesc>Save some or all of the data that was retrieved by the query for a view in a text
+        (.txt) file or comma separated value (.csv) file for further manipulation in another
+        software application.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Export Query-based View</indexterm>
+                <indexterm>Query-based View</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>When you open or refresh a workspace, the queries assigned to the table and chart
+                views are sent to the Tivoli Enterprise Monitoring Server, which returns the
+                requested data from the managed systems. Any filters applied to views reduce what
+                displays, such as only the relevant four columns of a seven-column table or only the
+                processes that are using the most memory.</p>
+            <p>When you export a query-based view, you can save everything returned by the query
+                before any filters are applied. This includes every column queried or only those you
+                select; every row returned or, if there are multiple pages, only the rows from the
+                displayed page. Also, if you save the data to an existing file, you can choose to
+                append the data or to overwrite the previous version. Take these steps to save the
+                data you select from the view to a .txt or .csv file:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace with the query-based view whose results you want to
+                    save.</cmd>
+            </step>
+            <step>
+                <cmd>Because the current data display is exported, click <image
+                        href="../Images/36.jpg" id="image_rh5_wxr_t1c" height="15" width="15"
+                        /><b>Refresh</b> if you want the latest results.</cmd>
+            </step>
+            <step>
+                <cmd>If this is a table, pie chart or bar chart view with multiple pages and you
+                    want to save a particular page rather than all rows, click <image
+                        href="../Images/48.png" id="image_ay2_5xr_t1c"/>or <image
+                        href="../Images/49.png" id="image_urv_5xr_t1c"/>at the ends of the vertical
+                    scroll bar (or type the number in the <i>Page</i> text box) until it displays. A
+                    page is 100 rows by default. You can change the view's page size by clicking
+                        <image href="../Images/50.png" id="image_qss_1yr_t1c"/>and changing the<b>
+                        View-level Page Size</b> value in the Query tab.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click inside the query-based view and click <image
+                        href="../Images/51.png" id="image_awt_dyr_t1c"/><b>Export</b>.</cmd>
+            </step>
+            <step>
+                <cmd>In the Export to Disk window, select the location for the exported data, select
+                    a file type, and type a file name.</cmd>
+            </step>
+            <step>
+                <cmd>To export the rows that are visible in the view space and all the columns shown
+                    in the <b>Assigned</b> list, click <b>OK</b>; or, to specify otherwise, do any
+                    of the following:</cmd>
+                <substeps id="substeps_zgd_hyr_t1c">
+                    <substep>
+                        <cmd>For the all pages returned by the query, click <image
+                                href="../Images/17.jpg" id="image_qht_3yr_t1c" height="15"
+                                width="15"/><b>All rows</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>To exclude a column from those being exported, select from the
+                                <b>Assigned</b> list and click<image href="../Images/10.jpg"
+                                id="image_wz1_nyr_t1c" height="15" width="15"/> ; to include a
+                            column, select it from the Available Columns list and click<image
+                                href="../Images/52.png" id="image_rlx_4yr_t1c"/>. Use Ctrl+click to
+                            select multiple columns or Shift+click to select all columns from the
+                            first one selected to this one.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>To change the order, select a column and click <image
+                                href="../Images/53.png" id="image_p1q_ryr_t1c"/>or <image
+                                href="../Images/54.png" id="image_kmd_syr_t1c"/>.</cmd>
+                        <info>If this is a new, unsaved table or chart view, <image
+                                href="../Images/17.jpg" height="15" width="15"
+                                id="image_dd4_vyr_t1c"/><b>Visible rows</b> is selected for
+                            you.</info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>If the file you are saving already exists, you can choose to overwrite the file
+                    with the current data selection, append the data to the file, or cancel.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

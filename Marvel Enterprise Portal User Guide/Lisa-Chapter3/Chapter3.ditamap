@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Workspaces</title>
+    <topicref href="Concepts/C_using_workspaces.dita">
+        <topicref href="Concepts/C_workspace_characteristics.dita"/>
+        <topicref href="Concepts/C_org_of_predef_ws.dita"/>
+    </topicref>
+    <topicref href="Concepts/C_opening_a_workspace.dita">
+        <topicref href="Tasks/T_opening_a_workspace.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_opening_a_new_window.dita"/>
+    <topicref href="Concepts/C_tabbed_workspaces.dita">
+        <topicref href="Tasks/T_Open%20a%20Workspace.dita"/>
+        <topicref href="Tasks/T_link_to_a_workspace.dita"/>
+        <topicref href="Tasks/T_open_found_navigator_default_workspace.dita"/>
+        <topicref href="Tasks/T_open_navigator_view_default_workspace.dita"/>
+        <topicref href="Concepts/C_tabbed_workspaces_troubleshooting.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_refreshing_a_workspace.dita"/>
+    <topicref href="Tasks/T_suspending_and_stopping_refresh.dita"/>
+    <topicref href="Tasks/T_linking_to_a_workspace.dita"/>
+    <topicref href="Concepts/c_view_title_bar_and_toolbar.dita"/>
+    <topicref href="Tasks/T_setting_a_time_span_to_display.dita"/>
+    <topicref href="Tasks/T_moving_a_view.dita"/>
+    <topicref href="Tasks/T_reordering_columns_and_rows.dita"/>
+    <topicref href="Tasks/T_zooming_a_chart_view.dita"/>
+    <topicref href="Tasks/T_exporting_a_query_based_view.dita"/>
+    <topicref href="Tasks/T_finding_text_in_a_browser_view_or_notepad_view.dita"/>
+    <topicref href="Tasks/T_finding_table_data.dita">
+        <topicref href="References/r_table_find_examples.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_printing_a_view_or_workspace.dita"/>
+</map>

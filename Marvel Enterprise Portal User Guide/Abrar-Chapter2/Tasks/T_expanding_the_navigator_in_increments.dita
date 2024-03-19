@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_expanding_the_navigator_in_increments">
+    <title>Expanding the Navigator in Increments</title>
+    <shortdesc><image href="../Images/I_more_icon.png" width="10" height="10" id="image_v3t_2nc_yxb"
+        /> More indicators in the Navigator keep the tree compact. Click the indicator to open that
+        branch of the tree. You can specify how many items to expand at one time.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Expanding the Navigator in increments<indexterm>Expanding Child Items at
+                        the platform level of the Navigator</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>When clicking <image href="../Images/I_expand_icon.png" id="image_g11_tnf_vxb"/>
+                <uicontrol>Expand</uicontrol> on a Navigator branch of more than, by default, 25
+                child items, you are prompted to enter the number to expand at one time.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Set the<userinput> number of items</userinput> to expand:</cmd>
+                <substeps id="substeps_igg_f4f_vxb">
+                    <substep>
+                        <cmd>If the <wintitle>Expand child items</wintitle> window is not open,
+                            right-click the <uicontrol>Navigator</uicontrol> item whose child items
+                            you want to expand incrementally and click <image
+                                href="../Images/I_expand_icon.png" id="image_apf_k4f_vxb"
+                                /><uicontrol>Expand</uicontrol> .</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Enter the <userinput>number</userinput> to expand and click
+                                <uicontrol>OK</uicontrol> to open that number of child items.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <image href="../Images/I_more_icon.png" id="image_ef3_q4f_vxb"/>
+                            <uicontrol>More</uicontrol>when you want to open the next group of child
+                            items.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Expand child items. </cmd>
+                <info>You can expand all the child items of a Navigator item. The entire branch does
+                    not expand, just the children of the selected item. If the <wintitle>Expand
+                        child items </wintitle>window is not open, right-click the
+                        <uicontrol>Navigator </uicontrol>item whose child items you want to expand
+                    and click <image href="../Images/I_expand_icon.png" id="image_qsd_54f_vxb"/>
+                    <uicontrol>Expand Child Items</uicontrol>.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

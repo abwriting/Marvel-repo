@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_refreshing_the_navigator">
+    <title>Refreshing the Navigator</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Refreshing the navigator<indexterm>Apply pending
+                            updates<indexterm>Navigator update
+                    pending</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The Navigator refreshes automatically whenever the status of agents changes between
+            offline and online. The Navigator does not update automatically when an agent is removed
+            from or a new agent is added to the managed network. When the tool is enabled, click
+                <image href="../Images/I_refresh.png" width="15" height="15" id="image_hrg_jqx_1yb"/>
+            <uicontrol>Apply pending updates</uicontrol> to manually refresh the Navigator.</p>
+        <p>If an agent name is dimmed (grayed out), the agent has stopped or is not responding. It
+            might also indicate that Marvel Enterprise Portal has timed out before detecting the
+            availability of the agent.</p>
+        <p>For custom Navigator views, <image href="../Images/I_refresh.png" width="15" height="15"
+                id="image_ryk_mqx_1yb"/><uicontrol>Apply pending updates</uicontrol> is enabled in
+            the Navigator toolbar whenever you have edited the view in the Navigator editor (added,
+            removed, or renamed items). The tool is not enabled in the Navigator view when an agent
+            has been removed from the Marvel Enterprise Monitoring Server. In these cases, the agent
+            appears to be offline. To remove this agent from the Navigator display, delete the
+            Navigator item through the Navigator editor.</p>
+        <p>A count of changes to the Navigator view is kept as agents are removed from, disabled, or
+            added to the monitoring server. The counter shows as a superscripted number next to the
+            tool (such as <image href="../Images/I_refresh.png" width="15" height="15"
+                id="image_qh4_tqx_1yb"/>
+            <sup>9</sup> for nine updates) and in the Navigator view status bar. You must refresh
+            the Navigator to show these changes.</p>
+    </conbody>
+</concept>

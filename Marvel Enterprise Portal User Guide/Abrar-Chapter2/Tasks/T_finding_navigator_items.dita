@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_finding_navigator_items">
+    <title>Finding Navigator Items</title>
+    <shortdesc>The Navigator shows all the managed systems that run on an operating system and this
+        list can get very long. Use the <uicontrol>Find</uicontrol> tool to locate
+            <uicontrol>Navigator</uicontrol> items based on properties such as IP address or
+        associated situations.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>How to find Navigator Items<indexterm>Navigator items at the agent level
+                        </indexterm><indexterm>Locate Navigator</indexterm><indexterm>Custom
+                        Navigator views</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_fyx_f1k_wxb"/>
+        <context>
+            <p>To find a Navigator item:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <image href="../Images/I_find_icon.png" width="15" height="15"
+                        id="image_p3w_rlx_wxb"/>
+                    <uicontrol>Find</uicontrol> in the Navigator toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Select the Navigator item from the <uicontrol>For Navigator</uicontrol><image
+                        href="../Images/I_list_box.png" id="image_gm5_5bg_vxb" height="10px"/> list
+                    if the item to search for is in a different Navigator view.</cmd>
+            </step>
+            <step>
+                <cmd>Enter the <userinput>values of the properties</userinput> to search by:</cmd>
+                <choicetable frame="all" relcolwidth="1* 1*" id="choicetable_vhy_kcg_vxb">
+                    <chhead>
+                        <choptionhd>Properties</choptionhd>
+                        <chdeschd>Value</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption>IP Address</choption>
+                        <chdesc>
+                            <p>(Distributed systems only) If you know the IP address, you can enter
+                                it here. Example: <codeph>SCAN == 9.55.1*</codeph> finds computers
+                                that start with 9.55.1, such as 9.55.105.180 and 9.55.110.180</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Hostname</choption>
+                        <chdesc>
+                            <p>(Distributed systems only) Specify all or part of the host name here.
+                                Example: <codeph>SCAN == MYHOST??</codeph> finds computers that
+                                start with MYHOST and have two trailing characters, such as MYHOSTEL
+                                and MYHOST33 but not MYHOSTA or myhostess.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>SMFID Name</choption>
+                        <chdesc>
+                            <p>(z/OS-based systems only) Find the item by the session ID value.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Sysplex Name</choption>
+                        <chdesc>
+                            <p>(z/OS-based systems only) Specify the item by system complex
+                                name.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Product Code</choption>
+                        <chdesc>
+                            <p>Select the product name from the <image
+                                    href="../Images/I_list_box.png" id="image_pd4_fdg_vxb"/> list to
+                                specify the managed system type to find.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Managed System Name</choption>
+                        <chdesc>
+                            <p>The managed system name is often the same as the host name. Example:
+                                    <codeph>SCAN == *UAGENT0?</codeph> finds Universal Agents
+                                Navigator items such as onionASFSdp:UAGENT00 and
+                                garlicASFSdp:UAGENT05.</p>
+                        </chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption>Associated Situation Name</choption>
+                        <chdesc>
+                            <p>Enter a <userinput>situation name</userinput> to find the Navigator
+                                items that the situation is associated with. (For an alert indicator
+                                to display in the Navigator for a situation that has become true,
+                                the situation must be associated with a Navigator item.)</p>
+                        </chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Tick the <image href="../Images/I_include_checkbox_icon.png"
+                        id="image_xst_pdg_vxb" height="10px"/>
+                    <uicontrol>Include only managed system items</uicontrol> check box to show the
+                    found Navigator items at the agent level (and subagent if applicable) but to
+                    exclude the child Navigator items (attribute level), .</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Advanced</uicontrol> and specify the page size to control the
+                    number of Navigator items to list per page in the find results.</cmd>
+                <info>The default is 100 rows per page. By reducing the number, you can have the
+                    results displayed more quickly and in smaller, more manageable pages; then move
+                    through the pages with <image href="../Images/I_page_down_icon.png"
+                        id="image_qxd_vdg_vxb"/>
+                    <uicontrol>Page down</uicontrol> and <image href="../Images/I_page_up_icon.png"
+                        id="image_vrs_vdg_vxb"/><uicontrol> Page up</uicontrol>. By increasing the
+                    number, you increase the processing time but you can see all the results on one
+                    table page.</info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Find</uicontrol>. The <uicontrol>Find results</uicontrol> area
+                    is appended to the window with a list of Navigator items that meet the
+                    criteria.</cmd>
+            </step>
+            <step>
+                <cmd>Click a Navigator item in the Find results area and click <uicontrol>Switch
+                        to</uicontrol>  after selecting any or none of the following check
+                    boxes:</cmd>
+                <choices id="choices_hhh_cfg_vxb">
+                    <choice>
+                        <image href="../Images/I_include_checkbox_icon.png" width="10" height="10"
+                            id="image_tlm_vlx_wxb"/>
+                        <b>Open workspace in new window</b><p>Keep the current workspace open and
+                            open the workspace at the selected Navigator item in a new window (or
+                            separate tab if you are in browser mode and your browser is configured
+                            for tabbed windows).</p></choice>
+                    <choice>
+                        <image href="../Images/I_include_checkbox_icon.png" width="10" height="10"
+                            id="image_p3v_vlx_wxb"/><b>Close after switching to
+                            workspace</b><p>Close the <wintitle>Find</wintitle> window after opening
+                            the workspace for the selected Navigator item.</p></choice>
+                </choices>
+            </step>
+        </steps>
+        <result id="result_b1k_mfg_vxb">The default workspace for the selected Navigator item is
+            opened.</result>
+        <postreq id="postreq_ylr_4kg_vxb">You can keep the window open to switch between one found
+            Navigator item and another or to change the criteria and find other Navigator
+            items.</postreq>
+    </taskbody>
+</task>

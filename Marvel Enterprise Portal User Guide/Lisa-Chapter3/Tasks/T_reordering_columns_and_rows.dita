@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="t_reordering_columns_and_rows">
+    <title>Reordering Columns and Rows</title>
+    <shortdesc>Change how a table view is sorted temporarily to focus on specific column details or
+        in a more permanent way if it should always appear sorted in this manner. You can also
+        reposition columns for a more logical organization or to emphasize columns of
+        interest.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Reorder Columns</indexterm>
+                <indexterm>Reorder Rows</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>You can set the sort order in three ways. Take one of the following steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Reorder the table view columns or chart view data series by clicking the column
+                    heading and dragging to the new position:</cmd>
+                <choices id="choices_pss_fpr_t1c">
+                    <choice>If you open a workspace and drag the column heading in a workspace table
+                        view, the change is temporary unless you save the workspace. You can also
+                        right-click a column heading and click <image href="../Images/44.png"
+                            id="image_uf2_npr_t1c"/><b>Lock this Column</b> to fix the column and
+                        any columns to the left of it so that they do not move off the viewable area
+                        of the pane when you scroll horizontally.</choice>
+                    <choice>If you click <image href="../Images/2.jpg" id="image_mmp_ppr_t1c"
+                            height="15" width="15"/><b>Edit properties</b> in the table- or chart
+                        view title bar and drag a column heading in the <image
+                            href="../Images/45.png" id="image_pvf_5pr_t1c"/>
+                        <b>Filters</b> tab, the change is temporary unless you save the
+                        workspace.</choice>
+                    <choice>If you click <image href="../Images/44.jpg" id="image_am2_bqr_t1c"
+                            /><b>Query Editor</b> and drag a column heading in the Specification
+                        tab, the changes are saved with the query and applied to any views that use
+                        that query. Column reordering must be done in a custom query because
+                        predefined queries are not editable.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Sort the row data in a table view:</cmd>
+                <substeps id="substeps_gsk_jqr_t1c">
+                    <substep>
+                        <cmd>Click <image href="../Images/44.jpg" id="image_fpx_lqr_t1c"/><b>Query
+                                Editor</b>, open a custom query, click Advanced, and select a Sort
+                            By attribute from the <image href="../Images/16.jpg"
+                                id="image_v3b_nqr_t1c" height="15" width="15"/> list. </cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In a table view, click a column heading to sort all rows by that column
+                            in <image href="../Images/46.png" id="image_cqh_crr_t1c"/>ascending
+                            order, <image href="../Images/47.png" id="image_uv5_crr_t1c"/>descending
+                            order, and back to the original order the third time you click. You can
+                            save the view's sort order with the workspace.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+    </taskbody>
+</task>

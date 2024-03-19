@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_acknowledging_an_event">
+    <title>Acknowledging an Event</title>
+    <shortdesc>When an event is opened for a true situation, you can acknowledge it. This notifies
+        other users that you have taken ownership of the problem related to the event and are
+        working on it. The acknowledgement window records the time of the acknowledgement and the ID
+        of the user.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Acknowledge Event</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_q3p_22g_51c">Your user ID must have Acknowledge permission for Events to
+            use this function.</prereq>
+        <context>
+            <p>Acknowledgements enable users who are monitoring events to communicate their working
+                status. Follow these steps to acknowledge an open event or one whose acknowledgement
+                has expired or been canceled before the event has been closed.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Do one of the following:</cmd>
+                <choices id="choices_a4m_32g_51c">
+                    <choice>Move the mouse over an event indicator (such as <image
+                            href="../Images/63.jpg" width="15" height="15" id="image_sdg_bfg_51c"/>,
+                            <image href="../Images/65.jpg" width="15" height="15"
+                            id="image_wjm_cfg_51c"/>, or<image href="../Images/67.jpg" width="15"
+                            height="15" id="image_uby_dfg_51c"/> in the Navigator to open the
+                        flyover list of open events, then right-click the event you want to
+                        acknowledge.</choice>
+                    <choice>If you have opened the event results workspace, right-click the<image
+                            href="../Images/5.png" width="15" height="15" id="image_kjl_ffg_51c"/>
+                        event item in the Navigator.</choice>
+                    <choice>In the event console view, right-click a row.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Point to <b>Acknowledge Event</b> and click either <image
+                        href="../Images/45.jpg" width="15" height="15" id="image_mbs_gfg_51c"
+                        /><b>Quick Acknowledge</b>, to acknowledge the event with the default
+                    settings, or<image href="../Images/45.jpg" width="15" height="15"
+                        id="image_gls_3fg_51c"/>
+                    <b>Acknowledge</b> to open the Acknowledge window. A quick acknowledgement
+                    creates an acknowledgement with no expiration and inserts a time stamp, your
+                    user ID, and the statement, “Event quick acknowledged, ownership assigned” in
+                    the Notes field.</cmd>
+            </step>
+            <step>
+                <cmd>If you selected <image href="../Images/45.jpg" width="15" height="15"
+                        id="image_pyy_jfg_51c"/><b>Acknowledge</b> in the previous step, do any of
+                    the following:</cmd>
+                <choices id="choices_z5g_42g_51c">
+                    <choice>Adjust the <b>Expiration</b> settings for the time when the
+                        acknowledgement should expire. If you select <image href="../Images/17.jpg"
+                            width="15" height="15" id="image_hck_mfg_51c"/><b>Expire at a specific
+                            time</b>, click the<image href="../Images/16.jpg" width="15" height="15"
+                            id="image_rj2_4fg_51c"/> list box, adjust the year, month, or time, then
+                        click the expiration date to close the calendar. Select<image
+                            href="../Images/12.jpg" width="15" height="15" id="image_nh5_pfg_51c"/>
+                        <b>Use Server time</b> to use the time zone of the Marvel Enterprise
+                        Monitoring Server to which the monitoring agent is connected.</choice>
+                    <choice>Write notes about the event in the <b>Add Notes</b> text box. After you
+                        click <b>Apply</b> or <b>OK</b>, the text will be moved to the <b>Notes</b>
+                        area and preceded with a time stamp, your user ID, and the statement, “Event
+                        quick acknowledged, ownership assigned”.</choice>
+                    <choice>Attach a file that is applicable to the event by clicking <image
+                            href="../Images/8.png" width="15" height="15" id="image_wdz_xfg_51c"
+                            /><b>Add an attachment</b> and selecting the file.</choice>
+                    <choice>If your environment includes an incident management agent, such as IBM
+                        Information Management, and the event corresponds to an incident, enter the
+                        incident identifier in the <b>Reference ID</b> field, up to 32
+                        characters.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>When you are finished, save your notes and settings by clicking <b>Apply</b> to
+                    keep the Acknowledgement window open or <b>OK</b> to close the window.</cmd>
+            </step>
+        </steps>
+        <result id="result_ipv_w2g_51c">Any notes just written and attachments added are displayed
+            in the Notes area, including the date and time each note was added, the user ID of the
+            author, and hypertext links to the attachments.</result>
+        <postreq id="postreq_fwq_y2g_51c">The acknowledged status of the event is indicated by
+                the<image href="../Images/45.jpg" width="15" height="15" id="image_cjy_jgg_51c"/>
+            Acknowledgement icon in the event flyover list. The message log, situation event
+            console, and common event console views also show "Acknowledged" in the Status column.
+            When the event is closed, the acknowledgement is removed. If you want to review the
+            acknowledgement after it has been closed, you can access it through the view of the
+            Enterprise Status workspace. If the acknowledgement expires before the event has been
+            closed, the event status changes to <image href="../Images/47.jpg" width="15"
+                height="15" id="image_d4z_kgg_51c"/>Reopened.</postreq>
+    </taskbody>
+</task>

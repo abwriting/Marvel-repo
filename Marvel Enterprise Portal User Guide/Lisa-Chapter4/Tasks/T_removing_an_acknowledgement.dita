@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_removing_an_acknowledgement">
+    <title>Removing an Acknowledgement</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>If you acknowledged a situation event and must release your ownership before the
+                acknowledgement has expired or the event has closed, you can remove the
+                acknowledgement from the event.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Do one of the following:</cmd>
+                <choices id="choices_oj5_zkg_51c">
+                    <choice>Move the mouse over an event indicator (such as <image
+                            href="../Images/65.jpg" width="15" height="15" id="image_ulq_glg_51c"
+                        />or <image href="../Images/67.jpg" width="15" height="15"
+                            id="image_pbn_hlg_51c"/>) in the Navigator view to open the flyover list
+                        of open events, then right-click the acknowledged event.</choice>
+                    <choice>If you have opened the event results workspace, right-click the
+                        acknowledged <image href="../Images/45.jpg" width="15" height="15"
+                            id="image_d4p_jlg_51c"/>event item in the Navigator.</choice>
+                    <choice>In the situation event console view, right-click a row where the status
+                        is Acknowledged.</choice>
+                    <choice>In the Enterprise Status workspace, right-click a row in the My
+                        Acknowledged Events view.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click <b>Acknowledge Event </b>> <image href="../Images/9.png" width="15"
+                        height="15" id="image_krn_nlg_51c"/><b>Remove Acknowledgement</b>. Removing
+                    the acknowledgement changes the event status to Reopened and removes the user ID
+                    from the Owner column.</cmd>
+                <info>A time stamp and user information is attached to the event as a note, along
+                    with an audit note signifying that the acknowledgement was removed.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

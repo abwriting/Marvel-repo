@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="r_table_find_examples">
+    <title>Table Find Examples</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Find Table Examples</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <example id="example_n3s_ntv_t1c">The criteria in this example will find cells whose
+            AvgDiskBytes/Write value is at or above 5,000 and that were written on first day of the
+            month ( <image href="../Images/58.png" width="15" height="15" id="image_ezd_qtv_t1c"
+                /><b>Return a subset of the string</b> in the formula is set to start at the fourth
+            character in the time stamp, so it will find 06/01/09 and 10/01/09 but not
+            06/13/09).</example>
+        <properties frame="all" id="properties_p4n_rtv_t1c">
+            <prophead>
+                <proptypehd>Column</proptypehd>
+                <propvaluehd>Type</propvaluehd>
+            </prophead>
+            <property>
+                <proptype>AvgDiskBytes/Write</proptype>
+                <propvalue>>= 5,000</propvalue>
+            </property>
+            <property>
+                <proptype>Timestamp</proptype>
+                <propvalue><image href="../Images/58.png" width="15" height="15"/>==
+                    4,01</propvalue>
+            </property>
+        </properties>
+        <example>The criteria in this example were written for the table in the EIB Change Log
+            workspace to find entries that have been updated and that have "Disk" somewhere in the
+            name. (<image href="../Images/58.png" width="15" height="15"/>
+            <b>Return a subset of the string</b> and <image href="../Images/57.png" width="15"
+                height="15"/><b>Scan for string within a string</b> are described in STR and
+            SCAN.)</example>
+        <properties frame="all">
+            <prophead>
+                <proptypehd>Column</proptypehd>
+                <propvaluehd>Type</propvaluehd>
+            </prophead>
+            <property>
+                <proptype>Table Name</proptype>
+                <propvalue>== IDDefSituation</propvalue>
+            </property>
+            <property>
+                <proptype>Operation</proptype>
+                <propvalue>== Update</propvalue>
+            </property>
+            <property>
+                <proptype>Object Name</proptype>
+                <propvalue><image href="../Images/57.png" width="15" height="15"/>SCAN==
+                    'Disk'</propvalue>
+            </property>
+        </properties>
+        <example>Most special characters are processed correctly in the find function. If you
+            attempt to find text that includes a special character and it is not found, but you know
+            it exists in your environment, precede the character with the \ backslash escape
+            character. In this example, the user is searching through Temporary Storage Queues for a
+            Queue ID of #ETC. This is how it is entered in the Value cell:</example>
+        <properties frame="all">
+            <prophead>
+                <proptypehd>Column</proptypehd>
+                <propvaluehd>Type</propvaluehd>
+            </prophead>
+            <property>
+                <proptype>QueueID</proptype>
+                <propvalue>== '\#ETC'</propvalue>
+            </property>
+            <property>
+                <proptype>CICS RegionName</proptype>
+                <propvalue/>
+            </property>
+        </properties>
+    </refbody>
+    <related-links>
+        <link href="../Tasks/T_finding_table_data.dita">
+            <linktext>Finding table data</linktext>
+            <desc>Use the find function to locate a text or numeric value in the selected table
+                view, message log, or event console view.</desc>
+        </link>
+    </related-links>
+</reference>

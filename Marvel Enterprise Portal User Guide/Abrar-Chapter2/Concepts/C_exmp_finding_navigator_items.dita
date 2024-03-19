@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_exmp_finding_navigator_items">
+    <title>Examples</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Examples of finding navigator items<indexterm>Find
+                                criteria<indexterm><indexterm>Find
+                                results</indexterm><indexterm>CPU</indexterm><indexterm>IP
+                                        Address<indexterm>Hostname<indexterm>SMFID
+                                            Name<indexterm>Sysplex Name<indexterm>Sysplex
+                                                  Name<indexterm>Product Code<indexterm>Managed
+                                                  System Name<indexterm>Associated Situation
+                                                  Name</indexterm></indexterm></indexterm></indexterm></indexterm></indexterm></indexterm></indexterm></indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>In this example, the find criteria looks on the MySystem computers for Navigator items
+            with associated situations that have "CPU" in the situation name.</p>
+        <p>
+            <table frame="all" id="table_qkc_fzb_wxb">
+                <title>Find criteria</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Properties</entry>
+                            <entry>Value</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>IP Address</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Hostname</entry>
+                            <entry><image href="../Images/I_abc==_icon.png" id="image_qgx_jzb_wxb"
+                                    /><codeph>'MySystem?'</codeph></entry>
+                        </row>
+                        <row>
+                            <entry>SMFID Name</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Sysplex Name</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Product Code</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Managed System Name</entry>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry>Associated Situation Name</entry>
+                            <entry><image href="../Images/I_abc==_icon.png" id="image_rwk_kzb_wxb"
+                                    /><codeph>'*CPU*'</codeph></entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+        <table frame="all" id="table_hx5_nzb_wxb">
+            <title>Find results</title>
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Item</entry>
+                        <entry>View</entry>
+                        <entry>Item Path</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Process</entry>
+                        <entry>Physical</entry>
+                        <entry><codeph>WindowsOS/MySystem1/Windows
+                            Systems/Enterprise</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>Processor</entry>
+                        <entry>Physical</entry>
+                        <entry><codeph>WindowsOS/MySystem1/Windows
+                            Systems/Enterprise</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>Process</entry>
+                        <entry>Physical</entry>
+                        <entry><codeph>WindowsOS/MySystem2/Windows
+                            Systems/Enterprise</codeph></entry>
+                    </row>
+                    <row>
+                        <entry>Processor</entry>
+                        <entry>Physical</entry>
+                        <entry><codeph>WindowsOS/MySystem2/Windows
+                            Systems/Enterprise</codeph></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <example id="example_ukd_nfg_vxb"/>
+    </conbody>
+</concept>

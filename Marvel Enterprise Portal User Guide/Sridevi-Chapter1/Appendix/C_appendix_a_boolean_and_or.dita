@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Boolean_AND_3">
+    <title>Boolean AND and OR</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>AND and OR</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The tabular editors work with Boolean AND and OR logic.</p>
+    </conbody>
+</concept>

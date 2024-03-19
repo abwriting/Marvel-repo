@@ -1,0 +1,1 @@
+var htmlFileInfoList = ["C_Appendix_1.html@@@Situation Definition Attributes@@@This section deails with Situation Definition attributes. The Situation Definition attributes supply you with the complete definition of situations. You can apply the predefined query for this group...","cshelp.html@@@Context Sensitive Help@@@..."];

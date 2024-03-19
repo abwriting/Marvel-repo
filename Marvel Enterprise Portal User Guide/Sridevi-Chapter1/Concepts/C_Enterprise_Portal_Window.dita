@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Enterprise_Portal_Window">
+    <title>Marvel Enterprise Portal Window</title>
+    <shortdesc>Use this topic to familiarize yourself with the elements of the Marvel Enterprise
+        Portal window. </shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Portal window<indexterm>Title
+                        bar</indexterm><indexterm>Banner</indexterm><indexterm>Menu
+                    bar</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The Marvel Enterprise Portal window displays information about monitored resources in
+            your enterprise. On the left is the Navigator, which shows the arrangement of your
+            monitored network and allows you to access information collected by different agents on
+            your monitored systems. On the right is a workspace. The workspace can be divided into
+            as many smaller frames, or panes,as you can reasonably fit inside the window. When you
+            select an item in the Navigator, a new workspace opens with a set of views for that
+            item.</p>
+        <p>The window comprises the following elements:<dl id="dl_gxd_j43_1yb">
+                <dlentry>
+                    <dt>Title bar</dt>
+                    <dd>In browser mode, the title bar shows the name of the workspace. In desktop
+                        mode, the title bar shows the name of the workspace, the name and port
+                        number of the Marvel Enterprise Portal Server, and the user name. For
+                        example, <systemoutput>NT Cache Details - mars:14000 - JONDO</systemoutput>
+                        tells us that the NT Cache Details workspace is open and the user JONDO is
+                        connected to the Marvel Enterprise Portal Server named mars through port
+                        number 14000.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Banner</dt>
+                    <dd>The banner is displayed when you run Marvel Enterprise Portal in browser
+                        mode. You can replace it with your own .GIF graphic, such as your company
+                        logo.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Menu bar</dt>
+                    <dd>Marvel Enterprise Portal has a menu bar that includes the following four
+                            menus:<table frame="all" id="table_k2p_cp3_1yb">
+                            <title>Menu bar menus</title>
+                            <tgroup cols="2" align="center">
+                                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                <colspec colname="c2" colnum="2" colwidth="1*" align="left"/>
+                                <thead>
+                                    <row>
+                                        <entry>Menu</entry>
+                                        <entry>Function</entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row>
+                                        <entry>File</entry>
+                                        <entry>
+                                            <p>The File menu has options for working with
+                                                workspaces, setting a trace, and exiting the Marvel
+                                                Enterprise Portal. The Trace Options are used only
+                                                as instructed by a IBM customer support
+                                                representative.</p>
+                                        </entry>
+                                    </row>
+                                    <row>
+                                        <entry>Edit</entry>
+                                        <entry>
+                                            <p>The Edit menu has editing options for workspace
+                                                properties, historical data collection
+                                                configuration, policies, situations, user IDs,
+                                                queries, and object groups.</p>
+                                        </entry>
+                                    </row>
+                                    <row>
+                                        <entry>Edit</entry>
+                                        <entry>
+                                            <p>The View menu has options for opening other
+                                                workspaces for a Navigator item, hiding or showing
+                                                the toolbars and status bar,</p>
+                                            <p>refreshing the data in this workspace, turning off
+                                                sound for events, and for opening other Navigator
+                                                views.</p>
+                                        </entry>
+                                    </row>
+                                    <row>
+                                        <entry>Help</entry>
+                                        <entry>
+                                            <p>The Help menu opens the Marvel Enterprise Portal
+                                                Help, a 10-minute tour to give you some hands-on
+                                                experience, and links to the IBM website.</p>
+                                        </entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table></dd>
+                </dlentry>
+            </dl></p>
+        <p>In browser mode you can also use the browser menu bar, which is displayed just below the
+            title bar.</p>
+        <p>If your user ID does not have View or Modify permission for a function or does not have
+            Workspace Author Mode permission, you will not see certain items in the menus, including
+            the pop-up menus. For example, if you have no Workspace Author Mode permission, the
+                <uicontrol>Properties</uicontrol> menu item is not displayed.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_workspaces">
+    <title>Workspaces</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Workspaces<indexterm>Workspace Gallery</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The <i><keyword>workspace</keyword></i> is the working area of the application window.
+            Selecting an item in the Navigator opens its default workspace. The workspace contains
+            views of information for that item in the Navigator.</p>
+        <p>If the item has multiple workspaces created for it, you can click  <uicontrol>Workspace
+                Gallery</uicontrol>  to see thumbnail images of them and select another workspace to
+            open. You can also select any additional workspaces associated with a navigator item by
+            right-clicking on the navigator item and selecting the <uicontrol>Workspaces</uicontrol>
+            menu option, or by selecting that same option from the <uicontrol>View</uicontrol> menu
+            found on the main menu bar.</p>
+        <p>You can move around the Navigator without selecting workspaces by using the vertical
+            scroll bars and clicking <image href="../Images/I_expand_icon.png" width="15"
+                height="15" id="image_wzl_j1x_1yb"/> to expand a list or <image
+                href="../Images/I_minimize_icon.png" width="15" height="15" id="image_fdj_k1x_1yb"/>
+            to collapse it.</p>
+        <p>Use <image href="../Images/I_left_arrow.png" width="15" height="15"
+                id="image_opn_41x_1yb"/> and <image href="../Images/I_right_arrow.png" width="15"
+                height="15" id="image_rvz_q1x_1yb"/> to return to previously viewed workspaces in
+            the order they were initially visited. The data in those workspaces is not cached, so
+            any chart or table views are refreshed with the most recent data samplings when you
+            revisit them.</p>
+    </conbody>
+</concept>

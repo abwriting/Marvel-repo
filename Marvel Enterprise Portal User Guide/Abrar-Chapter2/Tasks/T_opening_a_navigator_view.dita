@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_opening_a_navigator_view">
+    <title>Opening a Navigator View</title>
+    <shortdesc>The initial Marvel Enterprise Portal workplace has a Navigator Physical view and a
+        Logical view and any other views that were predefined for your product. You can switch
+        between Navigator views to see the items and workspaces of another Navigator.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>How to open a navigator view<indexterm>Expand child
+                    items</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Depending on whether the Navigator is displayed or hidden, take either of these steps
+                to open a different Navigator view:</p>
+        </context>
+        <steps-unordered id="steps-unordered_ygj_2px_1yb">
+            <step>
+                <cmd>Click the <uicontrol>View</uicontrol>
+                    <image href="../Images/I_list_box.png" width="10" height="10"
+                        id="image_hkj_hpx_1yb"/> list in the Navigator toolbar and select the
+                    Navigator view you want to open.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click <image href="../Images/I_show_navigator_list.png" width="10"
+                        height="10" id="image_ptn_qpx_1yb"/>
+                    <i>&lt;Navigator name></i> in the right-most section of the status bar to see
+                    and select the Navigator from a list of available Navigator views.</cmd>
+            </step>
+        </steps-unordered>
+        <postreq id="postreq_dls_rpx_1yb">If you do not see the Navigator view you are looking for,
+            it is possible your user ID does not have the authority to access this Navigator view.
+            Ask your Marvel Monitoring administrator.<p>If there are many Navigator views in the
+                list, you can have them reordered through the <uicontrol>Navigator Views</uicontrol>
+                tab of the Administer Users window.</p></postreq>
+    </taskbody>
+</task>

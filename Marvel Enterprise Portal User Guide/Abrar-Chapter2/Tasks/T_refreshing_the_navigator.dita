@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_refreshing_the_navigator">
+    <title>Procedure</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Refreshing the navigator<indexterm>Apply pending
+                            updates<indexterm>Navigator update
+                    pending</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To refresh the Navigator:</p>
+        </context>
+        <steps-unordered id="steps-unordered_x3m_hrx_1yb">
+            <step>
+                <cmd>Click <image href="../Images/I_refresh.png" width="10" height="10"
+                        id="image_bmd_krx_1yb"/>
+                    <uicontrol>Apply pending updates</uicontrol> in the Navigator toolbar.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/I_refresh.png" width="10" height="10"
+                        id="image_hxv_mrx_1yb"/>
+                    <uicontrol>Navigator update pending</uicontrol> in the Navigator status
+                    bar.</cmd>
+            </step>
+        </steps-unordered>
+        <result id="result_gqw_4rx_1yb">The agent status is updated in the Navigator. (You might not
+            see any change if the branch containing the agent is <image
+                href="../Images/I_expand_icon.png" width="10" height="10" id="image_sck_qrx_1yb"/>
+            collapsed.) The tool is disabled until the another status change is detected, at which
+            time the counter starts again. If the workspace has automatic refresh turned on, the
+            Navigator is updated at the end of the refresh interval.</result>
+    </taskbody>
+</task>

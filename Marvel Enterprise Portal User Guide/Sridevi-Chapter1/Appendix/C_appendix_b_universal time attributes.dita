@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Appendix_2">
+    <title>Universal Time Attributes</title>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Universal time
+                                attributes<indexterm>Affinities<indexterm>SOPT<indexterm>HUB</indexterm></indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The Universal Time attributes show the time and date at the monitoring agent expressed in
+            UTC (Coordinated Universal Time) format. For example, if the UTC time is 19:15.00 for an
+            agent in New York, the local time is 2:15 PM Standard Time. These attributes are useful
+            for action situations triggered by time. The Universal Time attributes show the time and
+            date at the monitoring agent expressed in UTC (Coordinated Universal Time) format. For
+            example, if the UTC time is 19:15.00 for an agent in New York, the local time is 2:15 PM
+            Standard Time. These attributes are useful for action situations triggered by time.</p>
+        <p>
+            <note id="note_zcq_4td_xxb">
+                <ul id="ul_i1f_ptd_xxb">
+                    <li>
+                        <p>When building situations, you will see that the Universal Time attribute
+                            group can be combined with any attribute group to create a
+                            condition.</p>
+                    </li>
+                    <li>
+                        <p>The attributes are not available in Marvel Enterprise Monitoring Server
+                            queries.</p>
+                    </li>
+                    <li>
+                        <p>Seconds, Minutes, Hours, and Day Of Month are treated as two-character
+                            text attributes. For example, == 05 Minutes is correct, but == 5 Minutes
+                            will never be true.</p>
+                    </li>
+                </ul>
+            </note>
+            <simpletable relcolwidth="1.0* 4.0*" id="simpletable_jpb_qsd_xxb" frame="all"
+                status="deleted">
+                <sthead>
+                    <stentry>Time</stentry>
+                    <stentry>Definition</stentry>
+                </sthead>
+                <strow>
+                    <stentry><keyword>Day Of Month</keyword></stentry>
+                    <stentry>
+                        <p>The day in the month at the agent location when the data was sampled,
+                            from 01 to 31. The first day of the month is 01.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><keyword>Day Of Week</keyword></stentry>
+                    <stentry>
+                        <p>The numeric representation for the day in the week at the agent location
+                            when the data was sampled, from Sunday to Saturday. Select the day from
+                            the list.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><keyword>Hours</keyword></stentry>
+                    <stentry>
+                        <p>The hour in the day at the agent location when the data was sampled, from
+                            00 to 23, such as 01 for 1 am.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>Minutes</stentry>
+                    <stentry>
+                        <p>The minute in the hour at the agent location when the data was sampled,
+                            from 00 to 59, such as 05 for the fifth minute.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>Month Of Year</stentry>
+                    <stentry>
+                        <p>The numeric representation of the month in the year at the agent location
+                            when the data was sampled. Select the month from the list.</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><keyword>Time</keyword></stentry>
+                    <stentry>
+                        <p>The time at the agent location when the data was sampled, formatted as
+                            HHMMSS. For example, 153000 is 3:30 PM</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><keyword>Timestamp</keyword></stentry>
+                    <stentry>
+                        <p>The time stamp at the agent location when the data was sampled. The
+                            format is MM/DD/YY HH:MM:SS.</p>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </p>
+    </conbody>
+</concept>

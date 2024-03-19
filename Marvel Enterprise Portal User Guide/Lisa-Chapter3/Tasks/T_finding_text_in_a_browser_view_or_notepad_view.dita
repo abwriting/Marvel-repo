@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_finding_text_in_a_browser_view_or_notepad_view">
+    <title>Finding Text in a Browser View or Notepad View</title>
+    <shortdesc>Use the find function to locate text in the selected notepad view or browser
+        view.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Finding Text in a Browser View</indexterm>
+                <indexterm>Finding Text in a Notepad View</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Take these steps to find specific text or values in a notepad view or browser
+                view.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace that contains the notepad view to search.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/14.jpg" id="image_adl_rzr_t1c" height="15"
+                        width="15"/><b>Find</b> in the toolbar of the view you want to search. (If
+                    the tool is hidden, click <image href="../Images/48.png" id="image_rg5_tzr_t1c"
+                    />Show toolbar in the view's title bar.)</cmd>
+            </step>
+            <step>
+                <cmd>In the Find window that opens, type the beginning or all of the text to
+                    find.</cmd>
+            </step>
+            <step>
+                <cmd>Select or clear any of the following check box options, then click
+                    <b>Find</b>.</cmd>
+                <choicetable frame="all" relcolwidth="1* 1*" id="choicetable_lzh_yzr_t1c">
+                    <chhead>
+                        <choptionhd>Check Box</choptionhd>
+                        <chdeschd>Preferred Action</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption><image href="../Images/12.jpg" id="image_o3q_d1s_t1c" height="15"
+                                width="15"/>Case Sensitive</choption>
+                        <chdesc>To find only spellings that match the letter casing as typed. When
+                            the check box is disabled, all variations of the letter casing can be
+                            found.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><image href="../Images/33.jpg" width="15" height="15"
+                                id="image_npz_h1s_t1c"/>Backwards</choption>
+                        <chdesc>To search from the cursor point backwards. When the check box is
+                            disabled, the default, the search will be from this point
+                            forward.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><image href="../Images/12.jpg" height="15" width="15"
+                                id="image_psn_l1s_t1c"/>Wrap Search</choption>
+                        <chdesc>Instead of stopping the search when the end of the document is
+                            reached, continues to search from the beginning and stops when it
+                            reaches the point where the search began. Clear the check box if you
+                            want the search to stop at the end of the document (or the beginning of
+                            the document if the search is backwards).</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Click <b>Find Again</b> to search for the next instance.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_uf1_p1s_t1c">You can click <b>Close</b> when you are done or leave the
+            Find window open for this view while you continue working with the workspace.</postreq>
+    </taskbody>
+</task>

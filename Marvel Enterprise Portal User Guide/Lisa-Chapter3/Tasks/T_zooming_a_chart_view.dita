@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_zooming_a_chart_view">
+    <title>Zooming a Chart View</title>
+    <shortdesc>Zoom in on part of a bar chart, plot chart, or area chart to see a subset of the data
+        in greater detail.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Zoom Chart</indexterm>
+                <indexterm>Maximize Zoom Chart</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Zooming expands the chart along the category axis; for example, you can zoom a bar
+                chart to show just a few bars, or zoom a plot or area chart to show a shorter span
+                of time. While displaying the chart, complete the following steps to zoom:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select an area of the chart by clicking and dragging the mouse pointer. The
+                    selected area immediately expands to fill the available view space. Each time
+                    you click and drag, the chart zooms to show more detail.</cmd>
+            </step>
+            <step>
+                <cmd>Press Esc for each zoom step to undo. The plot area returns to the previous
+                    size.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Using the Navigator</title>
+    <topicref href="Concepts/C_navigator_overview.dita"/>
+    <topichead navtitle="Types of Navigator Views">
+        <topicref href="Concepts/C_Navigator_Physical_view.dita"/>
+        <topicref href="Concepts/C_Custom_Navigator_views.dita"/>
+        <topicref href="Concepts/C_Navigator_Logical_view.dita"/>
+    </topichead>
+    <topicref href="Concepts/C_workspaces.dita"/>
+    <topicref href="Concepts/C_navigator_tools.dita"/>
+    <topicref href="Concepts/C_situation_event_indicators.dita"/>
+    <topicref href="Concepts/C_more_indicators.dita"/>
+    <topicref href="Tasks/T_expanding_the_navigator_in_increments.dita">
+        <topicref href="Concepts/C_exmp_expanding_the_navigator_in_increments.dita"/>
+        <topicref href="Concepts/C_logical_and_custom_navigator_views.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_collapsing_and_expanding_the_navigator.dita"/>
+    <topicref href="Tasks/T_finding_navigator_items.dita">
+        <topicref href="Concepts/C_exmp_finding_navigator_items.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_opening_a_navigator_view.dita"/>
+    <topicref href="Concepts/C_refreshing_the_navigator.dita">
+        <topicref href="Tasks/T_refreshing_the_navigator.dita"/>
+    </topicref>
+    <topicref href="Concepts/C_responding_to_an_application_support_event.dita">
+        <topicref href="Tasks/T_responding_to_an_application_support_event.dita">
+            <topicref href="Concepts/C_browser_client_and_java_webstart_client.dita"/>
+            <topicref href="Concepts/C_desktop_client.dita"/>
+            <topicref href="Concepts/C_results_responding_to_an_application_support_event.dita"/>
+            <topicref href="Tasks/T_usage_note_responding_to_an_application_support_event.dita"/>
+        </topicref>
+    </topicref>
+    <topicref href="Concepts/C_removing_an_event_item.dita"/>
+    <topicref href="Concepts/C_removing_an_offline_managed_system_navigator_item.dita">
+        <topicref href="Tasks/T_removing_an_offline_managed_system_navigator_item.dita">
+            <topicref href="Concepts/C_removing_an_offline_mgd_sys_nav_item_next_steps.dita"/>
+        </topicref>
+    </topicref>
+</map>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_appendix_a_multiple_expressions">
+    <title>Multiple Expressions</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>AND and OR<indexterm>Multiple Expressions</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Enter multiple expressions in the same row if they must all be met (Boolean AND logic)
+            and on separate rows if any of them can be met (Boolean OR logic) to set the situation
+            to true. For example, if you want a situation to fire when either disk time OR disk
+            space is at least 90% on myserver, the condition would look like the one shown here.</p>
+    </conbody>
+</concept>

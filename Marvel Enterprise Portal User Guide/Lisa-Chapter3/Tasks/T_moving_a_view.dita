@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_moving_a_view">
+    <title>Moving a View</title>
+    <shortdesc>Move a view to a different position in the workspace to take best advantage of the
+        available space.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Move View</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_cqc_ymr_t1c">Your user ID must have Workspace Author Mode permission to
+            use this function.</prereq>
+        <context>
+            <p>You can easily rearrange the views in a workspace to take advantage of the greater
+                width available below the Navigator view and the narrow area to the right.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Move the mouse pointer over the title bar of the view you want to
+                    relocate.</cmd>
+            </step>
+            <step>
+                <cmd>Click and drag the view over the space you want it to occupy. While dragging
+                    the title bar, you should see a semi-transparent copy of the view.</cmd>
+            </step>
+            <step>
+                <cmd>Release the mouse button to swap the views.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

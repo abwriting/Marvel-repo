@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Workspaces">
+    <title>Workspaces</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>workspaces<indexterm>Navigator and workspaces</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Every item in the Navigator has a default workspace that opens when you select it.
+            Multiple workspaces can also be accessed from a single navigator item. After you log
+            into the Marvel Enterprise Portal Server, the Marvel Enterprise Portal window opens. The
+            top item in the Navigator, <image href="../Images/Enterprise.png" width="15" height="15"
+                id="image_d45_5y3_1yb"/> Enterprise, is selected and its workspace is displayed.<ul
+                id="ul_drc_4y3_1yb">
+                <li>Select another Navigator item by clicking the <image
+                        href="../Images/I_platform_bullet_type.png" width="15" height="15"
+                        id="image_egs_vy3_1yb"/> icon for the operating platform or the name.</li>
+            </ul></p>
+        <p>The workspace for the operating platform you selected replaces the one that was
+            previously displayed. The workspace displayed when you click a Navigator item is the
+                <i>default workspace</i> for that item. Your IBM Marvel Monitoring product might
+            come with multiple workspaces for some items, and you can create additional workspaces
+            of your own.<ul id="ul_tfp_qy3_1yb">
+                <li>Click <image href="../Images/Workspace.png" width="15" height="15"
+                        id="image_tnv_wy3_1yb"/> Workspace gallery to see thumbnail graphics of all
+                    the workspaces that you can open for this Navigator item.</li>
+            </ul></p>
+        <p>If this is a new installation, you will see the splash screen instead of a thumbnail
+            version of the workspace in the gallery until you or another user who is logged on to
+            the same Marvel Enterprise Portal Server opens the workspace for the first time. A
+                <image href="../Images/I_check_mark.png" width="15" height="15"
+                id="image_knd_zy3_1yb"/> check mark by a workspace name indicates that it is the
+            default workspace for this Navigator item. You can reorder the workspaces in your copy
+            of the gallery by clicking a thumbnail graphic and dragging it on top of the workspace
+            to swap positions with.</p>
+        <p>Together, the Navigator and workspaces show the facets of your Marvel managed enterprise
+            from the highest level to the most detailed.</p>
+    </conbody>
+</concept>

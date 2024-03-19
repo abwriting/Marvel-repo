@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_removing_an_event_item">
+    <title>Removing an Event Item</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Removing an event item<indexterm>How to remove an event
+                            item<indexterm>Example</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>When you open an event results workspace, a new item is displayed in the Navigator. If
+            you use event acknowledgement, other icons overlay the situation icon. If you close the
+            event, all overlay icons are removed, but the Navigator item itself is not removed until
+            you end your Marvel Enterprise Portal session. If you do not want to have the event item
+            in the Navigator, you can remove it.</p>
+        <p>This does not affect the event or operation of the situation, only its appearance in the
+            Navigator.</p>
+        <section id="section_b3y_4sx_1yb">
+            <title>Procedure</title>
+            <p>To remove an event item, in the Navigator right-click the  situation name and click
+                Remove. The event item is removed from the Navigator. To see it again, you need open
+                its workspace by selecting the true situation from the event flyover list.</p>
+        </section>
+        <example id="example_uzw_ytx_1yb"><b>Example</b><p>Here are some examples of event icons
+                that you might see in the Navigator:<dl id="dl_x4g_f5x_1yb">
+                    <dlentry>
+                        <dt><image href="../Images/I_critical_event.png" id="image_qp3_g5x_1yb"
+                            /></dt>
+                        <dd>A critical event.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt><image href="../Images/I_warning_event.png" id="image_c52_35x_1yb"
+                            /></dt>
+                        <dd>A warning event.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt><image href="../Images/I_warning_event_ack.png" id="image_lm3_j5x_1yb"
+                            /></dt>
+                        <dd>A warning event that has been acknowledged.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt><image href="../Images/I_warning_event_exp.png" id="image_scw_k5x_1yb"
+                            /></dt>
+                        <dd>A warning event whose acknowledgement has expired.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt><image href="../Images/I_warning_event_rem.png" id="image_yfv_m5x_1yb"
+                            /></dt>
+                        <dd>A warning event whose acknowledgement was removed while the event was
+                            still open.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt><image href="../Images/I_situation_name.png" id="image_xdc_45x_1yb"
+                            /></dt>
+                        <dd>A true situation whose event has been closed.</dd>
+                    </dlentry>
+                    <dlentry>
+                        <dt><image href="../Images/I_status_unknown.png" id="image_mvc_p5x_1yb"
+                            /></dt>
+                        <dd>An agent whose status is unknown. The monitoring server detects that the
+                            agent is offline. It might have been taken offline intentionally, there
+                            might be a communication problem, or the agent or the system it is
+                            running on might have stopped or be failing.</dd>
+                    </dlentry>
+                </dl></p></example>
+    </conbody>
+</concept>

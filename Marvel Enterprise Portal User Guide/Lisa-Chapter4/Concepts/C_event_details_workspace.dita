@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_event_details_workspace">
+    <title>Event Details Workspace</title>
+    <shortdesc></shortdesc>
+    <conbody>
+        <p>The Enterprise Status workspace (default for the Enterprise Navigator item) includes the
+            Situation Event Console and My Acknowledged Events views, each of which has links to the
+            Event Details workspace. The Event Details workspace provides detailed information about
+            the event row and has four views.</p>
+        <dl id="dl_gvy_n1g_51c">
+            <dlentry>
+                <dt>Selected Event</dt>
+                <dd>The Selected Event view provides reference information about the event. You can
+                    click the <image href="../Images/2.jpg" width="15" height="15"
+                        id="image_wgt_q1g_51c"/>link indicator to see the other two Event Details
+                    workspaces, then select one to open it.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Similar Events by...</dt>
+                <dd>This is the view that distinguishes each type of Event Details workspace. The
+                    events will be similar by situation name, by source, or by resource. This view
+                    enables you to identify event patterns to help diagnose the root cause, whether
+                    by condition, by managed system or by the specific resource being
+                            monitored.<p><b>Similar Events by Situation Name</b></p><p>This view
+                        lists all the events for the same situation. Such events would occur when
+                        the situation is true on more than one managed system or the situation is
+                        true on the same managed system more than once (a display item was defined
+                        in the Advanced Situation options window).</p><p><b>Similar Events by
+                            Source</b></p><p>This view list all the events from the same managed
+                        system as the event you are viewing.</p><p><b>Similar Events by
+                        Resource</b></p><p>This view displays all the events for situations that
+                        were defined with the same attribute group as the one used for this
+                        situation.</p></dd>
+            </dlentry>
+            <dlentry>
+                <dt>Event Notes</dt>
+                <dd>The Event Notesdisplays any notes and files that have been applied to the event
+                    acknowledgement. You can access any attached file by clicking the Attachment
+                    hypertext link. The file is launched in your default browser or in the default
+                    viewer configured for the file's MIME type. You can print the notes for an event
+                    by clicking <image href="../Images/6.png" width="15" height="15"
+                        id="image_hfj_jbg_51c"/><b>Print</b>. If you want to update the notes for an
+                    event, right-click the event in the Selected Event view and click <image
+                        href="../Images/7.png" width="15" height="15" id="image_akk_kbg_51c"
+                        /><b>Event Notes</b>. Click<image href="../Images/36.jpg" width="15"
+                        height="15" id="image_qxw_lbg_51c"/> to view the updates.</dd>
+            </dlentry>
+            <dlentry>
+                <dt>Event Tools</dt>
+                <dd>The Event Tools browser view provides links to additional resources for managing
+                    events. There are downloadable tools, some of which can be used to troubleshoot
+                    any problems you have with events. For example, this view provides a link to the
+                    Log and Trace Analyzer, which you can use as part of an autonomic event
+                    management solution. This view also provides a link to the IBM Integrated
+                    Service Management Library (<xref
+                        href="http://www.ibm.com/software/brandcatalog/ismlibrary" format="html"
+                        scope="external"/>) website, from where you can access additional problem
+                    determination information and tools.</dd>
+            </dlentry>
+        </dl>
+    </conbody>
+</concept>

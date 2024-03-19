@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_situation_event_indicators">
+    <title>Situation Event Indicators</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Situation Event Indicators<indexterm>Event indicators</indexterm>flyover
+                    list</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>When you see a small colored icon overlay the Navigator icons, you are seeing an <i>event
+                indicator</i> . An event indicator is displayed when a situation (a test of certain
+            conditions) running on a system becomes true.</p>
+        <p>These indicators alert you that conditions have changed and need attention.</p>
+        <p>Event indicators can be, from highest severity to lowest. As you move up the Navigator
+            hierarchy, multiple events are consolidated to show only the indicator for the event
+            with the highest severity. Go to the lowest level of the hierarchy to see individual
+            event indicators over attribute groups with values that have met situation
+                definitions.<table frame="all" id="table_d3v_nkx_1yb">
+                <title>Event indicators</title>
+                <tgroup cols="2" align="center">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Indicator</entry>
+                            <entry>Meaning</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_wwg_zzn_xxb"
+                                    id="image_ozp_jlx_1yb"/></entry>
+                            <entry>Fatal</entry>
+                        </row>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_zgl_b14_xxb"
+                                    id="image_t45_klx_1yb"/></entry>
+                            <entry>Critical</entry>
+                        </row>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hjp_d14_xxb"
+                                    id="image_djr_llx_1yb"/></entry>
+                            <entry>Minor</entry>
+                        </row>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_r41_h14_xxb"
+                                    id="image_lym_slx_1yb"/></entry>
+                            <entry>Warning</entry>
+                        </row>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_zqw_h14_xxb"
+                                    id="image_wkf_tlx_1yb"/></entry>
+                            <entry>Harmless</entry>
+                        </row>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hwj_l14_xxb"
+                                    id="image_ot5_tlx_1yb"/></entry>
+                            <entry>Informational</entry>
+                        </row>
+                        <row>
+                            <entry><image
+                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_elb_fc4_xxb"
+                                    id="image_swn_5lx_1yb"/></entry>
+                            <entry>Unknown</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>Move the mouse pointer over an indicator to open a flyover listing of the
+            situations that are true for the Navigator item and any branching items. This flyover
+            list might also show a status icon on the right:</p>
+        <p>
+            <dl id="dl_jbb_zlx_1yb">
+                <dlentry>
+                    <dt><image href="../Images/I_acknowledged.png" width="15" height="15"
+                            id="image_ytm_3mx_1yb"/>Acknowledged</dt>
+                    <dd>The situation event has been acknowledged.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_expired.png" width="15" height="15"
+                            id="image_yz5_kmx_1yb"/>Expired</dt>
+                    <dd>The acknowledgement has expired and the situation is still true.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_reopened.png" id="image_vlv_mmx_1yb"/>Reopened</dt>
+                    <dd>The acknowledgement was canceled before it had expired and the situation is
+                        still true.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_stopped.png" width="15" height="15"
+                            id="image_lnz_qmx_1yb"/>Stopped</dt>
+                    <dd>The situation has been stopped.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_error.png" width="15" height="15"
+                            id="image_wqn_tmx_1yb"/>Error</dt>
+                    <dd>The situation is not functioning properly.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_status_unknown.png" width="15"
+                            id="image_qrh_ymx_1yb"/>Status Unknown</dt>
+                    <dd>The monitoring server detects that an agent is offline. The agent might have
+                        been taken offline intentionally, there might be a communication problem, or
+                        the agent or the system it is running on might have stopped or be failing.
+                        The situation flyover listing on this icon shows
+                            <systemoutput>*STATUS_UNKNOWN</systemoutput>, which is not actually a
+                        situation, but the notation for a problem on the managed system.</dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

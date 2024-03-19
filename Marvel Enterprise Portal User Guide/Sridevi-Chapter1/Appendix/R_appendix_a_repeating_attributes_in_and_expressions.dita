@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="R_appendix_a_repeating_attributes_in_and_expressions">
+    <title/>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Repeating Attributes in AND Expressions<indexterm>Repeating an
+                            attribute<indexterm>Example</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <example id="example_n2f_vyp_1yb"><b>Example 1:</b><p>
+                <ul id="ul_umw_xyp_1yb">
+                    <li>This situation is true when the notepad process occurs more than four times
+                        in the same data sampling. The user wrote the first expression to check for
+                        notepad, then clicked <b>Add Conditions</b> and selected Process Name again
+                        to create a new column and add another expression to count these
+                        processes.</li>
+                </ul>
+            </p></example>
+        <properties frame="all" id="properties_bj3_fzp_1yb">
+            <prophead>
+                <proptypehd/>
+                <propvaluehd>Process Name</propvaluehd>
+                <propdeschd>Process Name</propdeschd>
+            </prophead>
+            <property>
+                <proptype>1</proptype>
+                <propvalue>== notepad</propvalue>
+                <propdesc>> 4</propdesc>
+            </property>
+        </properties>
+        <example id="example_v5f_3zp_1yb"><b>Example 2:</b><p>
+                <ul id="ul_g1k_kzp_1yb">
+                    <li>This situation is true when the day of the week is 02 to 06 (Monday to
+                        Friday).</li>
+                </ul>
+            </p></example>
+        <properties frame="all" id="properties_z2k_nzp_1yb">
+            <prophead>
+                <proptypehd/>
+                <propvaluehd>Day of Week</propvaluehd>
+                <propdeschd>Day of Week</propdeschd>
+            </prophead>
+            <property>
+                <proptype>1</proptype>
+                <propvalue>>= 2</propvalue>
+                <propdesc>&lt;= 6</propdesc>
+            </property>
+        </properties>
+    </refbody>
+</reference>

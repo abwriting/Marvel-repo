@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_results_responding_to_an_application_support_event">
+    <title>Results</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <metadata>
+            <keywords>
+                <indexterm>Responding to an application support event<indexterm>Show
+                            new<indexterm>Updated application
+                    support</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>After logging off and logging onto the Marvel Enterprise Portal, the
+                <uicontrol>Application support event</uicontrol> tool is disabled. If it is not,
+            contact your network administrator or Support. </p>
+        <p>The first time the <uicontrol>Show new or updated application support</uicontrol> tool is
+            enabled and after a new event arrives, a “New” indicator is displayed on the tool:
+                <image
+                conref="../Tasks/T_responding_to_an_application_support_event.dita#responding_to_an_application_support_event/image_i21_gvd_byb"
+                id="image_zdf_lxd_byb"/> . After you open and then close the dialog box, the
+            indicator is no longer shown: <image
+                conref="../Tasks/T_responding_to_an_application_support_event.dita#responding_to_an_application_support_event/image_i21_gvd_byb"
+                id="image_xyj_nxd_byb"/> . The indicator provides a convenient visual cue when new
+            events arrive that you have not yet seen.</p>
+    </conbody>
+</concept>

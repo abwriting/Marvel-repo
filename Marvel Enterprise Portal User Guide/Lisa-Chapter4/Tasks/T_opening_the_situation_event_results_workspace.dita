@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_opening_the_situation_event_results_workspace">
+    <title>Opening the Situation Event Results Workspace</title>
+    <shortdesc/>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Open Situation Event Results Workspace</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>When the conditions of a situation have been met, event indicators appear in the
+                Navigator and in the graphic view. You can investigate the event by opening its
+                workspace.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the event results workspace from the event flyover list:</cmd>
+                <substeps id="substeps_qbl_vsf_51c">
+                    <substep>
+                        <cmd>In the Navigator or graphic view, move the mouse over the event
+                            indicator ( <image href="../Images/62.jpg" width="15" height="15"
+                                id="image_rhp_4tf_51c"/>Fatal, <image href="../Images/63.jpg"
+                                width="15" height="15" id="image_x4q_ptf_51c"/>Critical, <image
+                                href="../Images/64.jpg" width="15" height="15"
+                                id="image_bqm_stf_51c"/>Minor, <image href="../Images/65.jpg"
+                                width="15" height="15" id="image_tff_ttf_51c"/>Warning, <image
+                                href="../Images/66.jpg" width="15" height="15"
+                                id="image_hby_ttf_51c"/>Harmless, <image href="../Images/67.jpg"
+                                width="15" height="15" id="image_dzt_5tf_51c"/>Informational, or
+                                <image href="../Images/44.jpg" width="15" height="15"
+                                id="image_lwc_xtf_51c"/>Unknown) to open a flyover listing of the
+                            situation that caused the event. The Navigator shows one event indicator
+                            for an item. If more than one situation is true, the event indicator
+                            with the highest severity is displayed. Entries in the event flyover
+                            list are grouped by severity. Each event reports the situation name, the
+                            computer where the event occurred, the two-letter code of the monitoring
+                            agent (such as LX for the Linux OS agent), the event timestamp, and the
+                            display item if one was specified. As well, if any of the following
+                            changes have occurred, a situation status icon displays at the far
+                            right:</cmd>
+                        <itemgroup>
+                            <table frame="all" id="table_nxp_x5f_51c">
+                                <tgroup cols="2">
+                                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                                    <thead>
+                                        <row>
+                                            <entry>Event Indicator</entry>
+                                            <entry>Description</entry>
+                                        </row>
+                                    </thead>
+                                    <tbody>
+                                        <row>
+                                            <entry><image href="../Images/45.jpg" width="15"
+                                                  height="15" id="image_ugw_y5f_51c"/></entry>
+                                            <entry>The event has been acknowledged.</entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/46.jpg" width="15"
+                                                  height="15" id="image_pyn_z5f_51c"/></entry>
+                                            <entry>The acknowledgement has expired.</entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/47.jpg" width="15"
+                                                  height="15" id="image_bbw_z5f_51c"/></entry>
+                                            <entry>The acknowledgement was removed before it had
+                                                expired and the situation is still true.</entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/48.jpg" width="15"
+                                                  height="15" id="image_f2g_1vf_51c"/></entry>
+                                            <entry>The situation is not functioning properly and you
+                                                will not be able to open its event results
+                                                workspace.</entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/24.jpg" width="15"
+                                                  height="15" id="image_ofn_1vf_51c"/></entry>
+                                            <entry>The situation has been stopped and you will not
+                                                be able to open its event results workspace.</entry>
+                                        </row>
+                                    </tbody>
+                                </tgroup>
+                            </table>
+                        </itemgroup>
+                    </substep>
+                    <substep>
+                        <cmd>In the flyover list, click<image href="../Images/2.jpg" width="15"
+                                height="15" id="image_sbs_fvf_51c"/> next to the situation to open
+                            its event results workspace.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Open the event results workspace from the situation event console view:</cmd>
+                <substeps id="substeps_lhc_hvf_51c">
+                    <substep>
+                        <cmd>Right-click the row of the event.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Situation Event Results</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+        </steps>
+        <result id="result_rgq_mvf_51c">A new Navigator item is displayed below the one associated
+            with the event and the event results workspace opens. The event results workspace
+            contains four views to help you investigate the condition and determine what action to
+            take next:<table frame="all" id="table_jtv_zvf_51c">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Event Result</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image href="../Images/1.png" width="15" height="15"
+                                    id="image_kgt_swf_51c"/><b>Initial Situation Values</b></entry>
+                            <entry>The values are from the data sample that triggered the event.
+                                Move the mouse pointer over a highlighted value to see the situation
+                                formula. The value shows as "Unknown" and the formula does not
+                                display if the situation expression uses a group function: CHANGE,
+                                PCTCHANGE, AVG, COUNT, MIN, MAX or SUM.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../Images/2.png" width="15" height="15"
+                                    id="image_phj_twf_51c"/><b>Current Situation Values</b></entry>
+                            <entry>The values are from a new data sample that was taken after you
+                                selected the event results workspace. If the situation is still
+                                true, you will see the same cell highlighting as is shown in the
+                                Initial Situation Values view. If this is a pure event, you will see
+                                no data. This is because pure events are unsolicited notifications.
+                                Situations for pure events have no sampling interval, thus there is
+                                no constant metric that can be monitored for current values. <p>If
+                                    the expression that is responsible for a situation event uses a
+                                    group function, the situation event results workspace shows
+                                    neither the attribute value threshold color nor the expression
+                                    that should display when you hover over an initial situation
+                                    value.</p></entry>
+                        </row>
+                        <row>
+                            <entry><image href="../Images/3.png" width="15" height="15"
+                                    id="image_acb_5wf_51c"/><b>Command View</b></entry>
+                            <entry>Use the command view to send a take action command to an
+                                application started on the managed system of your choosing.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../Images/4.png" width="15" height="15"
+                                    id="image_stx_5wf_51c"/><b>Expert Advice</b></entry>
+                            <entry>If the situation author wrote any expert advice, it is displayed
+                                here. This view opens to a web page if the advice is a URL
+                                reference.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></result>
+        <postreq id="postreq_kcm_vwf_51c">Compare the current situation values with the initial
+            situation values that caused the event and read the advice for any explanation and
+            possible solutions.<p>You can right-click the<image href="../Images/5.png" width="15"
+                    height="15" id="image_w4n_2xf_51c"/> situation workspace Navigator item to open
+                the pop-up menu. The menu includes functions for responding to the event:</p><table
+                frame="all" id="table_rph_3xf_51c">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Menu Function</entry>
+                            <entry>Description</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry><image href="../Images/50.jpg" width="15" height="15"
+                                    id="image_ndw_mxf_51c"/><b>Edit Situation</b></entry>
+                            <entry>Opens the Situation editor so you can see and edit the situation
+                                definition, distribution, expert advice, take action command, or
+                                until modifier.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../Images/45.jpg" width="15" height="15"
+                                    id="image_zqx_nxf_51c"/><b>Acknowledge</b></entry>
+                            <entry>Opens the Acknowledgement window so you can acknowledge that you
+                                are taking care of the event.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../Images/52.jpg" width="15" height="15"
+                                    id="image_et4_pxf_51c"/><b>Close Situation Event</b></entry>
+                            <entry>If this is a pure event, you will see this option to close the
+                                event and remove the event indicator. If the condition goes from
+                                true to false and back to true again the next time the situation is
+                                evaluated, the indicator will reappear. If the condition remains
+                                true, the indicator is not displayed; you must restart the situation
+                                if you want to see the indicator. If you close an event manually,
+                                you cannot acknowledge it.</entry>
+                        </row>
+                        <row>
+                            <entry><image href="../Images/35.jpg" width="15" height="15"
+                                    id="image_eyk_qxf_51c"/><b>Remove Event Item</b></entry>
+                            <entry>Removes the event item from the Navigator. To see it again, you
+                                must select the true situation from the event flyover list.</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table><p>User ID permissions for Events are Acknowledge and Close; and those for
+                Situations include Start or Stop, View, and Modify. If any of these fails to appear
+                in the pop-up menu, your user ID does not have permission for the function.</p><p>If
+                you have workspace author mode permission, you can also edit the workspace to add
+                any views that are helpful for diagnosing an event for this particular situation.
+                For example, if historical data is collected for an attribute group, you might want
+                to create a plot chart and add a historical baseline to help to get a broader view
+                of past and current values for trend analysis.</p></postreq>
+    </taskbody>
+</task>

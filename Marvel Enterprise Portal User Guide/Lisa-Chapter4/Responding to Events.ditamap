@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Responding to Events</title>
+    <topicref href="Concepts/C_responding_to_events.dita">
+        <topicref href="Concepts/C_understanding_situation_events.dita"/>
+        <topicref href="Tasks/T_opening_the_situation_event_results_workspace.dita"/>
+        <topicref href="Concepts/C_enterprise_status_workspace.dita">
+            <topicref href="Concepts/C_event_details_workspace.dita"/>
+        </topicref>
+    </topicref>
+</map>

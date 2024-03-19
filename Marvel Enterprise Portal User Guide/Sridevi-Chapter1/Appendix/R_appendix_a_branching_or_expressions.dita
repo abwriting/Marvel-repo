@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="R_appendix_a_branching_or_expressions">
+    <title/>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Branching OR Expressions<indexterm>Example</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <table frame="all" id="table_fby_1yp_1yb">
+            <title>Branching OR expressions - disk time</title>
+            <tgroup cols="4" align="center">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <colspec colname="c4" colnum="4" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>Process Name</entry>
+                        <entry>Elapsed Time</entry>
+                        <entry>Virtual Bytes</entry>
+                        <entry>Page Faults/sec</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>== notepad</entry>
+                        <entry>> 500000</entry>
+                        <entry>> 1000000</entry>
+                        <entry/>
+                    </row>
+                    <row>
+                        <entry>== notepad</entry>
+                        <entry>> 500000</entry>
+                        <entry/>
+                        <entry>> 100000</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+</reference>

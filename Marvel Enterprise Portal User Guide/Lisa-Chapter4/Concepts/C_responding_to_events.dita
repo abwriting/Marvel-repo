@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_responding_to_events">
+    <title>Responding to Events</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Lisa Adams</author>
+        <metadata>
+            <keywords>
+                <indexterm>Respond to events<indexterm>Understand situation
+                    events</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Event indicators such as <image href="../Images/60.jpg" scale="30" id="image_dzv_ycc_xxb"
+                /><uicontrol> Minor</uicontrol> or <image href="../Images/61.jpg" scale="30"
+                id="image_z3z_zcc_xxb"/><uicontrol> Harmless</uicontrol> appear on Navigator items
+            when an event is opened for a true situation.</p>
+        <p>A situation is a test for certain conditions on managed systems that, when met, change
+            the situation status to true. The situation can include a take action command (reflex
+            automation) that will be carried out when the situation is true.</p>
+    </conbody>
+</concept>

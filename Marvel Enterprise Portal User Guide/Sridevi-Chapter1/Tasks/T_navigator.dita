@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="C_navigator">
+    <title>Navigator</title>
+    <shortdesc>The Navigator Physical view shows the physical hierarchy of your network, with
+            <i>enterprise</i> at the top, followed by the <i>operating platform</i>, and so on. Have
+        a look at the levels of the Navigator.</shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Navigator<indexterm>Navigator physical view</indexterm><indexterm>Show
+                        Physical hierarchy</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <steps id="steps_ndw_jr3_1yb">
+            <step>
+                <cmd>Click <image href="../Images/Expand.png" width="10" height="10"
+                        id="image_hxl_nr3_1yb"/> to open the operating platform level (Linux
+                    Systems, UNIX Systems, Windows Systems, or z/OS Systems).</cmd>
+                <info><image href="../Images/I_op_level.png" id="image_b3z_bs3_1yb"/></info>
+                <stepresult>Opening a level in the Navigator reveals the next level in that
+                    branch.</stepresult>
+            </step>
+            <step>
+                <cmd>Open the operating platform level to see the names for the <i>systems</i>
+                    running on that platform.</cmd>
+                <info><image href="../Images/I_s_level.png" id="image_umk_fs3_1yb"/></info>
+            </step>
+            <step>
+                <cmd>Open any system to see the monitoring <i>agents</i> installed on that system
+                    for monitoring applications and resources, and, below agents, the elements, or
+                        <i>attributes</i>, for which the agent can collect data for reporting and
+                    testing.</cmd>
+                <info><image href="../Images/I_monitoring_agents.png" id="image_x2p_js3_1yb"/>
+                </info>
+            </step>
+        </steps>
+        <tasktroubleshooting id="tasktroubleshooting_u5w_ts3_1yb"><image href="../Images/Expand.png"
+                width="15" height="15" id="image_e4c_ps3_1yb"/> Expand and <image
+                href="../Images/Collapse.png" width="15" height="15" id="image_vkh_qs3_1yb"/>
+            Collapse enable you to open and close levels in the Navigator without selecting an
+                item.<note id="note_nwy_ws3_1yb" type="tip">You can close the tree entirely by
+                double-clicking the Enterprise item. To expand the tree, double-click
+            again.</note></tasktroubleshooting>
+    </taskbody>
+</task>

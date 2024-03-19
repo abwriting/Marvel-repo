@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_Properties">
+    <title>Properties</title>
+    <shortdesc>Use Properties editor to edit the appearance and content of the views chosen for a
+        workspace.</shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>How to open properties<indexterm>Edit the content of the
+                        views</indexterm><indexterm>Edit the appearance of the views
+                        </indexterm><indexterm>Properties editor</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_ek2_qs2_vxb">User account must have necessary permissions to view the
+            Properties editor.</prereq>
+        <context>
+            <p>To open Properties, </p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click <image
+                        conref="../../Abrar-Chapter5/Concepts/C_workspace_changes.dita#C_workspace_changes/image_ypg_mch_xxb"
+                        id="image_fcb_xrn_xxb"/>
+                    <uicontrol>Properties</uicontrol>. </cmd>
+                <stepresult>The <uicontrol>Properties</uicontrol> editor opens with a list of the
+                    views on the left, grouped by type. On the right, the general workspace
+                    properties appear.</stepresult>
+            </step>
+            <step>
+                <cmd>Select one of the views in the <uicontrol>Properties</uicontrol> tree.</cmd>
+                <info>All types of views have a <image
+                        href="../../Abrar-Chapter5/Images/I_style.png" width="10" height="10"
+                        id="image_jyy_tsn_xxb"/>
+                    <uicontrol>Style</uicontrol> tab, with different options for the type of view.
+                    The table, charts, and topology views have <image
+                        href="../../Abrar-Chapter5/Images/I_query_tab.png" id="image_sr4_vsn_xxb"/>
+                    <uicontrol>Query</uicontrol> and <image
+                        href="../../Abrar-Chapter5/Images/I_filter.png" width="10" height="10"
+                        id="image_nqr_ysn_xxb"/>
+                    <uicontrol>Filters</uicontrol> tabs, table and topology have a <image
+                        href="../../Abrar-Chapter5/Images/I_thresholds.png" width="10" height="10"
+                        id="image_ljj_ctn_xxb"/>
+                    <uicontrol>Thresholds</uicontrol> tab, and terminal emulators have a <image
+                        href="../../Abrar-Chapter5/Images/I_message_log.png" width="10" height="10"
+                        id="image_vtx_2tn_xxb"/>
+                    <uicontrol>Configuration</uicontrol> tab. Whenever you want to change the data
+                    elements that display for a chart or table or change the styling of a view, go
+                    to the Properties editor.</info>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Cancel</uicontrol> to close the Properties editor.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

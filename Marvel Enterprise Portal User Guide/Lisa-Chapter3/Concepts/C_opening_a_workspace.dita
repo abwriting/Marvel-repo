@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_opening_a_workspace">
+    <title>Opening a Workspace</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Lisa Adams</author>
+        <metadata>
+            <keywords>
+                <indexterm>Open workspaces<indexterm>Change workspace
+                        order</indexterm><indexterm>Move workspaces</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Use the Navigator to open the default workspace for the selected item, then the Workspace
+            Gallery to see and select from a thumbnail display of available workspaces.</p>
+        <p>As well as a convenient way to open workspaces, you can also move the workspaces around
+            the gallery to change their order. The changes you make are saved with the workspace
+            definition for the Navigator item. If you are in workspace administration mode when you
+            reorder the thumbnail graphics, the reorganization will be reflected in the workspace
+            gallery of all Marvel Enterprise Portal clients connected to this Marvel Enterprise
+            Portal Server.</p>
+        <p>Every item in the Navigator has a workspace associated with it, called the <i>default
+                workspace</i>. Some items have multiple workspaces that you can open, although only
+            one workspace can be open in the Marvel Enterprise Portal window at one time. Some
+            workspaces are only accessible by linking to them from another workspace.</p>
+    </conbody>
+</concept>

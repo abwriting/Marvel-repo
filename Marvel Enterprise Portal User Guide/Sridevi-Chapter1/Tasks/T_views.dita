@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_Views">
+    <title>Views</title>
+    <shortdesc>Marvel Enterprise Portal offers many different views that you can add to your
+        workspaces. The view title bar has buttons for creating another view by splitting the view
+            <image href="../Images/I_horizontal.png" width="15" height="15" id="image_n1b_xz3_1yb"/>
+        horizontally or <image href="../Images/I_vertical.png" width="15" height="15"
+            id="image_v15_xz3_1yb"/> vertically, for <image href="../Images/I_maximizing.png"
+            width="15" height="15" id="image_lhk_zz3_1yb"/> maximizing the view, and for   <image
+            href="../Images/I_delete.png" width="15" height="15" id="image_wtn_11j_1yb"/>deleting
+        the view.</shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>how add a different view<indexterm>How to rearrange
+                    views</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To add a different view complete the following steps:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Select a view, then click <image href="../Images/I_horizontal.png" width="10"
+                        height="10" id="image_btz_f1j_1yb"/>
+                    <uicontrol>Split Horizontally</uicontrol>.</cmd>
+                <stepresult>This tool divides the view space in half horizontally to create a copy
+                    of the original view.<note id="note_act_k1j_1yb">If you cannot split a view and
+                        the tools for the notepad and other views are disabled (dimmed), your user
+                        ID does not have Workspace Author Mode permission.</note></stepresult>
+            </step>
+            <step>
+                <cmd>Click your desired view type from the toolbar.</cmd>
+                <stepxmp>For example, click <image href="../Images/Notepad.png" width="10"
+                        height="12" id="image_svt_p1j_1yb"/> Notepad</stepxmp>
+                <stepresult>When you click a view tool, the mouse pointer changes to an icon of the
+                    chosen view type (hand icon on Linux).</stepresult>
+            </step>
+            <step>
+                <cmd>Click inside the view pane. </cmd>
+                <stepresult>The new view replaces the previous view.</stepresult>
+            </step>
+        </steps>
+    </taskbody>
+    <task id="task_cf4_w1j_1yb">
+        <title>Rearrange Views</title>
+        <shortdesc>To rearrange views complete the following steps:</shortdesc>
+        <taskbody>
+            <steps id="steps_atc_bbj_1yb">
+                <step>
+                    <cmd>Drag the title bar of one view and drop over another view.</cmd>
+                    <info>
+                        <p>While dragging the title bar, you should see a semi-transparent copy of
+                            the view.</p>
+                    </info>
+                </step>
+                <step>
+                    <cmd>Release the mouse button to switch the views.</cmd>
+                </step>
+            </steps>
+        </taskbody>
+    </task>
+</task>

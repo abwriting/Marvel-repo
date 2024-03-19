@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_browser_client_and_java_webstart_client">
+    <title>Browser Client and Java WebStart Client</title>
+    <shortdesc>If you are running the browser client or Java WebStart, any required application
+        support updates are downloaded automatically after you log on to the portal
+        server.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Browser client and Java WebStart client<indexterm>Application support
+                        event</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p><image
+                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_r41_h14_xxb"
+                id="image_lbs_kwd_byb"/><i>An application support version mismatch has been
+                detected. Click Help for more information on possible causes and actions.</i>
+            Warning events indicate that the mismatch was found at client startup.</p>
+        <p><image
+                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hwj_l14_xxb"
+                id="image_bxt_nwd_byb"/><i>New or updated application support is available. Restart
+                the Marvel Enterprise Portal client to update your application support.</i> If
+            application support updates become available while you are logged on, an Informational
+            event occurs to show that application support is waiting to be applied. Log out and
+            restart the client to have application support updates applied.</p>
+    </conbody>
+</concept>

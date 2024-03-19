@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_desktop_client">
+    <title>Desktop Client</title>
+    <shortdesc>Application support updates to the desktop client must be made by running the
+        installer on the Marvel Monitoring Agent installation media.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Browser client and Java WebStart client<indexterm>Application support
+                        event</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p><image
+                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_r41_h14_xxb"
+                id="image_g1x_xwd_byb"/><i>An application support version mismatch has been
+                detected. Use the Marvel Monitoring installer to add the associated application
+                support to the portal desktop client.</i> Warning events indicate that the mismatch
+            was found at client startup.</p>
+        <p><image
+                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hwj_l14_xxb"
+                id="image_wkm_zwd_byb"/><i>New or updated application support is available. Use the
+                Marvel Monitoring installer to add the associated application support to the portal
+                desktop client. </i>Informational events indicate that the mismatch was found after
+            logon to the portal server.</p>
+    </conbody>
+</concept>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_navigator_tools">
+    <title>Navigator Tools</title>
+    <shortdesc>Use the tools in the Navigator view toolbar to update the display when managed
+        systems have come online or gone offline, to open another Navigator view, to edit custom
+        Navigator views, and to collapse the view.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Navigator Tools<indexterm>Apply pending
+                        updates</indexterm><indexterm>Application support
+                        event</indexterm><indexterm>Find Navigator item</indexterm><indexterm>Edit
+                        navigator view</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_ltl_kgx_1yb">
+                <dlentry>
+                    <dt><image href="../Images/I_refresh.png" width="15" height="15"
+                            id="image_kc2_xgx_1yb"/><sup>2</sup>Apply pending updates</dt>
+                    <dd>The <uicontrol>Apply pending updates tool</uicontrol> updates the Navigator
+                        tree with the correct status of agents, in response to the count of agents
+                        that have been removed from or added to the Marvel Enterprise Monitoring
+                        Server. The counter is displayed next to the tool and in the status bar.
+                        Refresh is enabled when the Navigator view has been edited, such as a new
+                        item has been added, so that you can update the view with the changes. This
+                        tool is dimmed when no updates are required.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_application_support_event.png" width="15"
+                            height="15" id="image_djs_chx_1yb"/><sup>6</sup>Application support
+                        event</dt>
+                    <dd>After you start the Marvel Enterprise Portal, the application support
+                        version is read from the portal client and the portal server. Any
+                        discrepancies in versions between client and server are noted in the
+                        Application Support Mismatch list.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_find_icon.png" width="15" height="15"
+                            id="image_kll_hhx_1yb"/>Find Navigator item</dt>
+                    <dd>Use <image href="../Images/I_find_icon.png" width="15" height="15"
+                            id="image_ep3_jhx_1yb"/>
+                        <uicontrol>Find</uicontrol> in the Navigator toolbar to look for a Navigator
+                        item by such criteria as managed system name or associated situation name.
+                        When the search has completed, any items that match the criteria are listed
+                        in the <uicontrol>Find results</uicontrol> table where you can switch to the
+                        default workspace for a found item or open it in a new window.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_edit_navigator_view.png" width="15" height="15"
+                            id="image_sck_phx_1yb"/>Edit navigator view</dt>
+                    <dd>Opens the Navigator editor for creating, deleting, and modifying Navigator
+                        views. See <xref
+                            href="../../Chapter4/Concepts/C_navigator_views_for_logical_organization.dita"
+                            /><note id="note_cn3_zhx_1yb" type="restriction">If the tool is disabled
+                            (dimmed), your user ID does not have Modify permission for Custom
+                            Navigator Views.</note></dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_list_box.png" width="15" height="15"
+                            id="image_pxz_d3x_1yb"/></dt>
+                    <dd>Opens a list that you can select a Navigator view from. The views available
+                        are those assigned to your user ID. When you select another Navigator view,
+                        a <image href="../Images/I_show_navigator_list.png" width="15" height="15"
+                            id="image_x31_g3x_1yb"/> tab is added to the bottom of the Navigator so
+                        you can quickly switch among the views by clicking the tab. See <xref
+                            href="../Tasks/T_opening_a_navigator_view.dita"/></dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_collapse_bar_icon.png" width="10" height="15"
+                            id="image_hmr_h3x_1yb"/></dt>
+                    <dd>Minimizes the Navigator and expands the adjacent workspace views to fill the
+                        gap. Click <image href="../Images/I_expand_bar_icon.png" width="10"
+                            height="15" id="image_wph_n3x_1yb"/> to restore its original size. You
+                        can also click <image href="../Images/I_show_navigator_list.png" width="15"
+                            height="15" id="image_lxv_43x_1yb"/>
+                        <i>&lt;Navigator name></i> in the right-most section of the status bar to
+                        restore the Navigator view; or right-click it to see a list of Navigator
+                        views to select from.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_horizontal.png" width="15" height="15"
+                            id="image_qvr_r3x_1yb"/></dt>
+                    <dd>Splits the Navigator horizontally to create a new workspace view.<note
+                            id="note_zkp_v3x_1yb" type="caution">If the tool is disabled your user
+                            ID does not have Author Mode permission.</note></dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_vertical.png" width="15" height="15"
+                            id="image_hwh_y3x_1yb"/></dt>
+                    <dd>Splits the Navigator vertically to create a new workspace view.<p>
+                            <note conref="#C_navigator_tools/note_zkp_v3x_1yb" id="note_fzb_jjx_1yb"
+                            />
+                        </p></dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

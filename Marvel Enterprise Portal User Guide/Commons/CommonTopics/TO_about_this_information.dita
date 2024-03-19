@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="TO_about_this_information">
+    <title>About this Information</title>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>About the document</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <body>
+        <p>The Marvel Monitoring Enterprise Portal User's Guide describes the Marvel Enterprise
+            Portal features for working with your Marvel Monitoring products.</p>
+        <p>Users of this book should be familiar with performance monitoring concepts. If you use
+            the Marvel Data Warehouse, you need to be familiar with the operating system that hosts
+            the warehouse.</p>
+        <p>The document assumes no previous experience with Marvel Monitoring. To learn more about
+            this family of products:</p>
+    </body>
+    <topic id="topic_fdw_syy_xxb">
+        <title>Legal Information</title>
+        <body>
+            <p>Copyright Notice.</p>
+            <p>Copyright © 2023 Marvel. All Rights Reserved.</p>
+            <p>This product contains proprietary and confidential technology, information and
+                creative works owned by Marvel and its licensors, if any. Any use, copying,
+                publication, distribution, display, modification, or transmission of such technology
+                in whole or in part in any form or by any means without the prior express written
+                permission of Marvel is strictly prohibited. Except where expressly provided by
+                Marvel in writing, possession of this technology shall not be construed to confer
+                any license or rights under any Marvel intellectual property rights, whether by
+                estoppel, implication, or otherwise.</p>
+            <p>All copies of the technology and related information, if allowed by Marvel, must
+                display this notice of copyright and ownership in full. </p>
+            <p>Restricted Rights Legend</p>
+            <p>The Software is commercial computer software. If the user or licensee of the Software
+                is an agency, department, or other entity of the United States Government, the use,
+                duplication, reproduction, release, modification, disclosure, or transfer of the
+                Software, or any related documentation of any kind, including technical data and
+                manuals, is restricted by a license agreement or by the terms of this Agreement in
+                accordance with Federal Acquisition Regulation 12.212 for civilian purposes and
+                Defense Federal Acquisition Regulation Supplement 227.7202 for military purposes.
+                The Software was developed fully at private expense. All other use is
+                prohibited.</p>
+        </body>
+    </topic>
+    <topic id="topic_mvb_ggz_xxb">
+        <title>Document Revision History</title>
+        <body>
+            <p>The following table provides an overview of the significant changes to this guide for
+                this current release. The table does not provide an exhaustive list of all changes
+                made to the guide. </p>
+            <p>
+                <simpletable frame="all" relcolwidth="1* 1* 1*" id="simpletable_sw1_jgz_xxb">
+                    <sthead>
+                        <stentry>Document Number</stentry>
+                        <stentry>Date</stentry>
+                        <stentry>Change Summary</stentry>
+                    </sthead>
+                    <strow>
+                        <stentry>OL-32397-01</stentry>
+                        <stentry>June 19, 2023</stentry>
+                        <stentry>Initial version of the document.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>OL-32397-02</stentry>
+                        <stentry>July 07, 2023</stentry>
+                        <stentry>Updated Appendix A. </stentry>
+                    </strow>
+                    <strow>
+                        <stentry>OL-32397-03</stentry>
+                        <stentry>July 08, 2023</stentry>
+                        <stentry>Updated Appendix B</stentry>
+                    </strow>
+                </simpletable>
+            </p>
+        </body>
+    </topic>
+    <topic id="topic_hyx_vgz_xxb">
+        <title>Conventions</title>
+        <body>
+            <p>This document uses the following conventions:<simpletable frame="all"
+                    relcolwidth="1* 1*" id="simpletable_tcl_zgz_xxb">
+                    <sthead>
+                        <stentry>Convention</stentry>
+                        <stentry>Description</stentry>
+                    </sthead>
+                    <strow>
+                        <stentry><b>bold</b> font</stentry>
+                        <stentry>Commands, keywords, and UI controls appear in bold font.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><i>Italic</i> font</stentry>
+                        <stentry>
+                            <p>Emphasized terms</p>
+                        </stentry>
+                    </strow>
+                    <strow>
+                        <stentry><cmdname>Courier font</cmdname></stentry>
+                        <stentry>User inputs</stentry>
+                    </strow>
+                    <strow>
+                        <stentry><b>Bold Courier font</b></stentry>
+                        <stentry>Bold Courier font indicates text that the user must
+                            enter.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>[x]</stentry>
+                        <stentry>Elements in square brackets are optional.</stentry>
+                    </strow>
+                    <strow>
+                        <stentry>string</stentry>
+                        <stentry>
+                            <p>A nonquoted set of characters. Do not use quotation marks around the
+                                string or the string will include the quotation marks.</p>
+                        </stentry>
+                    </strow>
+                </simpletable></p>
+        </body>
+    </topic>
+    <topic id="topic_mns_khz_xxb">
+        <title>Related Documentation</title>
+        <body>
+            <p>For additional information about the Cisco RAN Management Systems, refer to the
+                following documents:<ul id="ul_bbr_mhz_xxb">
+                    <li>
+                        <p><i>Marvel Run Management System Administration Guide</i></p>
+                    </li>
+                    <li>
+                        <p><i>Marvel Run Management System API Guide</i></p>
+                    </li>
+                    <li>
+                        <p><i>Marvel Run Management System SNMP/MIB Guide</i></p>
+                    </li>
+                    <li>
+                        <p><i>Marvel Run Management System Release Notes</i></p>
+                    </li>
+                </ul></p>
+        </body>
+    </topic>
+    <topic id="topic_np1_shz_xxb">
+        <title>Obtaining Documentation and Submitting a Service Request</title>
+        <body>
+            <p>For information on obtaining documentation, using the Marvel Run Search Tool,
+                submitting a service request, and gathering additional information, see What's New
+                in Cisco Product Documentation, at:
+                http://www.ANU.com/c/en/us/td/docs/general/whatsnew/whatsnew.html. Subscribe to
+                What's New in Marvel Run Product Documentation, which lists all new and revised
+                Marvel Run technical documentation as an RSS feed and delivers content directly to
+                your desktop using a reader application. The RSS feeds are a free service.</p>
+        </body>
+    </topic>
+    <topic id="topic_pnx_ywf_yxb">
+        <title>Documentation Feedback</title>
+        <body>
+            <p>To provide technical feedback on this document, or to report an error or omission,
+                please send your comments to abrar.techwriter@gmail.com. We appreciate your
+                feedback.</p>
+        </body>
+    </topic>
+</topic>

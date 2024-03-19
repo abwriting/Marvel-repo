@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bookmap PUBLIC "-//OASIS//DTD DITA BookMap//EN" "bookmap.dtd">
+<bookmap rev="1.0">
+    <booktitle>
+        <mainbooktitle>Marvel-Run</mainbooktitle>
+        <booktitlealt>User Guide</booktitlealt>
+    </booktitle>
+    <frontmatter>
+        <notices href="Commons/CommonTopics/TO_about_this_information.dita"/>
+        <preface href="Commons/CommonTopics/TO_preface.dita"/>
+        <booklists>
+            <toc/>
+        </booklists>
+    </frontmatter>
+    <chapter navtitle="Introduction">
+        <mapref href="Sridevi-Chapter1/Chapter1.ditamap"/>
+    </chapter>
+    <chapter navtitle="Using the Navigator">
+        <mapref href="Abrar-Chapter2/Chapter2.ditamap" navtitle="Navigator"/>
+    </chapter>
+    <chapter navtitle="Workspaces">
+        <mapref href="Lisa-Chapter3/Chapter3.ditamap" navtitle="Customizing Workspaces"/>
+    </chapter>
+    <chapter navtitle="Responding to Events">
+        <mapref href="Lisa-Chapter4/Responding%20to%20Events.ditamap" navtitle="Responding to Events"/>
+    </chapter>
+    <chapter navtitle="Custom Workspaces">
+        <mapref href="Abrar-Chapter5/chapter5.ditamap" navtitle="Custom Workspaces"/>
+    </chapter>
+         <appendix navtitle="Formula functions">
+        <topicref href="Sridevi-Chapter1/Appendix/C_appendix_a_boolean_and_or.dita">
+            <topicref href="Sridevi-Chapter1/Appendix/c_appendix_a_multiple_expressions.dita">
+                <topicref href="Sridevi-Chapter1/Appendix/R_appendix_a_multiple_expressions.dita"/>
+            </topicref>
+            <topicref href="Sridevi-Chapter1/Appendix/C_appendix_a_branching_or_expressions.dita">
+                <topicref
+                    href="Sridevi-Chapter1/Appendix/R_appendix_a_branching_or_expressions.dita"/>
+            </topicref>
+            <topicref
+                href="Sridevi-Chapter1/Appendix/C_appendix_a_repeating_attributes_in_and_expressions.dita">
+                <topicref
+                    href="Sridevi-Chapter1/Appendix/R_appendix_a_repeating_attributes_in_and_expressions.dita"
+                />
+            </topicref>
+        </topicref>
+    </appendix>
+    <appendix navtitle="Marvel Enterprise Monitoring Server and global attributes">
+        <topicref href="Sridevi-Chapter1/Appendix/C_appendix_b_situation_definition_attributes.dita"/>
+        <topicref href="Sridevi-Chapter1/Appendix/C_appendix_b_universal%20time%20attributes.dita"/>
+    </appendix>
+        <backmatter>
+        <booklists>
+            <indexlist/>
+            <tablelist/>
+        </booklists>
+    </backmatter>
+</bookmap>

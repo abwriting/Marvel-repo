@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_appendix_a_repeating_attributes_in_and_expressions">
+    <title>Repeating Attributes in AND Expressions</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Repeating Attributes in AND Expressions<indexterm>Repeating an
+                        attribute</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Some situation formulas require you to repeat the same attribute in an AND expression for
+            a certain outcome.</p>
+        <p>If you are constructing a situation that requires repeating an attribute, each instance
+            of the attribute must appear in its own column. To repeat an attribute in a new column
+            of the Situation editor:<ul id="ul_jvj_4yp_1yb">
+                <li>Click <uicontrol>Add Conditions</uicontrol>  and select it from the
+                        <wintitle>Select condition</wintitle> window.</li>
+            </ul></p>
+    </conbody>
+</concept>

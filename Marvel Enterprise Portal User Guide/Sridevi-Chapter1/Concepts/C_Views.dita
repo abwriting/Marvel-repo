@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Types_of_Views">
+    <title>Types of Views</title>
+    <shortdesc>Followng are  types of views available in Marvel Portal Window.</shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Types of views<indexterm>Event views</indexterm><indexterm>Query-based
+                        views</indexterm><indexterm>Event views</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_rhf_gw3_1yb">
+                <dlentry>
+                    <dt>Query-based views</dt>
+                    <dd>The table and chart views are the first step to getting meaningful
+                        information from the data being collected. When you understand what values
+                        and states are causing problems, you can refine your views to show what is
+                        important. For attribute groups with attributes that can be expressed
+                        meaningfully as objects and show their relationship to other attributes in
+                        the same group, there is also the <i>Relational Table Based</i> topology
+                                view.<p><image href="../Images/Table.png" width="15" height="15"
+                                id="image_gst_kw3_1yb"/> The table view and <image
+                                href="../Images/Chart%20Display.png" id="image_kzr_nw3_1yb"
+                                height="15" width="100"/> chart views display data the monitoring
+                            agents have gathered from the systems where they are
+                                running.</p><p><image href="../Images/Topology%20view.png"
+                                width="15" height="15" id="image_trh_rw3_1yb"/> The topology shows
+                            the arrangement of monitored components associated with its Navigator
+                            item.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Event views</dt>
+                    <dd>The message log view and console views (universal message, situation event,
+                        common event, and Marvel Enterprise Console) update automatically to show
+                        new events as they arrive and changes in event status as they occur. The
+                        graphic view gives you a pictorial alternative to the Navigator for
+                        indicating alerts.<p><image href="../Images/log.png" width="15" height="15"
+                                id="image_akx_hx3_1yb"/> The message log view shows the status of
+                            events that have been opened on the entire monitored enterprise and can
+                            include up to 100 row entries at a time.</p><p><image
+                                href="../Images/Universal%20message.png" width="15" height="15"
+                                id="image_j2p_gx3_1yb"/> The universal message console view displays
+                            situation and policy activities as they happen, such as when a situation
+                            has been created or deleted or a policy has been activated.</p><p><image
+                                href="../Images/graphic%20View.png" width="15" height="15"
+                                id="image_nrv_2x3_1yb"/> The graphic view places Navigator items and
+                            their alerts as icons on a map or a picture to represent your monitored
+                            environment.</p><p><image href="../Images/situation%20event.png"
+                                width="15" height="15" id="image_s3t_dx3_1yb"/> The situation event
+                            console view shows the status of situation events that have been opened
+                            on this branch of the Navigator. The console has a toolbar for quick
+                            filtering and a menu for responding to alerts.</p><p><image
+                                href="../Images/common%20event.png" width="15" height="15"
+                                id="image_hjs_cx3_1yb"/> The common event console view integrates
+                            events from multiple event repositories: Marvel Enterprise Monitoring
+                            Server, Marvel Enterprise Console event server, and Netcool/OMNIbus
+                            ObjectServer. This view has the same functional capabilities as the
+                            situation event console view, such as the ability to sort and filter
+                            events.</p><p><image href="../Images/I_console.png" width="15"
+                                height="15" id="image_hm2_bx3_1yb"/>The Marvel Enterprise Console
+                            event viewer can integrate events from the Marvel Enterprise Console
+                            Server with those from the Marvel Enterprise Monitoring Server.</p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Other views</dt>
+                    <dd>Marvel Enterprise Portal workspaces can also have any of the following
+                        specialized views:<p>
+                            <image href="../Images/Notepad.png" width="15" height="15"
+                                id="image_a2d_xx3_1yb"/> The notepad view opens a simple text editor
+                            for writing notes or other text that can be saved with the
+                            workspace.</p><p>
+                            <image href="../Images/I_action.png" width="15" height="15"
+                                id="image_gb1_wx3_1yb"/> The take action view enables you to send a
+                            command to a managed system.</p><p>
+                            <image href="../Images/I_terminal_view.png" width="15" height="15"
+                                id="image_ugc_vx3_1yb"/> The terminal view starts a 3270 or 5250
+                            session for working with z/OS applications, or a Telnet session for
+                            working with the TCP/IP network.</p><p>
+                            <image href="../Images/I_browser_view.png" width="15" height="15"
+                                id="image_x5q_sx3_1yb"/> The browser view opens the integrated
+                            browser for accessing web pages.</p><p>
+                            <image href="../Images/graphic%20View.png" width="15" height="15"
+                                id="image_ftc_px3_1yb"/> The graphic view places Navigator items and
+                            their alerts as icons on a map or a picture to represent your monitored
+                            environment. Alerts show on these icons just as they do in the
+                            Navigator.</p></dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

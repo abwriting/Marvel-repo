@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_responding_to_an_application_support_event">
+    <title>Responding to an Application Support Event</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Responding to an application support event<indexterm>Show
+                            new<indexterm>Updated application
+                    support</indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Use the <uicontrol>Show new</uicontrol> or <uicontrol>updated application
+                support</uicontrol> tool to see a count of the version mismatch messages, to view a
+            list of application support version mismatches between the Marvel Enterprise Portal
+            client and server, and to see instructions for correcting the discrepancy.</p>
+        <p>The number that is displayed after the tool, such as <image
+                href="../Images/I_warning_event_ack.png" width="15" height="15"
+                id="image_dth_khd_byb"/><sup>8</sup> for eight mismatch events, is a count of the
+            events that have accumulated.</p>
+    </conbody>
+</concept>

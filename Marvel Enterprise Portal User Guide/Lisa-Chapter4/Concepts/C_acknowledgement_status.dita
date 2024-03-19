@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_acknowledgement_status">
+    <title>Acknowledgement Status</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Acknowledge Status</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>After you acknowledge an event, its status changes to Acknowledged and is displayed in
+            several places.<ul id="ul_k1r_bhg_51c">
+                <li>Navigator item for the event (which is displayed when you open the Situation
+                    Event Results workspace).</li>
+                <li>Situation flyover list at the end of the row.</li>
+                <li>Status column of the message log view, situation event console view, and in the
+                    Enterprise Status workspace view named My Acknowledged Events.</li>
+            </ul></p>
+        <p>The Acknowledged status changes to Closed when the situation is no longer true.</p>
+        <p>If the situation is still true when the acknowledgement expires, the status will change
+            to <image href="../Images/68.jpg" width="15" height="15" id="image_xhz_ghg_51c"
+            />Expired. If the situation is still true and you cancel your ownership (remove
+            acknowledgement) the status will change to <image href="../Images/47.jpg" width="15"
+                height="15" id="image_bly_hhg_51c"/>Reopened.</p>
+        <p>Although you can acknowledge a pure event, the acknowledgement does not stop the arrival
+            of more pure events.</p>
+        <p><image href="../Images/ackk_status.png" id="image_oxy_23g_51c"/></p>
+    </conbody>
+</concept>

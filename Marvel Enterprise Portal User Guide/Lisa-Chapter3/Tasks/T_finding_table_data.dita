@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_finding_table_data">
+    <title>Finding Table Data</title>
+    <shortdesc>Use the find function to locate a text or numeric value in the selected table view,
+        message log, or event console view.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Find Table Data</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Take these steps to use the Find tool for quickly locating values.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace that contains the view you want to search.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/14.jpg" width="15" height="15"
+                        id="image_sv5_qpv_t1c"/><b>Find</b> in the table view toolbar. If the tool
+                    is hidden, click <image href="../Images/48.png" width="15" height="15"
+                        id="image_by3_tpv_t1c"/>Show toolbar in the view's title bar. The Find
+                    window opens with the first two column headings (attributes) filled in and
+                    fields for entering up to five values.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/16.jpg" width="15" height="15"
+                        id="image_ysz_vpv_t1c"/> arrow and select the column to search within. To
+                    clear a column name, select the first entry (which is empty) from the
+                    list.</cmd>
+            </step>
+            <step>
+                <cmd>Click inside the corresponding <b>Value</b> field and enter the value to
+                    find.</cmd>
+                <substeps id="substeps_wmh_kqv_t1c">
+                    <substep>
+                        <cmd>The default function is <image href="../Images/13.jpg" width="15"
+                                height="15" id="image_ww3_mqv_t1c"/><b>Value of expression</b> (
+                                <image href="../Images/55.png" id="image_i4y_qqv_t1c"/><b>Compare
+                                Date and Time</b> for time attributes); the default operator is
+                                <image href="../Images/56.png" width="15" height="15"
+                                id="image_rkz_vqv_t1c"/>. If you need to change the function or
+                            operator, click<image href="../Images/13.jpg" width="15" height="15"
+                                id="image_zjx_xqv_t1c"/> the or <image href="../Images/56.png"
+                                width="15" height="15" id="image_zsm_yqv_t1c"/>button and select
+                            from the list.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>You can enter a partial value to find all occurrences of the text or
+                            number that begin with those characters. For example, 500 will find 500
+                            and 5000; and West will find West, West006, and Western. You can also
+                            use an * asterisk wildcard for any number of characters beginning at
+                            that position; use a ? question mark wildcard for a single character at
+                            that position. You can also use wildcards with the <image
+                                href="../Images/57.png" width="15" height="15"
+                                id="image_est_2rv_t1c"/><b>Scan for string within a string</b> and
+                                <image href="../Images/58.png" width="15" height="15"
+                                id="image_rfl_hrv_t1c"/><b>Return a subset of the string</b>
+                            functions. See the formula function topics for a description of
+                            attribute types and other formula functions, including examples. When
+                            using the ? question mark wildcard with the <image
+                                href="../Images/13.jpg" width="15" height="15"
+                                id="image_qhx_3rv_t1c"/><b>Value of expression </b>function, append
+                            the text with an * asterisk. For example, enter Sa?e* to find Safe and
+                            Sale.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Most special characters are processed correctly. If you attempt to find
+                            text that includes a special character and it is not found, but you know
+                            it exists in your environment, precede it with the \ backslash escape
+                            character. These are some of the special characters that require the \
+                            escape character prefix: # pound sign; $ dollar sign; ^ circumflex; \
+                            backslash; (open and) close parentheses; + plus sign; [open square
+                            bracket; {open and} close curly braces. For example, \#my_situation to
+                            find #my_situation in the Message Log view.</cmd>
+                        <info>These special characters do not need the escape character: !
+                            exclamation point; @ at sign; % percentage; &amp; ampersand; = equal
+                            sign; &lt; open and > close pointed bracket; _ underscore; - hyphen; ]
+                            close square bracket; / slash; : colon; and ; semicolon.</info>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Select or clear any of the following check box options, then click
+                    <b>Find</b>.</cmd>
+                <choicetable frame="all" relcolwidth="1* 1*" id="choicetable_lzh_yzr_t1c">
+                    <chhead>
+                        <choptionhd>Check Box</choptionhd>
+                        <chdeschd>Preferred Action</chdeschd>
+                    </chhead>
+                    <chrow>
+                        <choption><image href="../Images/12.jpg" id="image_o3q_d1s_t1c" height="15"
+                                width="15"/>Case Sensitive</choption>
+                        <chdesc>To find only spellings that match the letter casing as typed. When
+                            the check box is disabled, all variations of the letter casing can be
+                            found.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><image href="../Images/33.jpg" width="15" height="15"
+                                id="image_npz_h1s_t1c"/>Backwards</choption>
+                        <chdesc>To search from the cursor point backwards. When the check box is
+                            disabled, the default, the search will be from this point
+                            forward.</chdesc>
+                    </chrow>
+                    <chrow>
+                        <choption><image href="../Images/12.jpg" height="15" width="15"
+                                id="image_psn_l1s_t1c"/>Wrap Search</choption>
+                        <chdesc>Instead of stopping the search when the end of the document is
+                            reached, continues to search from the beginning and stops when it
+                            reaches the point where the search began. Clear the check box if you
+                            want the search to stop at the end of the document (or the beginning of
+                            the document if the search is backwards).</chdesc>
+                    </chrow>
+                </choicetable>
+            </step>
+            <step>
+                <cmd>Click <b>Find Again</b> to search for the next instance.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_uf1_p1s_t1c">You can click <b>Close</b> when you are done or leave the
+            Find window open for this view while you continue working with the workspace.</postreq>
+    </taskbody>
+    <related-links>
+        <link href="../References/r_table_find_examples.dita"/>
+    </related-links>
+</task>

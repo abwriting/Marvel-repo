@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="responding_to_an_application_support_event">
+    <title>Procedure</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>How to respond to an application support event<indexterm>Application
+                        support event</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Click the <image href="../Images/I_application_support_event.png" width="15"
+                        height="15" id="image_i21_gvd_byb"/>
+                    <uicontrol>Application support event</uicontrol> tool  in the Navigator toolbar
+                    when it is enabled. </cmd>
+                <stepresult>The dialog box shows the list of mismatched applications and their
+                    support versions. Each event shows a Warning or Informational indicator followed
+                    by the name of the monitoring agent, the version of application support applied
+                    at the portal client, and the version applied at the portal server. No portal
+                    client version information is available when a new monitoring application is
+                    initially installed.</stepresult>
+            </step>
+            <step>
+                <cmd>Complete the instructions that are displayed after the mismatch event
+                    list:</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

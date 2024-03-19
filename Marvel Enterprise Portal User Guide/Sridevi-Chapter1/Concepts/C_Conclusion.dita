@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Conclusion">
+    <title>Conclusion</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Functionality conclusion</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>You now know the basics on the main functionality of the Marvel Enterprise Portal. For
+            practice, try splitting this view and apply a <image href="../Images/I_browser_view.png"
+                width="15" height="15" id="image_kmm_nn3_1yb"/> Browser view.</p>
+    </conbody>
+</concept>

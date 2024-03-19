@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Browser_Client_Differences">
+    <title>Browser Client Differences</title>
+    <shortdesc>The Marvel Enterprise Portal can be started as a desktop application or through your
+        browser by entering the URL for the Marvel Enterprise Portal Server. There are a few
+        differences in operation between the two clients..</shortdesc>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Browser client differences<indexterm>URL</indexterm><indexterm>Desktop
+                        client</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>Marvel Enterprise Portal can be used with either a desktop or a browser client. For a
+            desktop client, the application software is installed on your system and you start it as
+            you would any other application; for a browser client, the application software is
+            installed on the web server that is integrated with the Marvel Enterprise Portal Server
+            and users log on from their browsers. The software is downloaded to your system the
+            first time you log on to Marvel Enterprise Portal, and thereafter only when software
+            updates are available.</p>
+        <p>
+            <dl id="dl_xjv_5hk_xxb">
+                <dlentry>
+                    <dt>Portal toolbar</dt>
+                    <dd>
+                        <p>Marvel Enterprise Portal functionality is the same for both types of
+                            clients except for the <image href="../Images/I_back.png" width="15"
+                                height="15" id="image_o2c_wm3_1yb"/>
+                            <uicontrol>Back</uicontrol>, <image href="../Images/I_forward.png"
+                                width="15" height="15" id="image_smy_wm3_1yb"/>
+                            <uicontrol>Forward</uicontrol>, <image href="../Images/I_new_window.png"
+                                width="15" height="15" id="image_m4r_zm3_1yb"/>
+                            <uicontrol>New Window</uicontrol>, and <image
+                                href="../Images/I_stop.png" width="15" height="15"
+                                id="image_whw_1n3_1yb"/>
+                            <uicontrol>Stop</uicontrol> tools, which are not on the portal toolbar
+                            because they are already available browser toolbar. As well, keyboard
+                            shortcuts also used by Internet Explorer such as F1 for Help and Ctrl+H
+                            for the History Configuration window are not available in browser
+                            mode.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl id="dl_pvm_vhk_xxb">
+                <dlentry>
+                    <dt>Workspaces have URLs</dt>
+                    <dd>
+                        <p>When you are logged on to the Marvel® Enterprise Portal Server through
+                            your browser, the address bar displays a URL for each workspace. You can
+                            log on and open to the workspace of your choice by adding the workspace
+                            URL to the logon URL. You can also send the URL in an email, include it
+                            in a hypertext link in an HTML page or other document, or bookmark
+                            it.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Tabbed workspaces</dt>
+                    <dd>
+                        <p>Every workspace has properties that control how it accessed and
+                            displayed. One of the options enables you to open the workspace in a new
+                            window instead of replacing the previous workspace in the same window.
+                            For browsers that are enabled for tabbed web pages, the browser client
+                            uses those settings and opens the workspace in a new tab.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Launch in context and with single sign-on</dt>
+                    <dd>
+                        <p>You can launch products in context, such as to the IBM Marvel Application
+                            Dependency Discovery Manager from the browser client. If your
+                            environment and user ID are configured for single sign-on, you do not
+                            need to re-authenticate as you launch into other applications.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Custom banner</dt>
+                    <dd>
+                        <p>The browser client has a banner image and text that you can customize for
+                            your organization. </p>
+                    </dd>
+                </dlentry>
+            </dl>
+        </p>
+        <note id="note_nmj_gm3_1yb">As an alternative to the browser client, you can use IBM Web
+            Start for Java to download the Java Web Start client from the Marvel Enterprise Portal
+            Server.</note>
+    </conbody>
+</concept>

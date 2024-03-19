@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_more_indicators">
+    <title>More... Indicators</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>More indicators<indexterm>Expand child items</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>You  sometimes see <image href="../Images/I_more_icon.png" width="10" height="15"
+                id="image_jqs_pnx_1yb"/>
+            <uicontrol>More</uicontrol> indicators in the Navigator. These indicators are used to
+            keep the Navigator tree compact so that you can see more in the viewable area without
+            having to scroll.</p>
+        <p>Click <image href="../Images/I_more_icon.png" width="10" height="15"
+                id="image_v1g_snx_1yb"/>
+            <uicontrol>More</uicontrol> to open that branch of the tree.</p>
+        <p>When clicking <image href="../Images/I_expand_icon.png" width="15" height="15"
+                id="image_ehb_5nx_1yb"/>
+            <uicontrol>Expand</uicontrol> on a Navigator branch of more than, by default, 25 child
+            items, you are prompted to enter the number to expand at one time. You can also
+            right-click a Navigator item and click <image href="../Images/I_expand_icon.png"
+                width="15" height="15" id="image_njj_wnx_1yb"/>
+            <uicontrol>Expand</uicontrol> to open the <wintitle>Expand child items</wintitle>
+            window. After you enter the number to expand, a group of child items opens. Click <image
+                href="../Images/I_more_icon.png" width="10" height="15" id="image_uzh_ynx_1yb"/>
+            <uicontrol>More</uicontrol> to open the next group of child items.</p>
+        <p>In large managed environments this feature helps you control the Navigator display and
+            its performance. In this example, the expansion limit of 4 was chosen for the Windows
+            Server branch:<fig id="fig_dpz_znx_1yb">
+                <p>
+                    <fig id="fig_tng_l4x_1yb">
+                        <title>More indicators in the navigator</title>
+                        <image href="../Images/I_more_indicator.png" id="image_ung_l4x_1yb"/>
+                    </fig>
+                </p>
+            </fig></p>
+    </conbody>
+</concept>

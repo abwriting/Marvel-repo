@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_understanding_situation_events">
+    <title>Understanding Situation Events</title>
+    <shortdesc>The products that run in the Marvel Monitoring environment come with their own set of
+        situations. These predefined situations serve as models for defining custom situations for
+        your environment.</shortdesc>
+    <prolog>
+        <author>Lisa Adams</author>
+        <metadata>
+            <keywords>
+                <indexterm>Understand situation events<indexterm>Situation
+                        formula</indexterm><indexterm>Situation event
+                        indicators</indexterm><indexterm>Event
+                        severity</indexterm><indexterm>Enterprise Status
+                        workspace</indexterm><indexterm>Event flyover
+                        list</indexterm><indexterm>Situation status
+                        icons</indexterm><indexterm>Options for working with the situation and
+                        event</indexterm><indexterm>Event results
+                        workspace</indexterm><indexterm>Event
+                        acknowledgement</indexterm><indexterm>Automated
+                    responses</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_y3w_341_1yb">
+                <dlentry>
+                    <dt>Situation formula</dt>
+                    <dd>Situations formulas are constructed of one or more expressions. For example,
+                        a situation that checks for free disk space below 20% on a Windows system
+                        has an expression that uses the Logical Disk attribute "Free Megabytes" and
+                        reads as Free Megabytes &lt; 20.The situation will read data samples taken
+                        at the managed system at set intervals, such as once a day for the disk
+                        space situation in our example.</dd>
+                    <dd>Other situations might be more elaborate, such as the predefined Windows OS
+                        situation, Bottleneck Memory. It embeds two situations: one that tests for
+                        excessive memory paging activity (>100 pages per second), and one that tests
+                        for processor time over 70%. If both of these situations are true at the
+                        same time, the Bottleneck Memory situation becomes true and opens an
+                        event.</dd>
+                </dlentry>
+            </dl>
+            <dl id="dl_owg_m41_1yb">
+                <dlentry>
+                    <dt>Situation event indicators</dt>
+                    <dd>When a situation is associated with a managed system, it also has a state
+                        setting that determines which light, is displayed on the Navigator item when
+                        the situation becomes true. From highest severity to lowest, they are as
+                            follows:<table frame="all" id="table_pds_q41_1yb">
+                            <title>Event severity</title>
+                            <tgroup cols="2" align="center">
+                                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                                <thead>
+                                    <row>
+                                        <entry><image href="../Images/62.jpg" id="image_y5d_r41_1yb"
+                                            /></entry>
+                                        <entry><uicontrol>Fatal</uicontrol></entry>
+                                    </row>
+                                </thead>
+                                <tbody>
+                                    <row>
+                                        <entry><image href="../Images/63.jpg" id="image_qjr_kfc_xxb"
+                                            /></entry>
+                                        <entry><uicontrol>Critical</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../Images/64.jpg" id="image_ts1_mfc_xxb"
+                                            /></entry>
+                                        <entry><uicontrol>Minor</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../Images/65.jpg" id="image_qmf_nfc_xxb"
+                                            /></entry>
+                                        <entry><uicontrol>Warning</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../Images/66.jpg" id="image_j4f_4fc_xxb"
+                                            /></entry>
+                                        <entry><uicontrol>Harmless</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../Images/67.jpg" id="image_gxg_pfc_xxb"
+                                            /></entry>
+                                        <entry><uicontrol>Informational</uicontrol></entry>
+                                    </row>
+                                    <row>
+                                        <entry><image href="../Images/44.jpg" id="image_ax5_rfc_xxb"
+                                            /></entry>
+                                        <entry><uicontrol>Unknown</uicontrol></entry>
+                                    </row>
+                                </tbody>
+                            </tgroup>
+                        </table></dd>
+                    <dd>As you move up the Navigator hierarchy, multiple events are consolidated to
+                        show only the indicator of the highest severity. Go to the lowest level of
+                        the hierarchy in the Navigator and you see the event indicator over the
+                        attribute category for which it was written.The situation event console and
+                        graphic view also show situation event indicators and enable you to respond
+                        to events. The Enterprise Status workspace includes the situation event
+                        console view.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Enterprise Status workspace</dt>
+                    <dd>The initial default workspace is the Enterprise Status workspace. The views
+                        in this workspace give an excellent overview of situation events in your
+                        monitored environment and their status. One of the views, Situation Event
+                        Console, lists the open events and their severities.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Event flyover list</dt>
+                    <dd>In the Navigator view or a graphic view, you can hover the mouse over an
+                        event indicator to open a flyover listing of open situation events with this
+                            information:<ul id="ul_bkx_nv1_1yb">
+                            <li>Event state</li>
+                            <li>Situation name</li>
+                            <li>Name of the system on which the event occurred Two-letter code for
+                                the monitoring agent</li>
+                            <li>Event timestamp</li>
+                            <li>Display item, if one was specified</li>
+                            <li>Situation status icon if: <table frame="all" id="table_rhb_5v1_1yb">
+                                    <title>Situation status icons</title>
+                                    <tgroup cols="2" align="center">
+                                        <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                        <colspec colname="c2" colnum="2" colwidth="1*"/>
+                                        <thead>
+                                            <row>
+                                                <entry>Icon</entry>
+                                                <entry>Description</entry>
+                                            </row>
+                                        </thead>
+                                        <tbody>
+                                            <row>
+                                                <entry><image href="../Images/45.jpg"
+                                                  id="image_lrs_lhc_xxb" width="20" height="20"
+                                                  /></entry>
+                                                <entry>The event has been acknowledged;</entry>
+                                            </row>
+                                            <row>
+                                                <entry><image href="../Images/68.jpg"
+                                                  id="image_l3y_vkc_xxb" height="20" width="20"
+                                                  /></entry>
+                                                <entry>The acknowledgement has expired.</entry>
+                                            </row>
+                                            <row>
+                                                <entry><image href="../Images/47.jpg"
+                                                  id="image_qs5_mhc_xxb" height="20" width="20"
+                                                  /></entry>
+                                                <entry>The acknowledgement was removed before it had
+                                                  expired and the situation is still true.</entry>
+                                            </row>
+                                            <row>
+                                                <entry><image href="../Images/48.jpg"
+                                                  id="image_d1j_phc_xxb" height="20" width="20"
+                                                  /></entry>
+                                                <entry>The situation is not functioning properly and
+                                                  you will not be able to open its event results
+                                                  workspace.</entry>
+                                            </row>
+                                            <row>
+                                                <entry><image href="../Images/49.jpg"
+                                                  id="image_ms3_rhc_xxb" height="20" width="20"
+                                                  /></entry>
+                                                <entry>The situation has been stopped and you will
+                                                  not be able to open its event results
+                                                  workspace.</entry>
+                                            </row>
+                                        </tbody>
+                                    </tgroup>
+                                </table></li>
+                        </ul><p>The link <image href="../Images/2.jpg" id="image_flb_5hc_xxb"
+                                height="20" width="20"/>is to the event results workspace for the
+                            situation.</p><p>The pop-up menu for the event items has options for
+                            working with the situation and event:<table frame="all"
+                                id="table_n1p_3w1_1yb">
+                                <title>Options for working with the situation and event</title>
+                                <tgroup cols="2" align="center">
+                                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                                    <thead>
+                                        <row>
+                                            <entry>Icon</entry>
+                                            <entry>Description</entry>
+                                        </row>
+                                    </thead>
+                                    <tbody>
+                                        <row>
+                                            <entry><image href="../Images/50.jpg"
+                                                  id="image_yqk_zhc_xxb" height="20" width="20"
+                                                /></entry>
+                                            <entry><uicontrol>Edit the situation</uicontrol></entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/23.jpg"
+                                                  id="image_rfl_c3c_xxb" height="20" width="20"
+                                                /></entry>
+                                            <entry><uicontrol>Start the situation
+                                                </uicontrol></entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/24.jpg"
+                                                  id="image_vsc_23c_xxb" height="20" width="20"
+                                                /></entry>
+                                            <entry><uicontrol>Stop the situation</uicontrol></entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/51.jpg"
+                                                  id="image_xsl_33c_xxb" height="20" width="20"
+                                                /></entry>
+                                            <entry><uicontrol>Quick acknowledge the event
+                                                </uicontrol></entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/45.jpg"
+                                                  id="image_tqc_k3c_xxb" height="20" width="20"
+                                                /></entry>
+                                            <entry><uicontrol>Acknowledge the
+                                                event</uicontrol></entry>
+                                        </row>
+                                        <row>
+                                            <entry><image href="../Images/52.jpg"
+                                                  id="image_lbh_m3c_xxb" height="20" width="20"
+                                                /></entry>
+                                            <entry><uicontrol>Close the event (pure events
+                                                  only)</uicontrol></entry>
+                                        </row>
+                                    </tbody>
+                                </tgroup>
+                            </table></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Event results workspace</dt>
+                    <dd>The event results workspace shows the values of the attributes when the
+                        situation fired and their current values. It shows any expert advice the
+                        situation author might have written and any hypertext links to go to for
+                        more information. The take action view enables you to select or define a
+                        command to be invoked at the managed system.The table views showing the
+                        initial situation values and their current values also have pop-up menus
+                        that include the option to launch an application. If you have a favorite
+                        diagnostic tool, you can start it from here.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Event acknowledgement</dt>
+                    <dd>When multiple users are monitoring the network for events, one of them can
+                        acknowledge an event to indicate it has been seen and the problem is being
+                        worked on. Acknowledging an event changes its event status from
+                            <systemoutput>Open to Acknowledged</systemoutput> until the
+                        acknowledgement expires or until the situation is no longer true.You can add
+                        notes to an acknowledgement and attach files that are pertinent to the
+                        event.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Automated responses</dt>
+                    <dd>Automated responses to events can improve the efficiency of systems
+                        management by reducing user workload and errors and allowing quicker
+                        responses to problems. Marvel Enterprise Portal provides two levels of
+                        automation: <i>reflex</i> and <i>advanced</i>.<ul id="ul_e3w_yw1_1yb">
+                            <li>Reflex automation provides simple automated system actions. It
+                                allows you to monitor a condition on a particular system and to
+                                specify a command to execute there. The command can be a single
+                                action or a script of commands. Marvel Enterprise Portal receives no
+                                feedback after it sends the command or notifies the user.<p>Reflex
+                                    automation is implemented by adding an action command to a
+                                    situation definition that runs when an event is opened.</p></li>
+                            <li>Advanced automation allows you to implement more complex workflow
+                                strategies than you can create through simple reflex automation.
+                                    <i>Policies</i> are used to perform actions, schedule work, and
+                                automate manual tasks. A policy comprises a series of automated
+                                steps called <i>activities</i>, which are connected and can branch
+                                to create a <i>workflow</i>. After an activity is completed, a
+                                return code is received with feedback and the next activity
+                                prescribed by the feedback is carried out.</li>
+                        </ul><p>With policies you can monitor multiple conditions simultaneously on
+                            any number of systems and have selected activities take place when
+                            specific conditions occur. Many monitoring agents come with predefined
+                            policies that you can use as is or modify for your
+                            environment.</p><p>You can also create your own policies. The Workflows
+                            editor is provided for designing and managing policies.</p></dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

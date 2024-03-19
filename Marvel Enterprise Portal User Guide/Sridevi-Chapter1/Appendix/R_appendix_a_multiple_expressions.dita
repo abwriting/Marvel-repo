@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="R_appendix_a_multiple_expressions">
+    <title/>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>AND and OR<indexterm>Multiple
+                        Expressions</indexterm><indexterm>Example</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <properties frame="all" id="properties_qhp_zwp_1yb">
+            <prophead>
+                <proptypehd>% Disk Time</proptypehd>
+                <propvaluehd>% Used</propvaluehd>
+                <propdeschd>Server Name</propdeschd>
+            </prophead>
+            <property>
+                <proptype>>= 90</proptype>
+                <propvalue/>
+                <propdesc>== myserver</propdesc>
+            </property>
+            <property>
+                <proptype/>
+                <propvalue>>= 90</propvalue>
+                <propdesc>== myserver</propdesc>
+            </property>
+        </properties>
+    </refbody>
+</reference>

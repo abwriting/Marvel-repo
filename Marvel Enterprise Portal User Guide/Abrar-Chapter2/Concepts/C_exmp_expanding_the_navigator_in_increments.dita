@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_exmp_expanding_the_navigator_in_increments">
+    <title>Examples</title>
+    <shortdesc>The examples here show Navigator being expanded in a large managed enterprise. </shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Examples of expanding navigator in increments<indexterm>Example of
+                        expansion limit</indexterm><indexterm>Example of expanding child
+                        items</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>In large managed environments the expand feature helps you control the Navigator display
+            and its performance. In this example, the expansion limit of 4 was chosen for the
+            Windows Server child items:</p>
+        <table frame="all" id="table_cvj_5mw_vxb">
+            <title>Example: Expansion limit of 4 for the Windows Server child items </title>
+            <tgroup cols="6">
+                <colspec colname="c1" colnum="1" colwidth="1.02*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1.74*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1.16*"/>
+                <colspec colname="c2" colnum="4" colwidth="1*"/>
+                <colspec colname="newCol5" colnum="5" colwidth="1.74*"/>
+                <colspec colname="newCol6" colnum="6" colwidth="1.74*"/>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="newCol6"><image
+                                href="../Images/I_minimize_icon.png" id="image_ix4_y3b_wxb"/><image
+                                href="../Images/I_enterprise_bullet_type.png" id="image_epg_zmw_vxb"
+                            />Enterprise</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry namest="newCol2" nameend="newCol6"><image
+                                href="../Images/I_minimize_icon.png" id="image_c52_bjb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_kwr_cnw_vxb"
+                            />Windows Systems</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_minimize_icon.png" id="image_prz_cjb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_gml_djb_wxb"
+                            />Computer1</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry namest="c2" nameend="newCol6"><image
+                                href="../Images/I_minimize_icon.png" id="image_et4_fjb_wxb"/><image
+                                href="../Images/I_agent_bullet_type.png" id="image_xzf_gnw_vxb"
+                            />Windows Server</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol5" nameend="newCol6"><image
+                                href="../Images/I_resource_bullet_type.png" id="image_edt_ljb_wxb"
+                            />Disk</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol5" nameend="newCol6"><image
+                                href="../Images/I_resource_bullet_type.png" id="image_u1h_pjb_wxb"
+                            />Enterprise Services</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol5" nameend="newCol6"><image
+                                href="../Images/I_resource_bullet_type.png" id="image_dg3_pjb_wxb"
+                            />Memory</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol5" nameend="newCol6"><image
+                                href="../Images/I_resource_bullet_type.png" id="image_spj_pjb_wxb"
+                            />Network</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol5" nameend="newCol6"><image
+                                href="../Images/I_more_icon.png" id="image_cxt_rjb_wxb"
+                            />More...4:8</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+        <p>This example illustrates the result of selecting Expand Child Items at the platform level
+            of the Navigator. The site is monitoring 500 Windows-based systems. The user can quickly
+            see which systems have situation events and at what severity.</p>
+        <table frame="all" id="table_eqt_dkb_wxb">
+            <title>Example: Expanding Child Items at the platform level of the Navigator </title>
+            <tgroup cols="6">
+                <colspec colname="c1" colnum="1" colwidth="1.02*"/>
+                <colspec colname="newCol2" colnum="2" colwidth="1.74*"/>
+                <colspec colname="newCol3" colnum="3" colwidth="1.16*"/>
+                <colspec colname="c2" colnum="4" colwidth="1*"/>
+                <colspec colname="newCol5" colnum="5" colwidth="1.74*"/>
+                <colspec colname="newCol6" colnum="6" colwidth="1.74*"/>
+                <tbody>
+                    <row>
+                        <entry namest="c1" nameend="newCol6"><image
+                                href="../Images/I_minimize_icon.png" id="image_fqt_dkb_wxb"/><image
+                                href="../Images/I_enterprise_2_icon.png" id="image_mqz_2kb_wxb"
+                            />Enterprise</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry namest="newCol2" nameend="newCol6"><image
+                                href="../Images/I_minimize_icon.png" id="image_hqt_dkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_iqt_dkb_wxb"
+                            />Windows Systems</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_spc_mkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_kqt_dkb_wxb"
+                            />Computer1</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_x2f_mkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_jpq_jkb_wxb"
+                            />Computer2</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_n2k_mkb_wxb"/><image
+                                href="../Images/I_computer_3.png" id="image_xjd_4kb_wxb"
+                            />Computer3</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_xph_pkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_yph_pkb_wxb"
+                            />Computer4</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_bgq_mkb_wxb"/><image
+                                href="../Images/I_computer_3.png" id="image_sqx_pkb_wxb"
+                            />Computer5</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_xzg_rkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_yzg_rkb_wxb"
+                            />Computer6</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_yk5_rkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_zk5_rkb_wxb"
+                            />Computer7</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_fkn_5kb_wxb"/><image
+                                href="../Images/I_computer_8.png" id="image_gkn_5kb_wxb"
+                            />Computer8</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_imz_5kb_wxb"/><image
+                                href="../Images/I_computer_8.png" id="image_jmz_5kb_wxb"
+                            />Computer9</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_lvj_vkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_mvj_vkb_wxb"
+                            />Computer10</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_dg5_vkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_eg5_vkb_wxb"
+                            />Computer11</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_ehs_wkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_fhs_wkb_wxb"
+                            />Computer12</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_sw1_xkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_tw1_xkb_wxb"
+                            />Computer13</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_yrl_xkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_zrl_xkb_wxb"
+                            />Computer14</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_wkr_xkb_wxb"/><image
+                                href="../Images/I_platform_bullet_type.png" id="image_xkr_xkb_wxb"
+                            />Computer15</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6">.</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6">.</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6">.</entry>
+                    </row>
+                    <row>
+                        <entry/>
+                        <entry/>
+                        <entry namest="newCol3" nameend="newCol6"><image
+                                href="../Images/I_expand_icon.png" id="image_jmx_jvb_wxb"/><image
+                                href="../Images/I_computer_3.png" id="image_exx_kvb_wxb"
+                            />Computer500</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </conbody>
+</concept>

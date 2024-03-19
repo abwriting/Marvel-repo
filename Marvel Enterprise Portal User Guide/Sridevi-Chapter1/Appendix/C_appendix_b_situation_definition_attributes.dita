@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_Appendix_1">
+    <title>Situation Definition Attributes</title>
+    <shortdesc/>
+    <prolog>
+        <author>Sridevi</author>
+        <metadata>
+            <keywords>
+                <indexterm>Situation definition
+                                attributes<indexterm>Affinities<indexterm>SOPT<indexterm>HUB</indexterm></indexterm></indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The Situation Definition attributes supply you with the complete definition of
+            situations. You can apply the predefined query for this group (in the Query editor under <menucascade>
+                <uicontrol>Marvel Enterprise Monitoring Server</uicontrol>
+                <uicontrol>Situation Definition</uicontrol>
+            </menucascade>) to charts and tables; you cannot use these attributes in situations.<dl
+                id="dl_otn_k1q_1yb">
+                <dlentry>
+                    <dt><keyword>Advice</keyword></dt>
+                    <dd>The expert advice for a situation that appears in the event workspace.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Affinities</keyword></dt>
+                    <dd>The internal identification number for the agent and attribute group
+                        referenced in the situation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Alert List</keyword></dt>
+                    <dd>Whether or not events for this situation belong to an alert list.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Auto SOPT</keyword></dt>
+                    <dd>The auto SOPT.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Auto Start</keyword></dt>
+                    <dd>
+                        <p>Whether the situation is set to autostart, <cmdname>*YES</cmdname>, or to
+                            be started manually, <cmdname>*NO</cmdname>.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Command</keyword></dt>
+                    <dd>The type of command specified in the Action tab.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Description</keyword></dt>
+                    <dd>The description written for the situation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Destination Node</keyword></dt>
+                    <dd>The managed system to which the situation is distributed.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Event Attribute</keyword></dt>
+                    <dd>A single digit to describe the type of event.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>HUB</keyword></dt>
+                    <dd>The name of the hub monitoring server that controls the situation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Interval Days</keyword></dt>
+                    <dd>A two-digit number to express the interval between data samplings.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Interval Seconds</keyword></dt>
+                    <dd>A six-digit number that expresses the time between data samplings.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Last CCSID</keyword></dt>
+                    <dd>Internal identifiers of the situation expressions.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Last Date</keyword></dt>
+                    <dd>The date of the last revision to the situation. The format is
+                        CYYMMDDHHMMSSmmm (as in 1050415074501000 for April 15, 2005 at 07:45:01)
+                                where:<p><term>C =<text>Century (0 for 20th, 1 for
+                                21st)</text></term></p><p><term>Y
+                                =<text>Year</text></term></p><p><term>M
+                            =<text>Month</text></term></p><p><term>D
+                                =<text>Day</text></term></p><p><term>M
+                            =<text>Minute</text></term></p><p><term>S
+                            =<text>Second</text></term></p><p><term>m
+                                =<text>millisecond</text></term></p></dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Last Release</keyword></dt>
+                    <dd>The last release to associate with the situation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Last User</keyword></dt>
+                    <dd>The user ID of the last person to update the situation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Location Flag</keyword></dt>
+                    <dd>The location flag identifier.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>NOCOL</keyword></dt>
+                    <dd>Whether this is a no column attribute.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Notify Arguments</keyword></dt>
+                    <dd>Any notification arguments.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Notify Options</keyword></dt>
+                    <dd>Any notification options.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Object Lock</keyword></dt>
+                    <dd>The object lock.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Predicate</keyword></dt>
+                    <dd>The formula, including the detailed names of the attribute group and
+                        attributes.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>QIBCLASSID</keyword></dt>
+                    <dd>The query information base class ID.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>QIBSCOPE</keyword></dt>
+                    <dd>The scope of the query information base.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Reflex OK</keyword></dt>
+                    <dd>Whether an action command has been set.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Send Message Q</keyword></dt>
+                    <dd>
+                        <p>The universal message that will be sent when the situation is true.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Sit Info</keyword></dt>
+                    <dd>Any other information about the situation.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Situation Name</keyword></dt>
+                    <dd>The unique identifier given to the situation or policy.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Full Name</keyword></dt>
+                    <dd>
+                        <p>The name given to the situation or policy. The name can be up to 256
+                            bytes long.</p>
+                    </dd>
+                </dlentry>
+                <dlentry>
+                    <dt><keyword>Source</keyword></dt>
+                    <dd>The situation source.</dd>
+                </dlentry>
+            </dl></p>
+    </conbody>
+</concept>

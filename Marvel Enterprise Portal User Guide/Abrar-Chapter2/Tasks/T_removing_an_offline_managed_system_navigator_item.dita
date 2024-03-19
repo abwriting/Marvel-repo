@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_removing_an_offline_managed_system_navigator_item">
+    <title>Procedure</title>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>How to remove an offline managed system </indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context/>
+        <steps>
+            <step>
+                <cmd>Click the <image href="../Images/I_enterprise_bullet_type.png" width="10"
+                        height="10" id="image_ay3_1mx_wxb"/>
+                    <uicontrol>Enterprise Navigator</uicontrol> item.</cmd>
+                <stepresult>The default workspace opens.</stepresult>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/I_workspace_gallery_icon.png" width="10"
+                        height="10" id="image_wqm_bmx_wxb"/>
+                    <uicontrol>Workspace gallery</uicontrol>, scroll to <uicontrol>Managed System
+                        Status</uicontrol>, and click the <uicontrol>workspace</uicontrol>.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click an <uicontrol>*OFFLINE</uicontrol> row, then click <image
+                        href="../Images/I_clear_offline_entry_icon.png" width="10" height="10"
+                        id="image_s4m_cmx_wxb"/>
+                    <uicontrol>Clear offline entry</uicontrol>.</cmd>
+            </step>
+        </steps>
+        <result id="result_tlz_mwg_vxb">The offline entry is now cleared from the Navigator until
+            the managed system comes online.</result>
+    </taskbody>
+</task>
