@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_closing_a_situation_event">
+    <title>Closing a Situation Event</title>
+    <shortdesc>When the condition of a situation is met, the situation becomes true and an event
+        indicator is displayed over the system name and all related items in the Navigator. For pure
+        events, you can turn off the indicator by closing the event. The situation continues to run
+        but the indicator disappears until another pure event takes place.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Situation Event</indexterm>
+                <indexterm>Close a Situation Event</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_v1b_ttm_51c">In closing an event, you also have the opportunity to add
+            notes and attachments to explain what action you took to resolve it. This can be helpful
+            should a similar event occur in the future. If the event was not previously assigned to
+            an owner, the user who closes it is assigned as the owner. <p>To use this function, your
+                user ID must have Close permission for Events.</p></prereq>
+        <context>
+            <p>Pure events are indicated in the Type column of the message log view and situation
+                event console view. As well as closing pure events, you can also close events of
+                sampled attributes if the situation has been stopped or deleted. Close an event from
+                any of the following locations:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd><b>Situation flyover list</b>: From the event flyover list, do the following to
+                    close a pure event or one whose situation has been stopped or deleted:</cmd>
+                <substeps id="substeps_txz_xtm_51c">
+                    <substep>
+                        <cmd>In the Navigator, move the mouse pointer over the event indicator to
+                            open a flyover listing of the true situations.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the flyover list, right-click the situation whose pure event you
+                            want to close or the situation that has been stopped or deleted and
+                            whose event you want to close.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Close Event</b> → <image href="../Images/52.jpg" width="15"
+                                height="15" id="image_azp_d5m_51c"/><b>Close Situation Event</b> or
+                                <b>Close Event</b> → <b>Close Situation Event with Notes</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd><b>Event Navigator item</b>: From the Navigator item for an event, do the
+                    following to close a pure event:</cmd>
+                <substeps id="substeps_htj_k5m_51c">
+                    <substep>
+                        <cmd>In the Navigator, move the mouse over the event indicator to open a
+                            flyover listing of the true situations.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the flyover list, click a situation name to open its event results
+                            workspace. The Navigator focus moves to the event location and shows the
+                            situation name, and its event results workspace opens.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the Navigator, right-click the <image href="../Images/5.png"
+                                width="15" height="15" id="image_hqj_n5m_51c"/>event item and click
+                                <b>Close Event</b> → <image href="../Images/52.jpg" width="15"
+                                height="15" id="image_vst_q5m_51c"/><b>Close Situation Event</b> or
+                                <b>Close Event</b> → <b>Close Situation Event with Notes</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd><b>Situation event console view</b>: From the situation event console view, do
+                    the following to close a pure event or one whose situation has been <image
+                        href="../Images/49.jpg" width="15" height="15" id="image_qrj_55m_51c"
+                    />stopped or deleted:</cmd>
+                <substeps id="substeps_fst_55m_51c">
+                    <substep>
+                        <cmd>In the workspace where the situation event console view displays,
+                            right-click the pure event (or the situation that has been stopped or
+                            deleted) you want to close. Pure events are indicated by <image
+                                href="../Images/10.png" width="15" height="15"
+                                id="image_ch4_1vm_51c"/>Expand in the first cell and <i>Pure</i> in
+                            the <b>Type</b> cell of the event row.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click one of the following options:</cmd>
+                    </substep>
+                </substeps>
+                <choices id="choices_a2m_dvm_51c">
+                    <choice><b>Close Event</b> → <image href="../Images/52.jpg" width="15"
+                            height="15" id="image_ilv_gvm_51c"/><b>Close Situation
+                        Event</b></choice>
+                    <choice><b>Close Event </b>→ <b>Close Situation Event with Notes</b></choice>
+                </choices>
+            </step>
+        </steps>
+        <result id="result_mdj_hvm_51c">The indicator disappears until another pure event
+            arrives.</result>
+        <postreq id="postreq_lj2_3vm_51c">Here are some notes about what you can and cannot do after
+            an event has been closed:<ul id="ul_jyr_kvm_51c">
+                <li>If you close an event, you cannot acknowledge it.</li>
+                <li>You can open the notes and any attachments for a closed event through the pop-up
+                    menu of the view.</li>
+                <li>If you know you need to take an action that will trigger an event, such as
+                    stopping an application, but you do not want notification, you can take
+                    preemptive measures to stop an event from opening: You can stop the situation
+                    then restart it when you want it to begin running again; or, if you can schedule
+                    the time when you don't want the situation to run, you can add a time expression
+                    to the situation.</li>
+            </ul></postreq>
+    </taskbody>
+</task>

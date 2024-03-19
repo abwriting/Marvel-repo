@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="c_event_reporting">
+    <title>Event Reporting</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <conbody>
+        <p>For situations that are associated with Navigator items, alert indicators are displayed
+            whenever an event is opened. Several workspace views are also available for displaying
+            situation and event status.</p>
+        <p>Event views present alternatives to event indicators in the Navigator. Message log and
+            situation event console views update automatically to show new events as they arrive and
+            changes in event status as they occur. Graphic views give you a pictorial alternative to
+            the Navigator for indicating alerts.</p>
+    </conbody>
+</concept>

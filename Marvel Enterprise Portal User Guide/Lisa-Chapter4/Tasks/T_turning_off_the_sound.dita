@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_turning_off_the_sound">
+    <title><b>Turning off the Sound</b></title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Turn off sound</indexterm>
+                <indexterm>Turn on sound</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>When an event is opened for a situation that has a WAV file assigned, the sound plays
+                while the event is open.</p>
+            <p>
+                <ul id="ul_utr_1xm_51c">
+                    <li>To turn the sound off, click <image
+                            href="../Images/T_turning_off_the_sound.jpg" id="image_wpq_2xm_51c"
+                            height="15" width="15"/><b>Turn Sound OFF</b>.</li>
+                    <li>To turn the sound back on, click <image
+                            href="../Images/T_turning_on_the_sound.jpg" id="image_k2d_hxm_51c"
+                            height="15" width="15"/><b>Turn Sound ON</b>.</li>
+                </ul>
+            </p>
+        </context>
+        <postreq id="postreq_dk5_3xm_51c">Use your Windows Sound and Audio Devices or Multimedia
+            utility, accessible from the Control Panel, to adjust the volume of event
+            sounds.</postreq>
+    </taskbody>
+</task>
