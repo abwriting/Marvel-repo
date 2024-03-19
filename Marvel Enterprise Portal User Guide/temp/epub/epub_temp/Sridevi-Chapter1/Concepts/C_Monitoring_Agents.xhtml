@@ -1,0 +1,143 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+   
+   <head>
+      
+      
+      <meta name="copyright" content="(C) Copyright 2024" />
+      
+      <meta name="DC.rights.owner" content="(C) Copyright 2024" />
+      
+      <meta name="generator" content="DITA-OT" />
+      <meta name="DC.type" content="concept" />
+      
+      <meta name="DC.title" content="Monitoring Agents" />
+      
+      <meta name="abstract" content="" />
+      
+      <meta name="description" content="" />
+      
+      <meta name="DC.subject" content="Monitoring Agents, MQSI Agent, Threshold" />
+      
+      <meta name="keywords" content="Monitoring Agents, MQSI Agent, Threshold" />
+      
+      <meta name="DC.creator" content="Sridevi" />
+      
+      <meta name="DC.format" content="XHTML" />
+      
+      <meta name="DC.identifier" content="C_Monitoring_Agents" />
+      
+      <link rel="stylesheet" type="text/css" href="../../commonltr.css" />
+      
+      <link rel="stylesheet" type="text/css" href="../../epubStyles.css" />
+      
+      <title>Monitoring Agents</title>
+      </head>
+   
+   <body id="C_Monitoring_Agents">
+      
+      
+      <h1 class="title topictitle1">Monitoring Agents</h1>
+      
+      
+      
+      <div class="body conbody">
+         <p class="shortdesc"></p>
+         
+         
+         <p class="p">Marvel Enterprise Monitoring Agents are installed where you have resources you want
+            to
+            monitor. The agents and the operating system, subsystem or computer that they are
+            running on are referred to as managed systems. The Navigator Physical view shows the
+            types of agents installed and running on each managed system.</p>
+         
+         
+         <p class="p">Some agents also have subagents. In such instances the agent is the managing agent.
+            For
+            example, the WebSphere® MQ Integrator Series agent has MQSI Broker subagents. Subagents
+            are displayed in the Navigator below the managing agent and its attribute groups.</p>
+         
+         
+         <div class="p"><img alt="../../images/I_system_bullet_type.png" class="image" id="C_Monitoring_Agents__image_sbg_sjc_yxb" src="../../images/I_system_bullet_type.png" width="10" height="10" /> MQSI Agent- KQIA
+            <ul class="ul" id="C_Monitoring_Agents__ul_jx1_3jc_yxb">
+               
+               <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_xd3_tjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" />MQSI Components</li>
+               
+               
+               <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_rf5_tjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Product Events</li>
+               
+               
+               <li class="li"><img alt="../../images/I_agent_bullet_type.png" class="image" id="C_Monitoring_Agents__image_fvh_vjc_yxb" src="../../images/I_agent_bullet_type.png" width="10" height="10" /> MQSI Broker MQSIBroker1::KQIB
+                  <ul class="ul" id="C_Monitoring_Agents__ul_ymm_njc_yxb">
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_thp_xjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Broker Events</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_vpw_xjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Flow Events</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_ay1_yjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Broker
+                        Information</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_ax2_yjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Broker
+                        Statistics</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_us3_yjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Execution Group
+                        Statistics</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_i2t_yjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Message Flow
+                        Statistics</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_abx_yjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Neighbors</li>
+                     
+                     
+                     <li class="li"><img alt="../../images/I_resource_bullet_type.png" class="image" id="C_Monitoring_Agents__image_at1_zjc_yxb" src="../../images/I_resource_bullet_type.png" width="10" height="10" /> Topics</li>
+                     
+                     </ul>
+                  </li>
+               
+               </ul>
+            </div>
+         
+         
+         <p class="p">The agent gathers the current values of the attributes (elements) specified in a view.
+            Gathered attribute values can also be tested against a threshold and display an event
+            indicator when conditions exceed the threshold. Some agents have fewer than 100
+            attributes, and many have several hundred. These attribute values are displayed in
+            the
+            table and chart views of workspaces at the system, agent, and attribute group level
+            of
+            the Navigator Physical view. When an attribute value (or range of values) is specified
+            in a situation, as a table threshold, or as a chart or table view filter, Marvel
+            Enterprise Portal compares the current value with the value specified and does the
+            following:</p>
+         
+         
+         <div class="p">
+            
+            <ul class="ul" id="C_Monitoring_Agents__ul_fvr_5jq_1yb">
+               
+               <li class="li">If the comparison in the situation is met, then the situation is true and event
+                  indicators are displayed in the Navigator.</li>
+               
+               
+               <li class="li">If the compared value exceeds the threshold specified for the table, the cell is
+                  highlighted in red, yellow, or blue.</li>
+               
+               
+               <li class="li">If the compared value meets the filter condition, it is included in the chart or
+                  table display. </li>
+               
+               </ul>
+            
+            </div>
+         
+         </div>
+      
+      </body>
+   </html>

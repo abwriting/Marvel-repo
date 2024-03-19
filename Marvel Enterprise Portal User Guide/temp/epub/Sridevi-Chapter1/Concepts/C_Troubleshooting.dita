@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /C:\Users\AbrarSyed\Downloads\Marvel DITA project\Marvel-repo\Marvel Enterprise Portal User Guide\temp\epub\Sridevi-Chapter1\Concepts?><?workdir-uri file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/temp/epub/Sridevi-Chapter1/Concepts/?><?path2project ..\..\?><?path2project-uri ../../?><?path2rootmap-uri ../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="C_Troubleshooting" ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" class="- topic/topic concept/concept " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="concept:1;3:33" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="title:1;4:12">Troubleshooting</title>
+    <shortdesc class="- topic/shortdesc " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="shortdesc:1;5:16">This list provides some general debugging information.</shortdesc>
+    <prolog class="- topic/prolog " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="prolog:1;6:13">
+        <author class="- topic/author " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="author:1;7:17">Sridevi</author>
+        <metadata class="- topic/metadata " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="metadata:1;8:19">
+            <keywords class="- topic/keywords " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="keywords:1;9:23">
+                <indexterm class="- topic/indexterm " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="indexterm:1;10:28">Marvel general troubleshooting<indexterm class="- topic/indexterm " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="indexterm:2;10:69">Marvel
+                    prerequisites</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="conbody:1;15:14">
+        <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:1;16:12">
+            <ol id="ol_x4f_tbz_xxb" class="- topic/ol " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="ol:1;17:37">
+                <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:1;18:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:2;19:24">When you start the Marvel Run Portal be sure that you direct the output into
+                        a local log file where you can examine it. The log file often contains
+                        useful information. Examine it when you have a problem, and be prepared to
+                        answer questions about it when you talk to a support person.</p>
+                </li>
+                <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:2;24:21">If the Marvel Run Portal appears to have started correctly (which you can
+                    determine from the log file), try running<cmdname class="+ topic/keyword sw-d/cmdname " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="cmdname:1;25:71"> lmstat ‐a </cmdname>and
+                    lmdiag to see if that program has the same problem as your application.</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:3;27:21">If your application is version 1.0, you can use the
+                        <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="cmdname:2;28:34">Marvel_DIAGNOSTICS</cmdname> environment variable. Set
+                        <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="cmdname:3;29:34">Marvel_DIAGNOSTICS</cmdname> to 1, 2, or 3. A setting of 3 gives
+                    more information than 2, 2 gives more information than 1 (in particular, the
+                    feature name that was denied).</li>
+                <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:4;32:21">
+                    <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:3;33:24">When you talk to a support person, be prepared with answers to the following
+                        questions:</p>
+                    <ul id="ul_af5_4cz_xxb" class="- topic/ul " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="ul:1;35:45">
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:5;36:29">What kind of system is your license server running on?</li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:6;37:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:4;38:32">What version of the operating system?</p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:7;40:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:5;41:32">What system and operating system is the application running on?</p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:8;43:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:6;44:32">What version of Marvel Run Portal is in use?</p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:9;46:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:7;47:32">What error or warning messages appear in the log file?</p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:10;49:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:8;50:32">Did the server start correctly? Look for a message such as:
+                                    <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="codeph:1;51:45">server xyz started for: feature1 feature2</codeph></p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:11;53:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:9;54:32">What is the output from running <cmdname class="+ topic/keyword sw-d/cmdname " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="cmdname:4;54:73">lmstat ‐a</cmdname>?</p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:12;56:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:10;57:32">Are you using a combined license file or separate license files?</p>
+                        </li>
+                        <li class="- topic/li " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="li:13;59:29">
+                            <p class="- topic/p " xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Sridevi-Chapter1/Concepts/C_Troubleshooting.dita" xtrc="p:11;60:32">Are you using three-server redundancy (i.e., there are multiple
+                                SERVER lines in your license file)?</p>
+                        </li>
+                    </ul>
+                </li>
+            </ol>
+        </p>
+    </conbody>
+</concept>
