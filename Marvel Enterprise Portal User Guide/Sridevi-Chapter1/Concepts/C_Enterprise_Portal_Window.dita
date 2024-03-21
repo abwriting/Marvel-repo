@@ -19,14 +19,14 @@
             your enterprise. On the left is the Navigator, which shows the arrangement of your
             monitored network and allows you to access information collected by different agents on
             your monitored systems. On the right is a workspace. The workspace can be divided into
-            as many smaller frames, or panes,as you can reasonably fit inside the window. When you
+            as many smaller frames, or panes, as you can reasonably fit inside the window. When you
             select an item in the Navigator, a new workspace opens with a set of views for that
             item.</p>
         <p>The window comprises the following elements:<dl id="dl_gxd_j43_1yb">
                 <dlentry>
                     <dt>Title bar</dt>
-                    <dd>In browser mode, the title bar shows the name of the workspace. In desktop
-                        mode, the title bar shows the name of the workspace, the name and port
+                    <dd>In browser mode, the title bar displays the name of the workspace. In desktop
+                        mode, the title bar displays the name of the workspace, the name, and port
                         number of the Marvel Enterprise Portal Server, and the user name. For
                         example, <systemoutput>NT Cache Details - mars:14000 - JONDO</systemoutput>
                         tells us that the NT Cache Details workspace is open and the user JONDO is
@@ -35,7 +35,7 @@
                 </dlentry>
                 <dlentry>
                     <dt>Banner</dt>
-                    <dd>The banner is displayed when you run Marvel Enterprise Portal in browser
+                    <dd>The banner is displayed when you run the Marvel Enterprise Portal in the browser
                         mode. You can replace it with your own .GIF graphic, such as your company
                         logo.</dd>
                 </dlentry>
@@ -60,7 +60,7 @@
                                             <p>The File menu has options for working with
                                                 workspaces, setting a trace, and exiting the Marvel
                                                 Enterprise Portal. The Trace Options are used only
-                                                as instructed by a IBM customer support
+                                                as instructed by an IBM customer support
                                                 representative.</p>
                                         </entry>
                                     </row>
@@ -100,7 +100,7 @@
             title bar.</p>
         <p>If your user ID does not have View or Modify permission for a function or does not have
             Workspace Author Mode permission, you will not see certain items in the menus, including
-            the pop-up menus. For example, if you have no Workspace Author Mode permission, the
+            the pop-up menus. For example, if you do not have Workspace Author Mode permission, the
                 <uicontrol>Properties</uicontrol> menu item is not displayed.</p>
     </conbody>
 </concept>
