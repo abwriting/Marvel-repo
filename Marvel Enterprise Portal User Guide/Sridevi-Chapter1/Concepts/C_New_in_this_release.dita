@@ -65,19 +65,19 @@
                 </dlentry>
             </dl><dl id="dl_m1v_4j1_wxb">
                 <dlentry>
-                    <dt>Marvel Enterprise Portal browser support for 32 bit and 64 bit browsers</dt>
-                    <dd>The Marvel Enterprise Portal browser client now supports both 32 bit and 64
+                    <dt>Marvel Enterprise Portal browser support for 32-bit and 64-bit browsers</dt>
+                    <dd>The Marvel Enterprise Portal browser client now supports both 32-bit and 64-
                         bit Firefox and Internet Explorer browsers on both Windows and Linux
                         platforms. Support for the most current Extended Support Release versions of
                         the Firefox browser is now available. Support for earlier versions of
-                        Firefox prior to version 3.6 are no longer supported in the IBM Marvel
+                        Firefox before version 3.6 is no longer supported in the IBM Marvel
                         Monitoring 6.3 release.</dd>
                 </dlentry>
             </dl><dl id="dl_kbr_pj1_wxb">
                 <dlentry>
                     <dt>Java™ 7 support</dt>
                     <dd>The Marvel Enterprise Portal now uses IBM Java 7 as the default JRE for all
-                        deployment modes: desktop, browser, and Java WebStart. Use of IBM Java 5 is
+                        deployment modes: desktop, browser, and Java WebStart. The use of IBM Java 5 is
                         no longer supported in the IBM Marvel Monitoring 6.3 release. </dd>
                 </dlentry>
             </dl><dl id="dl_zqd_rj1_wxb">
@@ -85,10 +85,10 @@
                     <dt>Ability to access multiple Marvel Monitoring domains from a single browser
                         instance</dt>
                     <dd>It is now possible to connect the Marvel Enterprise Portal to multiple IBM
-                        Marvel Monitoring domains from a single browser instance. Prior to release
-                        6.3, if you needed to manage multiple domains using the Marvel Enterprise
+                        Marvel Monitoring domains from a single browser instance. Before release
+                        6.3, if you need to manage multiple domains using the Marvel Enterprise
                         Portal, you were required to either launch separate browser instances (one
-                        for each domain), or use alternate client deployment modes (such as a
+                        for each domain) or use alternate client deployment modes (such as a
                         desktop client or Java WebStart). Minor changes were also made to the Marvel
                         Enterprise Portal for content improvements. New features and capability
                         enhancements were made to the Marvel Management Services. For more
