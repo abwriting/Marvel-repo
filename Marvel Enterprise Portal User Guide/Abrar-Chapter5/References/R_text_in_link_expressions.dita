@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="R_text_in_link_expressions">
+    <title>Text in Link Expressions</title>
+    <shortdesc>You can add text and spaces to the link expression by enclosing them in " double
+        quotes and joining to any other functions with a + plus sign. Here are some
+        examples.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Link Expressions</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <refbody>
+        <properties frame="all" id="properties_gt3_21q_v1c">
+            <prophead>
+                <proptypehd>Link expression</proptypehd>
+                <propvaluehd>Resolves to</propvaluehd>
+            </prophead>
+            <property>
+                <proptype><codeph>$kfw.LinkSymbolsGroup:PBASED.SOURCE_CONTEXT.2.-1022$</codeph></proptype>
+                <propvalue><codeph>Windows Systems</codeph></propvalue>
+            </property>
+            <property>
+                <proptype><codeph>"My"
+                        +$kfw.LinkSymbolsGroup:PBASED.SOURCE_CONTEXT.2.-1022$</codeph></proptype>
+                <propvalue><codeph>My Windows Systems</codeph></propvalue>
+            </property>
+            <property>
+                <proptype><codeph>"My "+$kfw.LinkSymbolsGroup:PBASED.SOURCE_CONTEXT.2.-1022$ +
+                        "Now"</codeph></proptype>
+                <propvalue><codeph>My Windows Systems Now</codeph></propvalue>
+            </property>
+            <property>
+                <proptype><codeph>$kfw.LinkSymbolsGroup:PBASED.SOURCE_CONTEXT.2.-1022$ +" in the
+                        Navigator "+$kfw.TreeAdapter:-1022$ +" view"</codeph></proptype>
+                <propvalue><codeph>Windows Systems in the Navigator Physical
+                    view</codeph></propvalue>
+            </property>
+        </properties>
+    </refbody>
+</reference>

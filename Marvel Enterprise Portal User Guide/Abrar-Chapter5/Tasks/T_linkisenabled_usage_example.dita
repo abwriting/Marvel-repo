@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="C_linkisenabled_usage_example">
+    <title>linkIsEnabled Usage Example</title>
+    <shortdesc/>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>linkIsEnabled Usage Example</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody><context>
+        <p>Follow along with these steps to see how a link to the System workspace was created using
+                the <image href="../Images/I_v_symbol.png" width="15" height="15"/>
+                <b>linkIsEnabled</b> symbol. This example tests the value of the Product cell in the
+                selected row to determine whether or not to offer the link on that row.</p>
+    </context>
+        <steps>
+            <step>
+                <cmd>Open the Managed System Status workspace in the Navigator Physical view: Click
+                        <image href="../Images/I_enterprise.png" width="15" height="15"/>
+                    <b>Enterprise</b> to open the default workspace; right-click <image
+                        href="../Images/I_enterprise.png" width="15" height="15"/>
+                    <b>Enterprise</b> and click <b>Workspace > Managed System Status</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click a row in the Managed System Status table and click <b>Link To</b> >
+                        <image href="../Images/I_link.png" width="15" height="15"/>
+                    <b>Link Wizard</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Create a new link, name it <codeph>System Details</codeph>, select a link type
+                    of <b>Relative</b>, and target the <image
+                        href="../Images/I_windows_system_workspace.png" width="15" height="15"/>
+                    Windows Systems workspace.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Next</b> to go to the Workspace Link Wizard - Parameters.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/I_v_symbol.png" width="15" height="15"/>
+                    <b>thelinkIsEnabled</b> row. The Expression box reads true.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Modify Expression</b>.</cmd>
+            </step>
+            <step>
+                <cmd>In the Expression Editor, click <b>Clear</b>, and then click
+                    <b>Symbol</b>.</cmd>
+            </step>
+            <step>
+                <cmd>In the <b>Symbols</b> list, select <image href="../Images/I_v_symbol.png"
+                        width="15" height="15"/>
+                    <b>Product</b> and click <b>OK</b>. The expression is displayed as<codeph>
+                        $kfw.INODESTS:ATTRIBUTE.INODESTS.PRODUCT$</codeph>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Operator</b>, select <image href="../Images/I_EQ.png" width="15"
+                        height="15"/>
+                    <b>Equal</b> and click <b>OK</b> to see the == operator.</cmd>
+            </step>
+            <step>
+                <cmd>Type "NT" at the end of the expression, which should then read,<codeph>
+                        $kfw.INODESTS:ATTRIBUTE.INODESTS.PRODUCT$ == "NT"</codeph>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Evaluate</b>. If the row from where you started the Link Wizard has
+                        <codeph>NT</codeph> in the Product column, the test will betrue; otherwise,
+                    it will be <codeph>false</codeph>.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Finish</b>.</cmd>
+                <info>Click the <image href="../Images/I_link.png" width="15" height="15"/> link
+                    indicator in one of the NT rows to open the Services workspace for that
+                    monitoring agent. Note that you can disable the link indicator for invalid rows
+                    by clearing <image href="../Images/I_checkbox_empty.png" width="15" height="15"/>
+                    <b>Link Indicator Always Enabled</b>.</info>
+            </step>
+        </steps></taskbody>
+</task>

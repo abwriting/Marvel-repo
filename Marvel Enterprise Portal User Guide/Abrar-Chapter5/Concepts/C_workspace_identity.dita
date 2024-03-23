@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_workspace_identity">
+    <title>Workspace Identity</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_rhd_r4b_v1c">
+                <dlentry>
+                    <dt>Name</dt>
+                    <dd>The title of the workspace. The workspace name is displayed in the title bar
+                        or browser mode banner, in the <b>View → Workspace</b> list, or in the
+                            <b>Link To</b> list menu, depending on how you have set the workspace
+                        options (see below). Do not use an &amp; ampersand or # pound sign in the
+                        title.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Description</dt>
+                    <dd>Optional. The description can be a full text description of the
+                        workspace.</dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

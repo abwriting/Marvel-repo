@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_restoring_the_original_workspace">
+    <title>Restoring the Original Workspace</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Restore Original Workspace</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>If you have edited a predefined workspace or one created in administration mode, you
+                can always restore the original version. To restore the original workspace, complete
+                the following procedure:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the predefined or administration-mode-created workspace you want to
+                    restore. If you want to retain the original and edited versions as two separate
+                    workspaces, select Save As from the File menu and give the workspace a new name,
+                    then repeat this step.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>File > Restore Original Workspace</b>. This item is disabled if the
+                    original predefined or administrator-created workspace is already displaying or
+                    if this is a workspace created with your user ID.</cmd>
+            </step>
+            <step>
+                <cmd>When a confirmation message is displayed, click <b>Yes</b> to restore the
+                    original workspace or <b>No</b> if you change your mind. The workspace reverts
+                    to its original state.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

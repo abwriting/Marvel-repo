@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_editing_a_workspace">
+    <title>Editing a Workspace</title>
+    <shortdesc>Use the Properties editor to change the general characteristics of a workspace and to
+        edit the style and content of any of its views. You can delete or restore the original
+        version of an edited workspace through the File menu.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_xbg_srb_v1c">To edit a workspace, your user ID must have Workspace Author
+            Mode permission.</prereq>
+        <context>
+            <p>To edit a workspace:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace that you want to edit, then click <image
+                        href="../Images/I_workspace%20_properties.png" width="15" height="15"
+                        id="image_d13_wrb_v1c"/>
+                    <b>Properties</b>. The Properties editor opens. The tree on the left shows the
+                    workspace name selected, with the workspace properties on the right.</cmd>
+            </step>
+            <step>
+                <cmd>Make any changes to the <b>Workspace Identity</b> and <b>Workspace Options</b>.
+                    You can always return to the general workspace properties by clicking the name
+                    of the workspace at the top of the Properties tree.</cmd>
+            </step>
+            <step>
+                <cmd>If you want to edit the properties for a particular view, select the view from
+                    the Properties tree.</cmd>
+            </step>
+            <step>
+                <cmd>When you are finished editing the workspace or view, do one of the
+                    following:</cmd>
+                <choices id="choices_nrz_zrb_v1c">
+                    <choice>Click <b>Apply</b> to save your changes, then select another view to
+                        edit from the Properties tree.</choice>
+                    <choice>Click <b>OK</b> to save your changes and close the Properties
+                        editor.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>If you want to keep the changes you made for future work sessions, do one of
+                    the following:</cmd>
+                <choices id="choices_b2k_dsb_v1c">
+                    <choice>Click <image href="../Images/I_save.png" width="15" height="15"
+                            id="image_sr4_2sb_v1c"/>
+                        <b>Save</b> to update the workspace properties with the changes you just
+                        made.</choice>
+                    <choice>Click <b>File > Save Workspace As</b> to save this as a new workspace
+                        and leave the original workspace unchanged.</choice>
+                </choices>
+            </step>
+        </steps>
+        <result id="result_nk4_gsb_v1c">Changes you make to a workspace are available only to your
+            user ID; no other users will see your changes. The exception is when you are in
+            workspace administration mode, where any workspace customization you do will be
+            available to all users.</result>
+    </taskbody>
+</task>

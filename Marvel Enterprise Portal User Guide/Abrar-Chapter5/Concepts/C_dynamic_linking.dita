@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_dynamic_linking">
+    <title>Dynamic Linking</title>
+    <shortdesc>The dynamic link type has you specify an identifier for the target workspace. When
+        the source is a table row or chart point, you can often select a symbol for an attribute
+        that identifies the managed system.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Dynamic Linking</indexterm>
+                <indexterm>Link Wizard</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_ax2_s5p_v1c">
+                <dlentry>
+                    <dt>Target Filter</dt>
+                    <dd>Managed system name</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Expression</dt>
+                    <dd><codeph>$EventConsoleRow:ATTRIBUTE.ISITSTSH.ORIGINNODE$</codeph></dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Symbol</dt>
+                    <dd><image href="../Images/I_tree_2.png" id="image_zk5_y5p_v1c" align="left"
+                                /><p><image href="../Images/I_tree_3.png" id="image_a2k_dvp_v1c"
+                            /></p></dd>
+                </dlentry>
+            </dl>
+        </p>
+        <p>When you cannot find a symbol for the managed system, consider using another identifier.
+            In the example here, the link source is a Navigator item and the target filter chosen is
+            either the Hostname or IP address.</p>
+        <p><image href="../Images/I_tree_4.png" id="image_eng_jvp_v1c"/></p>
+    </conbody>
+</concept>

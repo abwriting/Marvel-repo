@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_testing_the_link">
+    <title>Testing the Link</title>
+    <shortdesc>You can test the link you have created to ensure that it works correctly.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Test link</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To test a link you have created:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>In the source workspace, right-click the location where you created the
+                    link.</cmd>
+            </step>
+            <step>
+                <cmd>Click<b> Link To</b> and select the link from the <image
+                        href="../Images/I_link.png" width="15" height="15" id="image_bg5_sfc_v1c"/>
+                    list. The value of the symbols specified in the link definition are used to
+                    select the target workspace and filter its content. An example is a link from a
+                    row in a view that includes the <b>Process Name</b>, and the value of Process
+                    Name is passed to the target workspace. The view whose symbol was targeted will
+                    show information about that particular process.</cmd>
+            </step>
+            <step>
+                <cmd>If the target workspace does not display what you expected or a Target not
+                    found message is displayed, edit the link.</cmd>
+                <info>
+                    <note id="note_mml_rgc_v1c" type="tip">If you were prompted to select the target
+                        workspace but wanted the link definition to be specific so you would not
+                        have to choose from a list, do one of two things: If you had chosen Relative
+                        as the link type, define a new link and select a link type of Absolute; or
+                        make it Dynamic and supply the expression in the target filter to target the
+                        specific workspace.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

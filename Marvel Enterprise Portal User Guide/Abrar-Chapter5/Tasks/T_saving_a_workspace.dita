@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_saving_a_workspace">
+    <title>Saving a Workspace</title>
+    <shortdesc>You must save a workspace to maintain the changes you make to the workspace
+        properties; otherwise, the changes you have made are lost.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_aq3_frb_v1c">Your user ID requires Workspace Author Mode permission to
+            create and maintain workspaces, including links. If the main toolbar is disabled (except
+            Refresh, Back, Forward and Stop), as well as the split and remove buttons on the view
+            title bar, you do not have this permission.</prereq>
+        <context>
+            <p>Whatever changes you make to the workspace properties, such as adding a view or
+                defining a link, are only temporary. They will be lost when you open another
+                workspace or exit Marvel Enterprise Portal unless you save the workspace. </p>
+            <p>The saved workspace is associated with your Marvel Enterprise Portal user ID. Users
+                with a different ID will not see your changes unless you were in workspace
+                administration mode when you authored them.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>To save the current workspace, click <image href="../Images/I_save.png"
+                        width="15" height="15" id="image_tks_jrb_v1c"/>
+                    <b>Save</b>.</cmd>
+            </step>
+            <step>
+                <cmd>To save the current workspace as a new workspace and leave the original
+                    unchanged, click <b>File > Save Workspace As</b>, type a name for the new
+                    workspace, check any of the workspace options that you want to apply, and click
+                        <b>OK</b>. The workspace is saved with the name and options you specify, and
+                    is available to all systems with items of the same type. For example, if you
+                    create a new workspace for your Windows agent then all systems with that
+                    monitoring agent will be able to open the new workspace.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

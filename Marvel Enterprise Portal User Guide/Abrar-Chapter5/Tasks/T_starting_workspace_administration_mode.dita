@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_starting_workspace_administration_mode">
+    <title>Starting Workspace Administration Mode</title>
+    <shortdesc>Typically, workspaces you create are saved with your user ID and no other users can
+        see them. You can turn on administration mode so that all workspaces you edit and save while
+        in this mode are shared with all users who log on to the same Marvel Enterprise Portal
+        Server.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_s1m_2b5_51c">In workspace administration mode, the changes you make to
+            link definitions, launch application definitions, and terminal emulator scripts are also
+            shared with other users. If users edit a shared workspace, the edited workspace becomes
+            their personal copy. Any changes made to that workspace in administrator mode will no
+            longer be received by the user. All other users, including the administrator, continue
+            to use the shared (global) version.<p>To use this function, your user ID must be
+                SYSADMIN or created from that administrator ID and have View and Administration Mode
+                Eligible permissions for User Administration.</p></prereq>
+        <steps>
+            <step>
+                <cmd>Click <image href="../Images/I_user.png" width="15" height="15"
+                        id="image_hfz_qb5_51c"/>
+                    <b>Administer Users</b> to open the profiles for all users and user
+                    groups.</cmd>
+            </step>
+            <step>
+                <cmd>In the <image href="../Images/I_user.png" width="15" height="15"
+                        id="image_ulc_sb5_51c"/>
+                    <b>Users</b> list, click your user ID.</cmd>
+            </step>
+            <step>
+                <cmd>In the <image href="../Images/I_key.png" width="15" height="15"
+                        id="image_igl_tb5_51c"/>
+                    <b>Permissions</b> tab, scroll down the Authorities tree and click <image
+                        href="../Images/I_user.png" width="15" height="15" id="image_cbm_5b5_51c"/>
+                    <b>Workspace Administration</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Enable <image href="../Images/I_checkbox.png" width="15" height="15"
+                        id="image_umn_wb5_51c"/><b> Workspace Administration Mode</b>. (Clearing the
+                    check box turns off workspace administration mode.)</cmd>
+            </step>
+            <step>
+                <cmd>To save your changes, click <b>Apply</b> to keep the window open or <b>OK</b>
+                    to close it.</cmd>
+            </step>
+        </steps>
+        <result id="result_xst_xb5_51c">The title bar and status bar display *<b>ADMIN MODE</b>*
+            after the user name to indicate that your user ID is in workspace administration mode.
+            Any changes that you make to workspaces (including the workspace gallery), link
+            definitions, launch application definitions, and terminal emulator scripts while in
+            workspace administration mode will be shared with other users connected to the same
+            portal server as soon as you save your changes. Likewise, these changes cannot be
+            removed except from within workspace administration mode.<p>In workspace administration
+                mode, you can access all workspace definitions associated with a particular
+                Navigator item including those that are marked as <image
+                    href="../Images/I_checkbox.png" width="15" height="15" id="image_mz4_1c5_51c"/>
+                <b>Only selectable as the target of a Workspace Link</b>. This enables you to modify
+                the target workspaces directly without having to first traverse the link. If a
+                target workspace is dependent on information from the source workspace, you will get
+                display errors when you open the workspace through the <b>Workspace gallery</b>
+                rather than the <b>Link To</b> list.</p><p>Private workspaces that were created by a
+                user outside of workspace administration mode cannot be seen while in administration
+                mode, even if you are that user. For example, if you created private workspace "My
+                charts", you will not see "My charts" in the list of available workspaces while you
+                have workspace administration mode turned on.</p></result>
+        <postreq id="postreq_zrj_dc5_51c">When editing a workspace in administration mode, select
+                <image href="../Images/I_checkbox.png" width="15" height="15" id="image_vv1_fc5_51c"/>
+            <b>Do not allow modifications</b> in the workspace properties. Otherwise, if a user
+            edits that workspace, you no longer control the workspace and cannot override their
+            changes with any changes you make.<p>When you are finished configuring workspaces for
+                all users, turn off workspace administration mode by repeating these steps and
+                clearing the <b>Workspace Administration Mode</b> check box.</p></postreq>
+    </taskbody>
+</task>

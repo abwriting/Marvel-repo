@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_relative_link_from_a_navigator_item">
+    <title>Relative Link from a Navigator Item</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Relative Link from a Navigator Item</indexterm>
+                <indexterm>Source Point</indexterm>
+                <indexterm>Link Type</indexterm>
+                <indexterm>Target Workspace</indexterm>
+                <indexterm>Parameters</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>You can link from a workspace at the system level of the Navigator to a workspace at the
+            platform level. Because it is relative, the link is available from any system level
+            Navigator item (NODE1, NODE2, NODE3) to the parent Windows Systems workspace. In an
+            environment with many Windows systems being monitored, this link enables a quick jump
+            from the expanded branch to the parent workspace.</p>
+        <p><image href="../Images/I_tree_5.png" id="image_fyf_bwp_v1c" align="left"/></p>
+        <p>
+            <dl id="dl_hf5_fwp_v1c">
+                <dlentry>
+                    <dt>Source Point</dt>
+                    <dd>Any of the NODE Navigator items</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Link Type</dt>
+                    <dd>Relative</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Target Workspace</dt>
+                    <dd><image href="../Images/I_folder.png" width="15" height="15"
+                            id="image_v1w_lwp_v1c"/> Windows Systems > Windows Systems</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Parameters</dt>
+                    <dd>
+                        <p>The expression is built automatically from the source context and the
+                            workspace that was selected as the target.<ul id="ul_bnm_pwp_v1c">
+                                <li><image href="../Images/I_v_symbol.png" width="15" height="15"
+                                        id="image_s5p_rwp_v1c"/>
+                                    <codeph>contextIsAvailable:</codeph></li>
+                                <li><codeph>$kfw.TreeAdapter:-1021A$ ==
+                                        $kfw.LinkSymbolsGroup:PBASED.SOURCE_CONTEXT.0.-1021A$
+                                        &amp;&amp; $kfw.Context:-5000$ &amp;&amp;</codeph></li>
+                                <li><codeph>$kfw.TreeAdapter:-1021A$ ==
+                                        $kfw.LinkSymbolsGroup:PBASED.SOURCE_CONTEXT.3.-1021A$
+                                        &amp;&amp; $kfw.Context:-5000$</codeph></li>
+                                <li><image href="../Images/I_v_symbol.png" width="15" height="15"
+                                        id="image_wmn_zwp_v1c"/>
+                                    <codeph>linkIsEnabled: true</codeph></li>
+                            </ul></p>
+                    </dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

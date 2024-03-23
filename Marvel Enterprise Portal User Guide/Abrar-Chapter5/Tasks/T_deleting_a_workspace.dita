@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_deleting_a_workspace">
+    <title>Deleting a Workspace</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Delete a Workspace</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Use the following steps to delete a workspace:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace you want to delete. You cannot delete predefined workspaces.
+                    As well, you cannot delete workspaces that were created in workspace
+                    administration mode unless you are currently in workspace administration
+                    mode.</cmd>
+            </step>
+            <step>
+                <note id="note_xnt_bwb_v1c" type="caution">When you delete a workspace, all link
+                    definitions that reference it will be deleted also.</note>
+                <cmd>Click <b>File > Delete Workspace</b>. This item is disabled if the workspace is
+                    predefined, was created in administration mode and your user ID is not currently
+                    in workspace administration mode, or if the workspace properties item Do Not
+                    Allow Modifications is selected.</cmd>
+            </step>
+            <step>
+                <cmd>When a confirmation message is displayed, click <b>Yes</b> to delete the
+                    current workspace or <b>No</b> if you change your mind. The default workspace
+                    for that Navigator item displays.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_defining_links_between_workspaces">
+    <title>Defining Links between Workspaces</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Define links between workspaces</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>The Marvel Enterprise Portal enables you to define a link from one workspace to another.
+            Then you can quickly jump to a related workspace or a sequence of workspaces that you
+            like to frequently review. </p>
+        <p>You can define a link from a Navigator item, or from a table, chart, graphic view within
+            a workspace. A link from a workspace or graphic view provides a shortcut from one
+            workspace to another, as does a link from a table row (or chart data series). Links from
+            a table row are different in that they can use data from one or more values in the row
+            to locate and filter the target workspace. </p>
+        <p>Your user ID requires Workspace Author Mode permission to create and maintain workspaces,
+            including links. If the view tools are disabled, you do not have this permission.</p>
+    </conbody>
+    <related-links>
+        <link href="../../Lisa-Chapter3/Tasks/T_linking_to_a_workspace.dita">
+            <linktext>Linking to a workspace</linktext>
+            <desc>Use these steps to link to a workspace that has been targeted from the current
+                Navigator item or view.</desc>
+        </link>
+    </related-links>
+</concept>

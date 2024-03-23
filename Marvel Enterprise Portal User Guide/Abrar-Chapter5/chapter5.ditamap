@@ -19,4 +19,33 @@
         <topicref href="Tasks/T_opening_a_new_window.dita"/>
         <topicref href="Concepts/C_conclusion.dita"/>
     </topicref>
+    <topicref href="Tasks/T_starting_workspace_administration_mode.dita"/>
+    <topicref href="Concepts/C_workspace_properties.dita">
+        <topicref href="Concepts/C_workspace_identity.dita"/>
+        <topicref href="Concepts/C_workspace_options.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_creating_a_new_workspace.dita"/>
+    <topicref href="Tasks/T_saving_a_workspace.dita"/>
+    <topicref href="Tasks/T_editing_a_workspace.dita"/>
+    <topicref href="Tasks/T_renaming_a_workspace.dita"/>
+    <topicref href="Tasks/T_deleting_or_restoring_a_workspace.dita">
+        <topicref href="Tasks/T_deleting_a_workspace.dita"/>
+        <topicref href="Tasks/T_restoring_the_original_workspace.dita"/>
+    </topicref>
+    <topicref href="Concepts/C_defining_links_between_workspaces.dita">
+        <topicref href="Tasks/T_creating_a_new_link.dita"/>
+        <topicref href="Tasks/T_testing_the_link.dita"/>
+        <topicref href="Tasks/T_editing_a_link_definition.dita"/>
+        <topicref href="Tasks/T_deleting_a_link_definition.dita"/>
+        <topicref href="Tasks/T_adding_or_editing_a_link_anchor.dita"/>
+        <topicref href="Concepts/C_link_examples.dita">
+            <topicref href="Concepts/C_dynamic_linking.dita"/>
+            <topicref href="Concepts/C_relative_link_from_a_navigator_item.dita"/>
+            <topicref href="Tasks/T_linkisenabled_usage_example.dita">
+                <topicref href="References/R_text_in_link_expressions.dita"/>
+                <topicref href="Concepts/C_symbols_in_text.dita"/>
+            </topicref>
+            <topicref href="Concepts/C_link_anchor_properties.dita"/>
+        </topicref>
+    </topicref>
 </map>

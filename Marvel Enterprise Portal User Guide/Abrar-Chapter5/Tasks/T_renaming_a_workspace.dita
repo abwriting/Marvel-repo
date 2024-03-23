@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_renaming_a_workspace">
+    <title>Renaming a Workspace</title>
+    <shortdesc>You can rename a workspace to better suit your environment.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Rename Workspace</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Use the following steps to rename a workspace:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace whose name you want to change.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/I_workspace%20_properties.png" width="15"
+                        height="15" id="image_e3s_rsb_v1c"/>
+                    <b>Properties</b>. You can also open the Workspace properties from within the
+                    Properties editor by selecting the first item in the tree, which is the
+                    Navigator item to which the workspace belongs.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the title in the <b>Name</b> text box.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

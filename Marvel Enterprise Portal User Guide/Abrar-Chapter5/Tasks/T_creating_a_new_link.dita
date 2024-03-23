@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_creating_a_new_link">
+    <title>Creating a New Link</title>
+    <shortdesc>Use the link wizard to define a link from a Navigator item, graphic view, or
+        query-based view that opens the targeted workspace in the same or new windows.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Create new link</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_kmv_jyb_v1c">The workspace link feature in the Tivoli Enterprise Portal
+            enables you to create simple links or advanced links. A simple link can originate from a
+            Navigator item or from a data series in a chart or table. Context information is passed
+            from the source workspace to determine which target workspace to open.</prereq>
+        <context>
+            <p>Complete these steps to create a new workspace link.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Create a new link:</cmd>
+                <substeps id="substeps_lth_lyb_v1c">
+                    <substep>
+                        <cmd>Open the source workspace.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Right-click one of the following possible link source locations:</cmd>
+                        <info>
+                            <p>The highlighted Navigator item for this workspace.</p>
+                            <p>An icon in a graphic view.</p>
+                            <p>An object in a Tivoli Management Services Infrastructure view.</p>
+                            <p>A row in a table view or situation event console view.</p>
+                            <p>A data point in a chart view.</p>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>Click<b> Link To > </b><image href="../Images/I_link.png" width="15"
+                                height="15" id="image_ahq_pzb_v1c"/><b> Link Wizard</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select <image href="../Images/I_radio_selected.png" width="15"
+                                height="15" id="image_wc5_5zb_v1c"/> Create a new link and click
+                                <b>Next></b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Type a <b>Name</b> and <b>Description</b> to identify the link, then
+                            click <b>Next</b>.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>Select the link type and target:</cmd>
+                <substeps id="substeps_lkz_zzb_v1c">
+                    <substep>
+                        <cmd>Select one of the following link types and click <b>Next</b> to open
+                            the Workspace Link Wizard - Target Workspace window.</cmd>
+                        <info>
+                            <simpletable frame="all" relcolwidth="1* 1*"
+                                id="simpletable_bjp_k1c_v1c">
+                                <strow>
+                                    <stentry><image href="../Images/I_radio_selected.png" width="15"
+                                            height="15" id="image_uqj_l1c_v1c"/>
+                                        <b>Dynamic</b></stentry>
+                                    <stentry>The dynamic link method offers flexibility in your
+                                        choice of workspace targets. A dynamic link is similar to a
+                                        relative link and, with some link definitions, behaves in
+                                        the same way. What is different is that the path to the
+                                        target workspace uses a system identifier passed by the
+                                        source query-based view. The identifier can be managed
+                                        system name, IP address, host name, Systems Management
+                                        Facilities ID, or Product Code.</stentry>
+                                </strow>
+                                <strow>
+                                    <stentry><image href="../Images/I_radio_empty.png" width="13"
+                                            height="15" id="image_txn_q1c_v1c"/>
+                                        <b>Absolute</b></stentry>
+                                    <stentry>An absolute link stores the managed system name of the
+                                        chosen target, and goes only there. For example, if you
+                                        target the <b>Databases Information</b> workspace on the
+                                            <b>MS SQL Server </b>branch for the <b>Paris</b>
+                                        computer, that is the workspace that will open. The
+                                            <b>Database Information</b> workspace for the
+                                            <b>Geneva</b> computer is not considered.</stentry>
+                                </strow>
+                                <strow>
+                                    <stentry><image href="../Images/I_radio_empty.png" width="13"
+                                            height="15" id="image_ib4_w1c_v1c"/>
+                                        <b>Relative</b></stentry>
+                                    <stentry>A relative link stores the <i>type</i> of source
+                                        workspace and target workspace. The resulting link is
+                                        available from any workspace that is of the same type. If
+                                        more than one workspace fits the definition of the target,
+                                        you are presented with a list of workspaces to choose from.
+                                        For example, a link built from the Paris computer's
+                                            <b>Windows OS</b> workspace to its <b>Memory</b>
+                                        workspace will also be available from the Geneva computer's
+                                            <b>Windows OS</b> workspace and link to its
+                                            <b>Memory</b> workspace.If you are linking between
+                                        Navigator views, relative linking is not recommended.
+                                        Instead, use the absolute or dynamic method for links to the
+                                        Navigator Logical view and other custom Navigator
+                                        views.</stentry>
+                                </strow>
+                            </simpletable>
+                        </info>
+                    </substep>
+                    <substep>
+                        <cmd>If you are targeting a workspace in a different Navigator view, select
+                            the view from the <b>Navigator View</b>
+                            <image href="../Images/I_arrow.png" width="15" height="15"
+                                id="image_h3b_gbc_v1c"/> list.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <b>Navigator</b> tree, expand the branches and select the
+                            Navigator item for the workspace you want to target. The Navigator view
+                            is presented in the left frame. As you open branches and select
+                            Navigator items, the right frame show their workspaces. With an absolute
+                            link, the path you select to the target is interpreted as an exact
+                            match, whereas, with a relative or dynamic link the path is interpreted
+                            as the pattern to follow from the link source to the target
+                            workspace.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In the <b>Workspace</b> pane, select the workspace to target; or, if
+                            this is a dynamic link and you want to more generally classify the link,
+                            select <image href="../Images/I_checkbox.png" width="15" height="15"
+                                id="image_t1b_kbc_v1c"/>
+                            <b>This link does not target a specific workspace</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>If you would like the workspace to open in a new window instead of
+                            replacing the current workspace, select <image
+                                href="../Images/I_checkbox.png" width="15" height="15"
+                                id="image_l5d_mbc_v1c"/>
+                            <b>Always open target workspace in new window</b>. If you are running
+                            the browser client and your browser supports tabbed pages, the workspace
+                            will open in a new tab.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Next</b> or, if this is an absolute or relative link and you
+                            are finished defining the link target, click <b>Next</b> twice to see
+                            the the summary.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>If this is an absolute or relative link and you want to refine the link
+                    definition, click <b>Next</b> and add the expressions.</cmd>
+            </step>
+            <step>
+                <cmd>If this is a dynamic link, the Target Filters window is displayed for you to
+                    select the type of identifier for the target and specify the value to use:</cmd>
+                <substeps id="substeps_tlp_rbc_v1c">
+                    <substep>
+                        <cmd>Click the identifier to use: Managed system name, Hostname (distributed
+                            systems only), IP address (distributed systems only), or SMFID
+                            (z/OS-based systems only) If you are not sure which one to choose, click
+                                <b>Managed System name</b>.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Modify Expression</b> to open the Expression Editor, then
+                            click <b>Symbol</b>. The list is a reverse hierarchy of available <image
+                                href="../Images/I_v_symbol.png" width="15" height="15"
+                                id="image_oht_wbc_v1c"/> symbols starting from the source context
+                            and the current Navigator item and ending at the root Navigator
+                            item.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Select a <image href="../Images/I_v_symbol.png" width="15" height="15"
+                                id="image_xc1_zbc_v1c"/> symbol that provides the value for the
+                            system identifier. For example, <b>Server Name</b> will provide the
+                            value needed for <b>Managed system name</b> when the link is launched.
+                            You might need to open different branches to locate a symbol for the
+                            type of target filter chosen. <image href="../Images/I_tree_1.png"
+                                width="100" height="70" id="image_pkf_gcc_v1c" placement="break"
+                                align="left"/></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>OK</b> add the detailed name for the attribute to the
+                            Expression Editor.
+                                <codeph>$kfw.TableRow:ATTRIBUTE.NTLOGINFO.ORIGINNODE$</codeph></cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Evaluate</b> to verify that the variable resolves correctly.
+                            The Value shown must be valid for the identifier type you specified. For
+                            example, for a computer named TIVOLIUSER,
+                                <codeph>Primary:TIVOLIUSER:NT</codeph> is a valid Windows OS managed
+                            system name and TIVOLIUSER is a valid host name.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>If no value is displayed or you get a syntax error or a value that does
+                            not identify the system, click <b>Clear</b> and select a different
+                            symbol or try another identifier.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>In addition to <b>Symbol</b>, you can click <b>Operator</b> and
+                                <b>Function</b> to find and select other elements to complete the
+                            expression. When you are finished with the expression, click <b>OK</b>
+                            to insert the expression in the current target filter row. Note that
+                            expressions can evaluate to patterns using the asterisk (*) and question
+                            mark (?) wildcard characters. This allows for pattern matching
+                            filters.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>If the target workspace was updated or is new for the latest version of
+                            your monitoring product and your environment has a mix of versions, you
+                            can disable <image href="../Images/I_checkbox.png" width="15"
+                                height="15" id="image_tsd_1fc_v1c"/>
+                            <b>Allow this link to target any version of the target workspace</b> or
+                            leave it enabled: <image href="../Images/I_checkbox.png" width="15"
+                                height="15" id="image_e3f_bfc_v1c"/> Enabled is the default setting.
+                            The target workspace can be chosen for any version of the monitoring
+                            agent. If the query for a view specifies attributes that are available
+                            only in the newer version and the target workspace is for an older
+                            version of the monitoring agent, no values will be returned for those
+                            attributes. <image href="../Images/I_checkbox_empty.png" width="15"
+                                height="15" id="image_m32_cfc_v1c"/> Disable the option if you want
+                            the link not to be offered for target workspaces on earlier versions of
+                            the monitoring agent.</cmd>
+                    </substep>
+                    <substep>
+                        <cmd>Click <b>Next</b> and refine the link definition; or click <b>Next</b>
+                            twice and review the summary.</cmd>
+                    </substep>
+                </substeps>
+            </step>
+            <step>
+                <cmd>In the Workspace Link Wizard - Summary page, review the summary, then click
+                        <b>Finish</b> to save the link definition, <b>Back</b> to return to a
+                    previous window to make additional changes, or <b>Cancel</b> to close the Link
+                    Wizard without saving your changes.</cmd>
+            </step>
+        </steps>
+        <postreq id="postreq_ny4_ffc_v1c">If the target workspace is dependent on information that
+            is passed from the source workspace (users will get an error message if they attempt to
+            open the workspace from the list of available workspace), then edit the workspace
+            properties to hide the workspace unless it is targeted by a link definition.</postreq>
+    </taskbody>
+</task>

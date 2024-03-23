@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_workspace_properties">
+    <title>Workspace Properties</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <conbody>
+        <p>Every workspace has a name and general characteristics defined in the workspace
+            properties.</p>
+        <p>When you save a new workspace with <b>File → Save Workspace As</b>, click <image
+                href="../Images/I_workspace%20_properties.png" width="15" height="15"
+                id="image_ngy_k4b_v1c"/>
+            <b>Properties</b>, or, if the Properties editor is already open, click the top item in
+            the tree to see the workspace properties.</p>
+        <p/>
+    </conbody>
+</concept>

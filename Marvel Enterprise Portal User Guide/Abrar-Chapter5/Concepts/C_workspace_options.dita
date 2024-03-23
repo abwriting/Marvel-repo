@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_workspace_options">
+    <title>Workspace Options</title>
+    <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_tfy_1pb_v1c">
+                <dlentry>
+                    <dt><image href="../Images/I_checkbox_empty.png" width="15" height="15"
+                            id="image_irj_fpb_v1c"/> Assign as default for this Navigator Item</dt>
+                    <dd>Makes this workspace the default for the Navigator item (the one that opens
+                        when you click the Navigator item).</dd>
+                </dlentry>
+            </dl>
+            <dl id="dl_nws_gpb_v1c">
+                <dlentry>
+                    <dt><image href="../Images/I_checkbox_empty.png" width="15" height="15"
+                            id="image_g3s_hpb_v1c"/> Assign as Home Workspace</dt>
+                    <dd>Specifies this as the workspace that opens whenever you start Tivoli
+                        Enterprise Portal, much like your browser home page.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_checkbox_empty.png" width="15" height="15"
+                            id="image_shm_jpb_v1c"/> Do not allow modifications</dt>
+                    <dd>Protects the workspace from permanent changes and must be selected when you
+                        are editing in Workspace administration mode. Users who have access to this
+                        workspace can change it temporarily, but if they attempt to <image
+                            href="../Images/I_save.png" width="15" height="15"
+                            id="image_wk4_npb_v1c"/> save, the Save Workspace As window opens so
+                        that it is saved as a new workspace with a different name. Also, when this
+                        item is enabled you cannot delete the workspace.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_checkbox_empty.png" width="15" height="15"
+                            id="image_fsy_4pb_v1c"/> Only selectable as the target of a Workspace
+                        Link</dt>
+                    <dd>Marks the workspace as hidden except when it is a possible Link To
+                        destination. The workspace does not display in the list of available
+                        workspaces for a Navigator item.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt><image href="../Images/I_checkbox_empty.png" width="15" height="15"
+                            id="image_ykz_qpb_v1c"/> Always open workspace in new window</dt>
+                    <dd>When enabled, this option causes the workspace to open in a new window, or
+                        in a new tab if your browser supports tabbed pages.</dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

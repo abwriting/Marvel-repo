@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_adding_or_editing_a_link_anchor">
+    <title>Adding or Editing a Link Anchor</title>
+    <shortdesc>You can add or edit a link anchor by using the Link Anchor Properties editor to hide
+        the link indicator, disable it for table rows that do not meet the link criteria, and to
+        assign a different default link or no default link.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Add link anchor</indexterm>
+                <indexterm>Edit link anchor</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>When you have a link that originates from a table row or a graphic view icon, a link
+                indicator is displayed: Click <image href="../Images/I_link.png" width="15"
+                    height="15" id="image_wsw_msp_v1c"/> to open the default link or to see and
+                select from a list of possible links.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace where the link originates (source workspace).</cmd>
+            </step>
+            <step>
+                <cmd>Right-click a table row or the graphic view icon where you originated the
+                    link.</cmd>
+            </step>
+            <step>
+                <cmd>Click <image href="../Images/I_link.png" width="15" height="15"
+                        id="image_ltp_psp_v1c"/>
+                    <b>Link</b>
+                    <b>Anchor</b>.</cmd>
+            </step>
+            <step>
+                <cmd>In the Link Anchor Properties editor, select a default link from the list or
+                    select (<b>No Default</b>). When you select the option to show the link
+                    indicator (next step), you can click the indicator to go directly to the default
+                    linked workspace or, if no default link was assigned, to see and select from the
+                    list of available links.</cmd>
+            </step>
+            <step>
+                <cmd>Clear <image href="../Images/I_checkbox.png" width="15" height="15"
+                        id="image_jqg_tsp_v1c"/><b> Show Link Indicator</b> if you want no <image
+                        href="../Images/I_link.png" width="15" height="15" id="image_ivl_5sp_v1c"/>
+                    link indicator in the first column of the table or overlaying the graphic view
+                    icon. If you disable the indicator, users can still link to the target workspace
+                    by right-clicking a table row or the linked graphic view icon.</cmd>
+            </step>
+            <step>
+                <cmd>Clear <image href="../Images/I_checkbox.png" width="15" height="15"
+                        id="image_xnv_vsp_v1c"/>
+                    <b>Link Indicator Always Enabled</b> only if this is an advanced link from a
+                    table, with filtering, and you want to enable the indicator only for rows where
+                    the link is available. An example would be a link that is not available for the
+                        <i>Idle</i> process. The link indicator in this row would be <image
+                        href="../Images/I__link_dimmed.png" width="15" height="15"
+                        id="image_hbp_zsp_v1c"/> dimmed to show that it was disabled.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>OK</b> to close the window, then click <image
+                        href="../Images/I_save.png" width="15" height="15" id="image_glm_btp_v1c"/>
+                    <b>Save</b> to save your changes to the workspace.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

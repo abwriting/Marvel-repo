@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_deleting_a_link_definition">
+    <title>Deleting a Link Definition</title>
+    <shortdesc>You can delete a link definition when it is no longer useful.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Delete link definition</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>Follow these steps to permanently remove a link definition.</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the source workspace.</cmd>
+            </step>
+            <step>
+                <cmd>Right-click the link origination point, which can be one of the
+                    following:</cmd>
+                <choices id="choices_yzs_qrp_v1c">
+                    <choice>The highlighted Navigator item for this workspace.</choice>
+                    <choice>An icon in a graphic view.</choice>
+                    <choice>An object in a TMS Infrastructure view.</choice>
+                    <choice>A row in a table view or situation event console view.</choice>
+                    <choice>A bar in a bar chart view.</choice>
+                    <choice>A slice in a pie chart view.</choice>
+                    <choice>A point in a plot chart view.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click <b>Link To > </b><image href="../Images/I_link.png" width="15"
+                        height="15" id="image_zw1_wrp_v1c"/><b> Link Wizard</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Select <image href="../Images/I_radio_selected.png" width="15" height="15"
+                        id="image_jkr_yrp_v1c"/>
+                    <b>Delete one or more existing links</b> and click <b>Next</b>.</cmd>
+            </step>
+            <step>
+                <cmd>Select the name of the link to delete. You can select additional links with
+                    Ctrl+Click or select all links from the first selection to this one with
+                    Shift+Click.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Next</b> until you reach the summary page, then click
+                    <b>Finish</b>.</cmd>
+                <info>
+                    <note id="note_ssg_bsp_v1c">When you delete a workspace, all link definitions
+                        that originate from it will be deleted also. This is also true for any
+                        absolute links that target this workspace.</note>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

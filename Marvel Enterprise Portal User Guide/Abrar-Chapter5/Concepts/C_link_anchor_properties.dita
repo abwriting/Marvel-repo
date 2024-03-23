@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="C_link_anchor_properties">
+    <title>Link Anchor Properties</title>
+    <shortdesc>The link anchor properties enable you to show a visual indicator on tables where
+        customized links have been defined, and to establish a default link that opens when the user
+        clicks the indicator.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Link Anchor Properties</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody>
+        <p>
+            <dl id="dl_qqh_lbq_v1c">
+                <dlentry>
+                    <dt>Default Link</dt>
+                    <dd>When you select the option to show the link indicator, the user can click
+                        the <image href="../Images/I_link.png" width="15" height="15"
+                            id="image_t42_nbq_v1c"/> link indicator to go directly to the default
+                        linked workspace or, if no default link was assigned, to see and select from
+                        the list of available linked workspaces. Select from the list of target
+                        workspaces or select (No Default) to have no default link.</dd>
+                </dlentry>
+                <dlentry>
+                    <dt>Options</dt>
+                    <dd><image href="../Images/I_checkbox.png" width="15" height="15"
+                            id="image_pry_pbq_v1c"/><b> Show Link Indicator</b> adds a new first
+                        column to the table, within each row; or it overlays the Navigator item icon
+                        in the graphic view with <image href="../Images/I_checkbox.png" width="15"
+                            height="15" id="image_zy2_rbq_v1c"/>. Clear this option if you want no
+                        link indicator in the table or graphic view.<p><image
+                                href="../Images/I_checkbox.png" width="15" height="15"
+                                id="image_smf_tbq_v1c"/>
+                            <b>Link Indicator Always Enabled</b> shows the links in every row of the
+                            table or over every linked Navigator item icon in the graphic view,
+                            which is normally what you want. Some links, however, are conditional,
+                            based on the value of a particular cell (or a derived value). For
+                            example, a link might be defined to work only on rows that have a thread
+                            count value over 30. You would clear this option to have the link
+                            indicator display only on the rows where the thread count is over 30.
+                            The advantage of this option is it guides the user to the valid link
+                            rows; the disadvantage is that it takes more time for the table to
+                            render.</p></dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+</concept>

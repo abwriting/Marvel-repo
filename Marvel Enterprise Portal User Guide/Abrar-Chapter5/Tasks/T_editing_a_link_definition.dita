@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_editing_a_link_definition">
+    <title>Editing a Link Definition</title>
+    <shortdesc>You can edit a link definition after it has been created.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Edit link definition</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <context>
+            <p></p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open the workspace where the link originates (source workspace).</cmd>
+            </step>
+            <step>
+                <cmd>Right-click the link origination point, which can be one of the
+                    following:</cmd>
+                <choices id="choices_kdw_1hc_v1c">
+                    <choice>The highlighted Navigator item for this workspace.</choice>
+                    <choice>An icon in the graphic view.</choice>
+                    <choice>A row in the table view.</choice>
+                    <choice>A row in the situation event console view.</choice>
+                    <choice>A bar in the bar chart view.</choice>
+                    <choice>A slice in the pie chart view.</choice>
+                    <choice>A point in the plot chart view.</choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>Click <b>Link To > </b><image href="../Images/I_link.png" width="15"
+                        height="15" id="image_jmw_fhc_v1c"/><b> Link Wizard.</b></cmd>
+            </step>
+            <step>
+                <cmd>In the Workspace Link Wizard - Welcome page, select <image
+                        href="../Images/I_radio_selected.png" width="15" height="13"
+                        id="image_zj5_3hc_v1c"/>
+                    <b>Modify an existing link</b> and click <b>Next></b>.</cmd>
+            </step>
+            <step>
+                <cmd>In the Workspace Link Wizard - Link to Modify page, select the name of the link
+                    to edit, then click <b>Next></b>. Before clicking <b>Next</b>, you can clear the
+                        <image href="../Images/I_checkbox_empty.png" width="15" height="15"
+                        id="image_o1q_lhc_v1c"/>
+                    <b>Hide links that are not available for the select view</b> check box to see
+                    all the links for this workspace.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the name or description, then click <b>Next></b> to open the Link
+                    editor.</cmd>
+            </step>
+            <step>
+                <cmd>Edit the link.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Next</b> until you reach the summary page, then click
+                    <b>Finish</b>.</cmd>
+            </step>
+        </steps>
+    </taskbody>
+</task>

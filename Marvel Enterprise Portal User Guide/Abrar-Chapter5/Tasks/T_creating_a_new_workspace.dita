@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_creating_a_new_workspace">
+    <title>Creating a New Workspace</title>
+    <shortdesc>You can create a new workspace from any existing workspace. The new workspace is
+        associated with the same Navigator item as the original workspace. <image
+            href="../Images/I_user.png" width="15" height="15" id="image_jm2_1qb_v1c"/> You cannot
+        save a new workspace if your user ID does not have Workspace Author Mode
+        permission.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+    </prolog>
+    <taskbody>
+        <context>
+            <p>To create a new workspace:</p>
+        </context>
+        <steps>
+            <step>
+                <cmd>Open a workspace at the Navigator level for which you want the new workspace to
+                    be available.</cmd>
+            </step>
+            <step>
+                <cmd>Click <b>Save Workspace As</b> in the <b>File</b> menu.</cmd>
+            </step>
+            <step>
+                <cmd>Type a name for the new workspace. The workspace is saved with the new name and
+                    the original left unchanged.</cmd>
+            </step>
+            <step>
+                <cmd>Do any of the following to customize the workspace:</cmd>
+                <choices id="choices_etx_fqb_v1c">
+                    <choice>Add a new view by splitting an existing view into two separate
+                        views.</choice>
+                    <choice>Change the dimensions of the views by dragging the borders between
+                        them.</choice>
+                    <choice>Change a view to a different type, such as from a notepad view to a
+                        browser view.</choice>
+                    <choice>Rearrange views by clicking a view's title bar and dragging it another
+                        view space. When you release the mouse button, the views switch
+                        position.</choice>
+                    <choice>Edit the general <image href="../Images/I_workspace%20_properties.png"
+                            width="15" height="15" id="image_gjg_lqb_v1c"/> Properties of the
+                        workspace, such as making it the default workspace.</choice>
+                    <choice>Edit the <image href="../Images/I_properties.png" width="15" height="15"
+                            id="image_qf2_nqb_v1c"/> Properties of the individual views to control
+                        what data to display and the styling.</choice>
+                    <choice>
+                        <p>Build a link to another workspace so that you can link to the other
+                            workspace from this one at any time.</p>
+                    </choice>
+                </choices>
+            </step>
+            <step>
+                <cmd>When you are finished editing a workspace, click <image
+                        href="../Images/I_save.png" width="15" height="15" id="image_j5b_rqb_v1c"/>
+                    <b>Save</b>. The saved workspace is associated with your Marvel Enterprise
+                    Portal user ID. Users with a different ID will not see your changes.</cmd>
+                <info>The workspace is available to all systems with items of the same affinity. For
+                    example, if you create a new workspace for your Windows agent then all systems
+                    with that monitoring agent will be able to open the new workspace.</info>
+            </step>
+        </steps>
+    </taskbody>
+</task>

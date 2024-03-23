@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="T_deleting_or_restoring_a_workspace">
+    <title>Deleting or Restoring a Workspace</title>
+    <shortdesc>You can delete a workspace of your creation and restore the original version of a
+        predefined workspace or one created by the administrator.</shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Delete Workspace</indexterm>
+                <indexterm>Restore Workspace</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody>
+        <prereq id="prereq_zb4_3tb_v1c"><image href="../Images/I_user.png" width="15" height="15"
+                id="image_pmy_jtb_v1c"/> To delete or restore a workspace, your user ID must have
+            Workspace Author Mode permission.</prereq>
+        <context>
+            <p>Marvel Enterprise Portal features enable you to create and edit your own workspaces.
+                You can also edit predefined workspaces and those created by the system
+                administrator (unless they are protected).</p>
+        </context>
+    </taskbody>
+</task>
