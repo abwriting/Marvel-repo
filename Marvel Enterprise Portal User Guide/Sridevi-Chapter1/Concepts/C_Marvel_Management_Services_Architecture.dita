@@ -14,7 +14,7 @@
         </metadata>
     </prolog>
     <conbody>
-        <p>The Marvel Enterprise Portal is based on a client-server-agent architecture. It comprises
+        <p>The Marvel Enterprise Portal is based on a client-server-agent architecture. It comprises of 
             server hosts, delivers, and manages most of the resources and services to be consumed by
             the client. The agent collects the monitored data and passes it to the Marvel Enterprise
             Monitoring Server. A high-level representation of client-server-agent architecture is

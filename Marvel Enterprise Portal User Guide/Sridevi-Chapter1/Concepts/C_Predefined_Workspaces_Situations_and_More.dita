@@ -30,15 +30,15 @@
                                 id="image_adx_c53_1yb"/> Workspace Gallery, are predefined. They
                             provide visual feedback of real-time values from managed systems, and
                             historical values when historical data collection has been configured.
-                            They provide a starting point for designing your own workspaces.</p>
+                            They provide a starting point for designing your workspaces.</p>
                     </dd>
                 </dlentry>
                 <dlentry>
                     <dt><keyword>Queries</keyword></dt>
                     <dd>
                         <p>The predefined workspaces are populated with data gathered as a result of
-                            queries, which are also predefined. Creating your own queries from these
-                            predefined queries enables you to add or remove attributes, apply a sort
+                            queries, which are also predefined. Creating your queries from these
+                            predefined queries enable you to add or remove attributes, apply a sort
                             order, and pre-filter the data to keep data retrieval at a manageable
                             level and to enable you to more easily see data of interest.</p>
                     </dd>
@@ -46,7 +46,7 @@
                 <dlentry>
                     <dt>Take action commands</dt>
                     <dd>
-                        <p>Some agents have predefined take action commands, such as the Windows OS
+                        <p>Some agents have predefined take-action commands, such as the Windows OS
                             agent Start Service and Stop Service commands. They are available for
                             selection and they provide examples of the kinds of actions that you
                             might want to define for maintaining managed systems.</p>
@@ -58,9 +58,9 @@
                         <p>The tests for conditions that you want to be alerted for are available in
                             the predefined situations. To avoid an overwhelming number of events
                             opening in a newly managed environment and, conversely to avoid missing
-                            important events because the comparison criteria was set too low, many
+                            important events because the comparison criteria were set too low, many
                             of the predefined situations for an agent are not set to start
-                            automatically. They remain stopped until you either start them manually
+                            automatically. They remain stopped until you start them manually
                             or set them to <image href="../Images/I_run_at_startup.png" width="15"
                                 height="15" id="image_rtd_l53_1yb"/>
                             <uicontrol>Run at startup</uicontrol>. A good way to find out which
@@ -69,7 +69,7 @@
                                 href="../Images/I_show_situations.png" width="15" height="15"
                                 id="image_i1g_m53_1yb"/> Show Situations, which is available when
                             the Situation editor is opened from the Navigator pop-up menu. As agents
-                            report monitoring data, and especially when that data is being collected
+                            report monitoring data, especially when that data is being collected
                             and stored in a Marvel Data Warehouse, you can better determine the
                             values and circumstances that are worthy of an alert, such as high CPU
                             activity on a transaction server at peak times.</p>
