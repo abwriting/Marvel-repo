@@ -13,40 +13,39 @@
         </booklists>
     </frontmatter>
     <chapter navtitle="Introduction">
-        <mapref href="Sridevi-Chapter1/Chapter1.ditamap"/>
+        <mapref href="Chapter1/Chapter1.ditamap"/>
     </chapter>
     <chapter navtitle="Using the Navigator">
-        <mapref href="Abrar-Chapter2/Chapter2.ditamap" navtitle="Navigator"/>
+        <mapref href="Chapter1/Chapter1.ditamap" navtitle="Navigator"/>
     </chapter>
     <chapter navtitle="Workspaces">
-        <mapref href="Lisa-Chapter3/Chapter3.ditamap" navtitle="Customizing Workspaces"/>
+        <mapref href="Chapter3/Chapter3.ditamap" navtitle="Customizing Workspaces"/>
     </chapter>
     <chapter navtitle="Responding to Events">
-        <mapref href="Lisa-Chapter4/Responding%20to%20Events.ditamap" navtitle="Responding to Events"/>
+        <mapref href="Chapter4/Responding%20to%20Events.ditamap" navtitle="Responding to Events"/>
     </chapter>
     <chapter navtitle="Custom Workspaces">
-        <mapref href="Abrar-Chapter5/chapter5.ditamap" navtitle="Custom Workspaces"/>
+        <mapref href="Chapter5/chapter5.ditamap" navtitle="Custom Workspaces"/>
     </chapter>
-         <appendix navtitle="Formula functions">
-        <topicref href="Sridevi-Chapter1/Appendix/C_appendix_a_boolean_and_or.dita">
-            <topicref href="Sridevi-Chapter1/Appendix/c_appendix_a_multiple_expressions.dita">
-                <topicref href="Sridevi-Chapter1/Appendix/R_appendix_a_multiple_expressions.dita"/>
+         <appendix navtitle="Formula Functions">
+        <topicref href="Chapter1/Appendix/C_appendix_a_boolean_and_or.dita">
+            <topicref href="Chapter1/Appendix/C_appendix_a_multiple_expressions.dita">
+                <topicref href="Chapter1/Appendix/R_appendix_a_multiple_expressions.dita"/>
             </topicref>
-            <topicref href="Sridevi-Chapter1/Appendix/C_appendix_a_branching_or_expressions.dita">
-                <topicref
-                    href="Sridevi-Chapter1/Appendix/R_appendix_a_branching_or_expressions.dita"/>
+            <topicref href="Chapter1/Appendix/C_appendix_a_branching_or_expressions.dita">
+                <topicref href="Chapter1/Appendix/R_appendix_a_branching_or_expressions.dita"/>
             </topicref>
             <topicref
-                href="Sridevi-Chapter1/Appendix/C_appendix_a_repeating_attributes_in_and_expressions.dita">
+                href="Chapter1/Appendix/C_appendix_a_repeating_attributes_in_and_expressions.dita">
                 <topicref
-                    href="Sridevi-Chapter1/Appendix/R_appendix_a_repeating_attributes_in_and_expressions.dita"
+                    href="Chapter1/Appendix/R_appendix_a_repeating_attributes_in_and_expressions.dita"
                 />
             </topicref>
         </topicref>
     </appendix>
-    <appendix navtitle="Marvel Enterprise Monitoring Server and global attributes">
-        <topicref href="Sridevi-Chapter1/Appendix/C_appendix_b_situation_definition_attributes.dita"/>
-        <topicref href="Sridevi-Chapter1/Appendix/C_appendix_b_universal%20time%20attributes.dita"/>
+    <appendix navtitle="Marvel Enterprise Monitoring Server and Global Attributes">
+        <topicref href="Chapter1/Appendix/C_appendix_b_situation_definition_attributes.dita"/>
+        <topicref href="Chapter1/Appendix/C_appendix_b_universal%20time%20attributes.dita"/>
     </appendix>
         <backmatter>
         <booklists>
