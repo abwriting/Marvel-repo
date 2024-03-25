@@ -15,7 +15,7 @@
         </metadata>
     </prolog>
     <taskbody>
-        <prereq id="prereq_ek2_qs2_vxb">User account must have necessary permissions to view the
+        <prereq id="prereq_ek2_qs2_vxb"> The User account must have the necessary permissions to view the
             Properties editor.</prereq>
         <context>
             <p>To open Properties, </p>
