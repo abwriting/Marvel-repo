@@ -14,13 +14,13 @@
         </metadata>
     </prolog>
     <conbody>
-        <p>Your Marvel Enterprise Portal configuration can also have custom-designed Navigator
-            views. These views are selectable from the Navigator toolbar, navigable and show event
+        <p>Your Marvel Enterprise Portal configuration can also have a custom-designed Navigator
+            views. These views are selectable from the Navigator toolbar, navigable, and show event
             indicators (described below) in the same way as the Navigator Physical view. Unlike the
             Navigator Physical view, custom Navigator views can be edited. You can, for example,
             design a Navigator view for Manufacturing and another for Marketing.</p>
         <p>Your user ID can be assigned to all or a subset of the defined Navigator views, and your
-            access in any of these views can be restricted to a certain branch. To see the list of
+            access to any of these views can be restricted to a certain branch. To see the list of
             available Navigator views, click the <image href="../Images/I_list_box.png"
                 id="image_rjn_g1b_vxb"/> list box in the Navigator toolbar. </p>
         <p>A small white cross over a Navigator item icon means one or more other Navigator items
