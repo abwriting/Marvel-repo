@@ -13,15 +13,11 @@
         </metadata>
     </prolog>
     <refbody>
-        <example id="example_n2f_vyp_1yb"><b>Example 1:</b><p>
-                <ul id="ul_umw_xyp_1yb">
-                    <li>This situation is true when the notepad process occurs more than four times
-                        in the same data sampling. The user wrote the first expression to check for
-                        notepad, then clicked <b>Add Conditions</b> and selected Process Name again
-                        to create a new column and add another expression to count these
-                        processes.</li>
-                </ul>
-            </p></example>
+        <example id="example_n2f_vyp_1yb"><b>Example 1:</b><p>This situation is true when the
+                notepad process occurs more than four times in the same data sampling. The user
+                wrote the first expression to check for notepad, then clicked <b>Add Conditions</b>
+                and selected Process Name again to create a new column and add another expression to
+                count these processes.</p></example>
         <properties frame="all" id="properties_bj3_fzp_1yb">
             <prophead>
                 <proptypehd/>
@@ -34,12 +30,8 @@
                 <propdesc>> 4</propdesc>
             </property>
         </properties>
-        <example id="example_v5f_3zp_1yb"><b>Example 2:</b><p>
-                <ul id="ul_g1k_kzp_1yb">
-                    <li>This situation is true when the day of the week is 02 to 06 (Monday to
-                        Friday).</li>
-                </ul>
-            </p></example>
+        <example id="example_v5f_3zp_1yb"><b>Example 2:</b><p>This situation is true when the day of
+                the week is 02 to 06 (Monday to Friday).</p></example>
         <properties frame="all" id="properties_z2k_nzp_1yb">
             <prophead>
                 <proptypehd/>

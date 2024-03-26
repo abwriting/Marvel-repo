@@ -17,9 +17,8 @@
             a certain outcome.</p>
         <p>If you are constructing a situation that requires repeating an attribute, each instance
             of the attribute must appear in its own column. To repeat an attribute in a new column
-            of the Situation editor:<ul id="ul_jvj_4yp_1yb">
-                <li>Click <uicontrol>Add Conditions</uicontrol>  and select it from the
-                        <wintitle>Select condition</wintitle> window.</li>
-            </ul></p>
+            of the Situation editor:</p>
+        <p>Click <uicontrol>Add Conditions</uicontrol> and select it from the <wintitle>Select
+                condition</wintitle> window.</p>
     </conbody>
 </concept>
