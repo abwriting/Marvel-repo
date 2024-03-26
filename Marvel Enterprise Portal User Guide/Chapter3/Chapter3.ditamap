@@ -11,7 +11,7 @@
     </topicref>
     <topicref href="Tasks/T_opening_a_new_window.dita"/>
     <topicref href="Concepts/C_tabbed_workspaces.dita">
-        <topicref href="Tasks/T_Open%20a%20Workspace.dita"/>
+        <topicref href="Tasks/T_open%20a%20Workspace.dita"/>
         <topicref href="Tasks/T_link_to_a_workspace.dita"/>
         <topicref href="Tasks/T_open_found_navigator_default_workspace.dita"/>
         <topicref href="Tasks/T_open_navigator_view_default_workspace.dita"/>
@@ -28,7 +28,7 @@
     <topicref href="Tasks/T_exporting_a_query_based_view.dita"/>
     <topicref href="Tasks/T_finding_text_in_a_browser_view_or_notepad_view.dita"/>
     <topicref href="Tasks/T_finding_table_data.dita">
-        <topicref href="References/r_table_find_examples.dita"/>
+        <topicref href="References/R_table_find_examples.dita"/>
     </topicref>
     <topicref href="Tasks/T_printing_a_view_or_workspace.dita"/>
 </map>

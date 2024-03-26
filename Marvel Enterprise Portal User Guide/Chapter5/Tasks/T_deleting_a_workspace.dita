@@ -23,12 +23,14 @@
                     mode.</cmd>
             </step>
             <step>
-                <note id="note_xnt_bwb_v1c" type="caution">When you delete a workspace, all link
-                    definitions that reference it will be deleted also.</note>
                 <cmd>Click <b>File > Delete Workspace</b>. This item is disabled if the workspace is
                     predefined, was created in administration mode and your user ID is not currently
                     in workspace administration mode, or if the workspace properties item Do Not
                     Allow Modifications is selected.</cmd>
+                <info>
+                    <note id="note_xnt_bwb_v1c" type="caution">When you delete a workspace, all link
+                        definitions that reference it will be deleted also.</note>
+                </info>
             </step>
             <step>
                 <cmd>When a confirmation message is displayed, click <b>Yes</b> to delete the

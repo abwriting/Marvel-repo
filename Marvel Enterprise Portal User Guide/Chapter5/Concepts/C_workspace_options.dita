@@ -20,7 +20,7 @@
                 <dlentry>
                     <dt><image href="../Images/I_checkbox_empty.png" width="15" height="15"
                             id="image_g3s_hpb_v1c"/> Assign as Home Workspace</dt>
-                    <dd>Specifies this as the workspace that opens whenever you start Tivoli
+                    <dd>Specifies this as the workspace that opens whenever you start Marvel
                         Enterprise Portal, much like your browser home page.</dd>
                 </dlentry>
                 <dlentry>

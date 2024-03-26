@@ -34,45 +34,39 @@
                     </thead>
                     <tbody>
                         <row>
-                            <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_wwg_zzn_xxb"
-                                    id="image_ozp_jlx_1yb"/></entry>
+                            <entry><image href="../../Chapter1/Images/Fatal%20error.png" width="15"
+                                    height="15" id="image_omp_tkx_v1c"/></entry>
                             <entry>Fatal</entry>
                         </row>
                         <row>
-                            <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_zgl_b14_xxb"
-                                    id="image_t45_klx_1yb"/></entry>
+                            <entry><image href="../../Chapter1/Images/Critical%20Error.png"
+                                    width="15" height="15" id="image_aqf_vkx_v1c"/></entry>
                             <entry>Critical</entry>
                         </row>
                         <row>
-                            <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hjp_d14_xxb"
-                                    id="image_djr_llx_1yb"/></entry>
+                            <entry><image href="../../Chapter1/Images/Minor%20Error.png" width="15"
+                                    height="15" id="image_uf5_wkx_v1c"/></entry>
                             <entry>Minor</entry>
                         </row>
                         <row>
-                            <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_r41_h14_xxb"
-                                    id="image_lym_slx_1yb"/></entry>
+                            <entry><image href="../../Chapter1/Images/Warning%20Error.jpeg"
+                                    width="15" height="15" id="image_yzn_xkx_v1c"/></entry>
                             <entry>Warning</entry>
                         </row>
                         <row>
-                            <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_zqw_h14_xxb"
-                                    id="image_wkf_tlx_1yb"/></entry>
+                            <entry><image href="../../Chapter1/Images/Harmless%20Error.png"
+                                    width="15" height="15" id="image_nsx_ykx_v1c"/></entry>
                             <entry>Harmless</entry>
                         </row>
                         <row>
-                            <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hwj_l14_xxb"
-                                    id="image_ot5_tlx_1yb"/></entry>
+                            <entry><image href="../../Chapter1/Images/I_informational.png"
+                                    width="15" height="15" id="image_unx_1lx_v1c"/></entry>
                             <entry>Informational</entry>
                         </row>
                         <row>
                             <entry><image
-                                    conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_elb_fc4_xxb"
-                                    id="image_swn_5lx_1yb"/></entry>
+                                    href="../../Chapter1/Images/Informational,%20or%20Unknown%20Error.png"
+                                    width="15" height="15" id="image_nmc_clx_v1c"/></entry>
                             <entry>Unknown</entry>
                         </row>
                     </tbody>

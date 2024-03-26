@@ -6,7 +6,7 @@
         situations. These predefined situations serve as models for defining custom situations for
         your environment.</shortdesc>
     <prolog>
-        <author>Lisa Adams</author>
+        <author>Abrar Ahmed Syed</author>
         <metadata>
             <keywords>
                 <indexterm>Understand situation events<indexterm>Situation
@@ -27,7 +27,7 @@
         <p>
             <dl id="dl_y3w_341_1yb">
                 <dlentry>
-                    <dt>Situation formula</dt>
+                    <dt>Situation Formula</dt>
                     <dd>Situations formulas are constructed of one or more expressions. For example,
                         a situation that checks for free disk space below 20% on a Windows system
                         has an expression that uses the Logical Disk attribute "Free Megabytes" and
@@ -44,7 +44,7 @@
             </dl>
             <dl id="dl_owg_m41_1yb">
                 <dlentry>
-                    <dt>Situation event indicators</dt>
+                    <dt>Situation Event Indicators</dt>
                     <dd>When a situation is associated with a managed system, it also has a state
                         setting that determines which light, is displayed on the Navigator item when
                         the situation becomes true. From highest severity to lowest, they are as
@@ -103,14 +103,14 @@
                         console view.</dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Enterprise Status workspace</dt>
+                    <dt>Enterprise Status Workspace</dt>
                     <dd>The initial default workspace is the Enterprise Status workspace. The views
                         in this workspace give an excellent overview of situation events in your
                         monitored environment and their status. One of the views, Situation Event
                         Console, lists the open events and their severities.</dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Event flyover list</dt>
+                    <dt>Event Flyover List</dt>
                     <dd>In the Navigator view or a graphic view, you can hover the mouse over an
                         event indicator to open a flyover listing of open situation events with this
                             information:<ul id="ul_bkx_nv1_1yb">
@@ -231,7 +231,7 @@
                             </table></p></dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Event results workspace</dt>
+                    <dt>Event Results Workspace</dt>
                     <dd>The event results workspace shows the values of the attributes when the
                         situation fired and their current values. It shows any expert advice the
                         situation author might have written and any hypertext links to go to for
@@ -242,7 +242,7 @@
                         diagnostic tool, you can start it from here.</dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Event acknowledgement</dt>
+                    <dt>Event Acknowledgement</dt>
                     <dd>When multiple users are monitoring the network for events, one of them can
                         acknowledge an event to indicate it has been seen and the problem is being
                         worked on. Acknowledging an event changes its event status from
@@ -252,7 +252,7 @@
                         event.</dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Automated responses</dt>
+                    <dt>Automated Responses</dt>
                     <dd>Automated responses to events can improve the efficiency of systems
                         management by reducing user workload and errors and allowing quicker
                         responses to problems. Marvel Enterprise Portal provides two levels of

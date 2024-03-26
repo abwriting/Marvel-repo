@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
-<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.pdf.css/css/print/p-dita.css'?>
-<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
-<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
-<?xml-stylesheet type='text/css' href='file:/C:/Program%20Files/Oxygen%20XML%20Author%2025/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
-<?workdir /C:\Users\AbrarSyed\Downloads\Marvel DITA project\Marvel-repo\Marvel Enterprise Portal User Guide\Abrar-Chapter5\Tasks\temp\topic-pdf-css-html5\oxygen_dita_temp\Tasks?><?workdir-uri file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Tasks/temp/topic-pdf-css-html5/oxygen_dita_temp/Tasks/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:css-param="http://www.oxygenxml.com/extensions/publishing/dita/css/params" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:xs="http://www.w3.org/2001/XMLSchema" class="- topic/topic task/task " ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" id="T_creating_a_new_link" specializations="@props/deliveryTarget" xtrc="task:1;3:34" xtrf="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Tasks/T_creating_a_new_link.dita" css-param:show-onpage-lbl="no" xml:lang="en">
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<?workdir /C:\Users\AbrarSyed\Downloads\Marvel DITA project\Marvel-repo\Marvel Enterprise Portal User Guide\Chapter5\Tasks\temp\topic-pdf-css-html5\oxygen_dita_temp?><?workdir-uri file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Chapter5/Tasks/temp/topic-pdf-css-html5/oxygen_dita_temp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:css-param="http://www.oxygenxml.com/extensions/publishing/dita/css/params" class="- topic/topic task/task " ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" id="T_creating_a_new_link" specializations="@props/deliveryTarget" xtrc="task:1;3:34" xtrf="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/T_creating_a_new_link.dita" css-param:show-onpage-lbl="no" xml:lang="en">
     <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Creating a New Link</ph></title>
     <shortdesc class="- topic/shortdesc ">Use the link wizard to define a link from a Navigator item, graphic view, or
         query-based view that opens the targeted workspace in the same or new windows.</shortdesc>
@@ -17,7 +17,7 @@
         </metadata>
     </prolog>
     <taskbody class="- topic/body task/taskbody ">
-        <prereq class="- topic/section task/prereq " id="prereq_kmv_jyb_v1c">The workspace link feature in the Tivoli Enterprise Portal
+        <prereq class="- topic/section task/prereq " id="prereq_kmv_jyb_v1c">The workspace link feature in the Marvel Enterprise Portal
             enables you to create simple links or advanced links. A simple link can originate from a
             Navigator item or from a data series in a chart or table. Context information is passed
             from the source workspace to determine which target workspace to open.</prereq>
@@ -36,16 +36,16 @@
                         <info class="- topic/itemgroup task/info ">
                             <p class="- topic/p ">The highlighted Navigator item for this workspace.</p>
                             <p class="- topic/p ">An icon in a graphic view.</p>
-                            <p class="- topic/p ">An object in a Tivoli Management Services Infrastructure view.</p>
+                            <p class="- topic/p ">An object in a Marvel Management Services Infrastructure view.</p>
                             <p class="- topic/p ">A row in a table view or situation event console view.</p>
                             <p class="- topic/p ">A data point in a chart view.</p>
                         </info>
                     </substep>
                     <substep class="- topic/li task/substep ">
-                        <cmd class="- topic/ph task/cmd ">Click<b class="+ topic/ph hi-d/b "> Link To &gt; </b><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_link.png" id="image_ahq_pzb_v1c" placement="inline" width="15"/><b class="+ topic/ph hi-d/b "> Link Wizard</b>.</cmd>
+                        <cmd class="- topic/ph task/cmd ">Click<b class="+ topic/ph hi-d/b "> Link To &gt; </b><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_link.png" id="image_ahq_pzb_v1c" placement="inline" width="15"/><b class="+ topic/ph hi-d/b "> Link Wizard</b>.</cmd>
                     </substep>
                     <substep class="- topic/li task/substep ">
-                        <cmd class="- topic/ph task/cmd ">Select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_radio_selected.png" id="image_wc5_5zb_v1c" placement="inline" width="15"/> Create a new link and click
+                        <cmd class="- topic/ph task/cmd ">Select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_radio_selected.png" id="image_wc5_5zb_v1c" placement="inline" width="15"/> Create a new link and click
                                 <b class="+ topic/ph hi-d/b ">Next&gt;</b>.</cmd>
                     </substep>
                     <substep class="- topic/li task/substep ">
@@ -63,7 +63,7 @@
                         <info class="- topic/itemgroup task/info ">
                             <simpletable class="- topic/simpletable " frame="all" id="simpletable_bjp_k1c_v1c" relcolwidth="1* 1*">
                                 <strow class="- topic/strow ">
-                                    <stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="1"><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_radio_selected.png" id="image_uqj_l1c_v1c" placement="inline" width="15"/>
+                                    <stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="1"><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_radio_selected.png" id="image_uqj_l1c_v1c" placement="inline" width="15"/>
                                         <b class="+ topic/ph hi-d/b ">Dynamic</b></stentry>
                                     <stentry class="- topic/stentry " dita-ot:x="2" dita-ot:y="1">The dynamic link method offers flexibility in your
                                         choice of workspace targets. A dynamic link is similar to a
@@ -75,7 +75,7 @@
                                         Facilities ID, or Product Code.</stentry>
                                 </strow>
                                 <strow class="- topic/strow ">
-                                    <stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="2"><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_radio_empty.png" id="image_txn_q1c_v1c" placement="inline" width="13"/>
+                                    <stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="2"><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_radio_empty.png" id="image_txn_q1c_v1c" placement="inline" width="13"/>
                                         <b class="+ topic/ph hi-d/b ">Absolute</b></stentry>
                                     <stentry class="- topic/stentry " dita-ot:x="2" dita-ot:y="2">An absolute link stores the managed system name of the
                                         chosen target, and goes only there. For example, if you
@@ -86,7 +86,7 @@
                                             <b class="+ topic/ph hi-d/b ">Geneva</b> computer is not considered.</stentry>
                                 </strow>
                                 <strow class="- topic/strow ">
-                                    <stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="3"><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_radio_empty.png" id="image_ib4_w1c_v1c" placement="inline" width="13"/>
+                                    <stentry class="- topic/stentry " dita-ot:x="1" dita-ot:y="3"><image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_radio_empty.png" id="image_ib4_w1c_v1c" placement="inline" width="13"/>
                                         <b class="+ topic/ph hi-d/b ">Relative</b></stentry>
                                     <stentry class="- topic/stentry " dita-ot:x="2" dita-ot:y="3">A relative link stores the <i class="+ topic/ph hi-d/i ">type</i> of source
                                         workspace and target workspace. The resulting link is
@@ -109,7 +109,7 @@
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">If you are targeting a workspace in a different Navigator view, select
                             the view from the <b class="+ topic/ph hi-d/b ">Navigator View</b>
-                            <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_arrow.png" id="image_h3b_gbc_v1c" placement="inline" width="15"/> list.</cmd>
+                            <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_arrow.png" id="image_h3b_gbc_v1c" placement="inline" width="15"/> list.</cmd>
                     </substep>
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">In the <b class="+ topic/ph hi-d/b ">Navigator</b> tree, expand the branches and select the
@@ -124,12 +124,12 @@
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">In the <b class="+ topic/ph hi-d/b ">Workspace</b> pane, select the workspace to target; or, if
                             this is a dynamic link and you want to more generally classify the link,
-                            select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_checkbox.png" id="image_t1b_kbc_v1c" placement="inline" width="15"/>
+                            select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_checkbox.png" id="image_t1b_kbc_v1c" placement="inline" width="15"/>
                             <b class="+ topic/ph hi-d/b ">This link does not target a specific workspace</b>.</cmd>
                     </substep>
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">If you would like the workspace to open in a new window instead of
-                            replacing the current workspace, select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_checkbox.png" id="image_l5d_mbc_v1c" placement="inline" width="15"/>
+                            replacing the current workspace, select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_checkbox.png" id="image_l5d_mbc_v1c" placement="inline" width="15"/>
                             <b class="+ topic/ph hi-d/b ">Always open target workspace in new window</b>. If you are running
                             the browser client and your browser supports tabbed pages, the workspace
                             will open in a new tab.</cmd>
@@ -157,19 +157,73 @@
                     </substep>
                     <substep class="- topic/li task/substep ">
                         <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Modify Expression</b> to open the Expression Editor, then
-                            click <b class="+ topic/ph hi-d/b ">Symbol</b>. The list is a reverse hierarchy of available <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_v_symbol.png" id="image_oht_wbc_v1c" placement="inline" width="15"/> symbols starting from the source context
+                            click <b class="+ topic/ph hi-d/b ">Symbol</b>. The list is a reverse hierarchy of available <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_v_symbol.png" id="image_oht_wbc_v1c" placement="inline" width="15"/> symbols starting from the source context
                             and the current Navigator item and ending at the root Navigator
                             item.</cmd>
                     </substep>
                     <substep class="- topic/li task/substep ">
-                        <cmd class="- topic/ph task/cmd ">Select a <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_v_symbol.png" id="image_xc1_zbc_v1c" placement="inline" width="15"/> symbol that provides the value for the
+                        <cmd class="- topic/ph task/cmd ">Select a <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_v_symbol.png" id="image_xc1_zbc_v1c" placement="inline" width="15"/> symbol that provides the value for the
                             system identifier. For example, <b class="+ topic/ph hi-d/b ">Server Name</b> will provide the
                             value needed for <b class="+ topic/ph hi-d/b ">Managed system name</b> when the link is launched.
                             You might need to open different branches to locate a symbol for the
-                            type of target filter chosen. <image align="left" class="- topic/image " height="70" href="file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Abrar-Chapter5/Images/I_tree_1.png" id="image_pkf_gcc_v1c" placement="break" width="100"/></cmd>
+                            type of target filter chosen. <image align="left" class="- topic/image " height="70" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_tree_1.png" id="image_pkf_gcc_v1c" placement="break" width="100"/></cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">OK</b> add the detailed name for the attribute to the
+                            Expression Editor.
+                                <codeph class="+ topic/ph pr-d/codeph ">$kfw.TableRow:ATTRIBUTE.NTLOGINFO.ORIGINNODE$</codeph></cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Evaluate</b> to verify that the variable resolves correctly.
+                            The Value shown must be valid for the identifier type you specified. For
+                            example, for a computer named MARVELUSER,
+                                <codeph class="+ topic/ph pr-d/codeph ">Primary:MARVELUSER:NT</codeph> is a valid Windows OS managed
+                            system name and MARVELUSER is a valid host name.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">If no value is displayed or you get a syntax error or a value that does
+                            not identify the system, click <b class="+ topic/ph hi-d/b ">Clear</b> and select a different
+                            symbol or try another identifier.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">In addition to <b class="+ topic/ph hi-d/b ">Symbol</b>, you can click <b class="+ topic/ph hi-d/b ">Operator</b> and
+                                <b class="+ topic/ph hi-d/b ">Function</b> to find and select other elements to complete the
+                            expression. When you are finished with the expression, click <b class="+ topic/ph hi-d/b ">OK</b>
+                            to insert the expression in the current target filter row. Note that
+                            expressions can evaluate to patterns using the asterisk (*) and question
+                            mark (?) wildcard characters. This allows for pattern matching
+                            filters.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">If the target workspace was updated or is new for the latest version of
+                            your monitoring product and your environment has a mix of versions, you
+                            can disable <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_checkbox.png" id="image_tsd_1fc_v1c" placement="inline" width="15"/>
+                            <b class="+ topic/ph hi-d/b ">Allow this link to target any version of the target workspace</b> or
+                            leave it enabled: <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_checkbox.png" id="image_e3f_bfc_v1c" placement="inline" width="15"/> Enabled is the default setting.
+                            The target workspace can be chosen for any version of the monitoring
+                            agent. If the query for a view specifies attributes that are available
+                            only in the newer version and the target workspace is for an older
+                            version of the monitoring agent, no values will be returned for those
+                            attributes. <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-qmv_hdv_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_checkbox_empty.png" id="image_m32_cfc_v1c" placement="inline" width="15"/> Disable the option if you want
+                            the link not to be offered for target workspaces on earlier versions of
+                            the monitoring agent.</cmd>
+                    </substep>
+                    <substep class="- topic/li task/substep ">
+                        <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Next</b> and refine the link definition; or click <b class="+ topic/ph hi-d/b ">Next</b>
+                            twice and review the summary.</cmd>
                     </substep>
                 </substeps>
             </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the Workspace Link Wizard - Summary page, review the summary, then click
+                        <b class="+ topic/ph hi-d/b ">Finish</b> to save the link definition, <b class="+ topic/ph hi-d/b ">Back</b> to return to a
+                    previous window to make additional changes, or <b class="+ topic/ph hi-d/b ">Cancel</b> to close the Link
+                    Wizard without saving your changes.</cmd>
+            </step>
         </steps>
+        <postreq class="- topic/section task/postreq " id="postreq_ny4_ffc_v1c">If the target workspace is dependent on information that
+            is passed from the source workspace (users will get an error message if they attempt to
+            open the workspace from the list of available workspace), then edit the workspace
+            properties to hide the workspace unless it is targeted by a link definition.</postreq>
     </taskbody>
 </task>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<?workdir /C:\Users\AbrarSyed\Downloads\Marvel DITA project\Marvel-repo\Marvel Enterprise Portal User Guide\Chapter5\Tasks\temp\topic-pdf-css-html5\oxygen_dita_temp?><?workdir-uri file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Chapter5/Tasks/temp/topic-pdf-css-html5/oxygen_dita_temp/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:css-param="http://www.oxygenxml.com/extensions/publishing/dita/css/params" class="- topic/topic task/task " ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" id="C_linkisenabled_usage_example" specializations="@props/deliveryTarget" xtrc="task:1;3:42" xtrf="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/T_linkisenabled_usage_example.dita" css-param:show-onpage-lbl="no" xml:lang="en">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">linkIsEnabled Usage Example</ph></title>
+    <shortdesc class="- topic/shortdesc "/>
+    <prolog class="- topic/prolog ">
+        <author class="- topic/author ">Abrar Ahmed Syed</author>
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <indexterm class="- topic/indexterm ">linkIsEnabled Usage Example</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">
+        <p class="- topic/p ">Follow along with these steps to see how a link to the System workspace was created using
+                the <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_v_symbol.png" placement="inline" width="15"/>
+                <b class="+ topic/ph hi-d/b ">linkIsEnabled</b> symbol. This example tests the value of the Product cell in the
+                selected row to determine whether or not to offer the link on that row.</p>
+    </context>
+        <steps class="- topic/ol task/steps ">
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Open the Managed System Status workspace in the Navigator Physical view: Click
+                        <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_enterprise.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">Enterprise</b> to open the default workspace; right-click <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_enterprise.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">Enterprise</b> and click <b class="+ topic/ph hi-d/b ">Workspace &gt; Managed System Status</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Right-click a row in the Managed System Status table and click <b class="+ topic/ph hi-d/b ">Link To</b> &gt;
+                        <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_link.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">Link Wizard</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Create a new link, name it <codeph class="+ topic/ph pr-d/codeph ">System Details</codeph>, select a link type
+                    of <b class="+ topic/ph hi-d/b ">Relative</b>, and target the <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_windows_system_workspace.png" placement="inline" width="15"/>
+                    Windows Systems workspace.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Next</b> to go to the Workspace Link Wizard - Parameters.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_v_symbol.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">thelinkIsEnabled</b> row. The Expression box reads true.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Modify Expression</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the Expression Editor, click <b class="+ topic/ph hi-d/b ">Clear</b>, and then click
+                    <b class="+ topic/ph hi-d/b ">Symbol</b>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">In the <b class="+ topic/ph hi-d/b ">Symbols</b> list, select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_v_symbol.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">Product</b> and click <b class="+ topic/ph hi-d/b ">OK</b>. The expression is displayed as<codeph class="+ topic/ph pr-d/codeph ">
+                        $kfw.INODESTS:ATTRIBUTE.INODESTS.PRODUCT$</codeph>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Operator</b>, select <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_EQ.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">Equal</b> and click <b class="+ topic/ph hi-d/b ">OK</b> to see the == operator.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Type "NT" at the end of the expression, which should then read,<codeph class="+ topic/ph pr-d/codeph ">
+                        $kfw.INODESTS:ATTRIBUTE.INODESTS.PRODUCT$ == "NT"</codeph>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Evaluate</b>. If the row from where you started the Link Wizard has
+                        <codeph class="+ topic/ph pr-d/codeph ">NT</codeph> in the Product column, the test will betrue; otherwise,
+                    it will be <codeph class="+ topic/ph pr-d/codeph ">false</codeph>.</cmd>
+            </step>
+            <step class="- topic/li task/step ">
+                <cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Finish</b>.</cmd>
+                <info class="- topic/itemgroup task/info ">Click the <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_link.png" placement="inline" width="15"/> link
+                    indicator in one of the NT rows to open the Services workspace for that
+                    monitoring agent. Note that you can disable the link indicator for invalid rows
+                    by clearing <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-dpn_zjx_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_checkbox_empty.png" placement="inline" width="15"/>
+                    <b class="+ topic/ph hi-d/b ">Link Indicator Always Enabled</b>.</info>
+            </step>
+        </steps></taskbody>
+</task>

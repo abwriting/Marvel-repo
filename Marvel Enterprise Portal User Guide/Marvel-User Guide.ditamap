@@ -16,7 +16,7 @@
         <mapref href="Chapter1/Chapter1.ditamap"/>
     </chapter>
     <chapter navtitle="Using the Navigator">
-        <mapref href="Chapter1/Chapter1.ditamap" navtitle="Navigator"/>
+        <mapref href="Chapter2/Chapter2.ditamap" format="ditamap"/>
     </chapter>
     <chapter navtitle="Workspaces">
         <mapref href="Chapter3/Chapter3.ditamap" navtitle="Customizing Workspaces"/>

@@ -63,18 +63,19 @@
                     </substep>
                     <substep>
                         <cmd>In the Navigator, right-click the <image href="../Images/5.png"
-                                width="15" height="15" id="image_hqj_n5m_51c"/>event item and click
+                                width="15" height="15" id="image_hqj_n5m_51c"/> event item and click
                                 <b>Close Event</b> → <image href="../Images/52.jpg" width="15"
-                                height="15" id="image_vst_q5m_51c"/><b>Close Situation Event</b> or
-                                <b>Close Event</b> → <b>Close Situation Event with Notes</b>.</cmd>
+                                height="15" id="image_vst_q5m_51c"/>
+                            <b>Close Situation Event</b> or <b>Close Event</b> → <b>Close Situation
+                                Event with Notes</b>.</cmd>
                     </substep>
                 </substeps>
             </step>
             <step>
                 <cmd><b>Situation event console view</b>: From the situation event console view, do
                     the following to close a pure event or one whose situation has been <image
-                        href="../Images/49.jpg" width="15" height="15" id="image_qrj_55m_51c"
-                    />stopped or deleted:</cmd>
+                        href="../Images/49.jpg" width="15" height="15" id="image_qrj_55m_51c"/>
+                    stopped or deleted:</cmd>
                 <substeps id="substeps_fst_55m_51c">
                     <substep>
                         <cmd>In the workspace where the situation event console view displays,
@@ -90,9 +91,9 @@
                 </substeps>
                 <choices id="choices_a2m_dvm_51c">
                     <choice><b>Close Event</b> → <image href="../Images/52.jpg" width="15"
-                            height="15" id="image_ilv_gvm_51c"/><b>Close Situation
-                        Event</b></choice>
-                    <choice><b>Close Event </b>→ <b>Close Situation Event with Notes</b></choice>
+                            height="15" id="image_ilv_gvm_51c"/>
+                        <b>Close Situation Event</b></choice>
+                    <choice><b>Close Event </b>→ <b> Close Situation Event with Notes</b></choice>
                 </choices>
             </step>
         </steps>

@@ -5,7 +5,7 @@
     <shortdesc>Use these steps to link to a workspace that has been targeted from the current
         Navigator item or view.</shortdesc>
     <prolog>
-        <author>Lisa Adams</author>
+        <author>Abrar Ahmed Syed</author>
         <metadata>
             <keywords>
                 <indexterm>How to link a workspace<indexterm>Linking to a
@@ -46,10 +46,12 @@
                     the target workspace could not be resolved.</info>
             </step>
             <step>
-                <note id="note_dsg_d1b_yxb">If there is more than one workspace you can link to, the
-                    Select Target window opens.</note>
                 <cmd>Select the Navigator item for the workspace and click
                     <uicontrol>OK</uicontrol>.</cmd>
+                <info>
+                    <note id="note_dsg_d1b_yxb">If there is more than one workspace you can link to,
+                        the Select Target window opens.</note>
+                </info>
             </step>
             <step>
                 <cmd>Click <uicontrol>OK</uicontrol> if a message asks you to select a leaf node,

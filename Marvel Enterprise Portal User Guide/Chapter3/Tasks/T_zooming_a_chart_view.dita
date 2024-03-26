@@ -26,8 +26,8 @@
                     you click and drag, the chart zooms to show more detail.</cmd>
             </step>
             <step>
-                <cmd>Press Esc for each zoom step to undo. The plot area returns to the previous
-                    size.</cmd>
+                <cmd>Press <cmdname>Esc</cmdname> for each zoom step to undo. The plot area returns
+                    to the previous size.</cmd>
             </step>
         </steps>
     </taskbody>

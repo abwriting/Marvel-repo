@@ -3,7 +3,7 @@
 <concept id="c_workspace_characteristics">
     <title>Workspace Characteristics</title>
     <prolog>
-        <author>Lisa Adams</author>
+        <author>Abrar Ahmed Syed</author>
         <metadata>
             <keywords>
                 <indexterm>Workspace Characteristics<indexterm>Workspace
@@ -78,7 +78,7 @@
             </dl>
             <dl id="dl_otg_sdv_xxb">
                 <dlentry>
-                    <dt>Navigator level</dt>
+                    <dt>Navigator Level</dt>
                     <dd>
                         <p>The monitoring agents available for reporting in a workspace are those
                             assigned to that branch of the Navigator. If you are not sure which

@@ -25,7 +25,8 @@
                         <uicontrol>Navigator</uicontrol> item. If unsure which are assigned, select
                     the <uicontrol>Navigator</uicontrol> item, right-click the item, and click
                         <image href="../Images/I_workspace%20_properties.png" width="15" height="10"
-                        id="image_et2_qch_xxb"/><uicontrol>Properties</uicontrol>.</li>
+                        id="image_et2_qch_xxb"/>
+                    <uicontrol>Properties</uicontrol>.</li>
                 <li>The CLI has several tacmds specific to workspaces:<ul id="ul_jx5_cbh_xxb">
                         <li><cmdname>deleteWorkspace</cmdname> to delete a workspace by its objectid
                             from the Marvel Enterprise Portal Server.</li>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen XML Author 23/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/oxygen-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Users/AbrarSyed/AppData/Local/Oxygen%20XML%20Author%2023/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/templates/oxygen/notes.css'?>
+<?workdir /C:\Users\AbrarSyed\Downloads\Marvel DITA project\Marvel-repo\Marvel Enterprise Portal User Guide\Chapter1\Concepts\temp\topic-pdf-css-html5?><?workdir-uri file:/C:/Users/AbrarSyed/Downloads/Marvel%20DITA%20project/Marvel-repo/Marvel%20Enterprise%20Portal%20User%20Guide/Chapter1/Concepts/temp/topic-pdf-css-html5/?><?path2project?><?path2project-uri ./?><?path2rootmap-uri ./?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:css-param="http://www.oxygenxml.com/extensions/publishing/dita/css/params" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" id="C_predefined_workspaces_situations_and_more" specializations="@props/deliveryTarget" xtrc="concept:1;3:59" xtrf="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-hct_cyw_v1c/t1/t2/t3/t4/t5/C_Predefined_Workspaces_Situations_and_More.dita" css-param:show-onpage-lbl="no" xml:lang="en">
+    <title class="- topic/title "><ph class="- topic/ph topic/title-wrapper ">Predefined Workspaces, Situations, and More</ph></title>
+    <shortdesc class="- topic/shortdesc ">Every agent is designed to monitor specific attributes of an operating system or
+        other type of software. With these attributes, come definitions for use with the Marvel
+        Enterprise Portal functions.</shortdesc>
+    <prolog class="- topic/prolog ">
+        <author class="- topic/author ">Sridevi</author>
+        <metadata class="- topic/metadata ">
+            <keywords class="- topic/keywords ">
+                <indexterm class="- topic/indexterm ">Predefined Workspaces, Situations, and
+                        More<indexterm class="- topic/indexterm ">Policies</indexterm><indexterm class="- topic/indexterm ">Managed system
+                        groups</indexterm><indexterm class="- topic/indexterm ">Take action
+                        commands</indexterm><indexterm class="- topic/indexterm ">Predefined Queries</indexterm></indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
+    <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Use the definitions that have been designed for your product to begin monitoring and
+            visualizing data immediately. Some definitions are ready to use; others are dormant
+            until activated:</p>
+        <p class="- topic/p ">
+            <dl class="- topic/dl " id="dl_vqn_23v_wxb">
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt "><keyword class="- topic/keyword ">Workspaces</keyword></dt>
+                    <dd class="- topic/dd ">
+                        <p class="- topic/p ">The workspaces that open when you click a Navigator item or select from
+                            the <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-hct_cyw_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/Workspace.png" id="image_adx_c53_1yb" placement="inline" width="15"/> Workspace Gallery, are predefined. They
+                            provide visual feedback of real-time values from managed systems, and
+                            historical values when historical data collection has been configured.
+                            They provide a starting point for designing your workspaces.</p>
+                    </dd>
+                </dlentry>
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt "><keyword class="- topic/keyword ">Queries</keyword></dt>
+                    <dd class="- topic/dd ">
+                        <p class="- topic/p ">The predefined workspaces are populated with data gathered as a result of
+                            queries, which are also predefined. Creating your queries from these
+                            predefined queries enable you to add or remove attributes, apply a sort
+                            order, and pre-filter the data to keep data retrieval at a manageable
+                            level and to enable you to more easily see data of interest.</p>
+                    </dd>
+                </dlentry>
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt ">Take action commands</dt>
+                    <dd class="- topic/dd ">
+                        <p class="- topic/p ">Some agents have predefined take-action commands, such as the Windows OS
+                            agent Start Service and Stop Service commands. They are available for
+                            selection and they provide examples of the kinds of actions that you
+                            might want to define for maintaining managed systems.</p>
+                    </dd>
+                </dlentry>
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt "><keyword class="- topic/keyword ">Situations</keyword></dt>
+                    <dd class="- topic/dd ">
+                        <p class="- topic/p ">The tests for conditions that you want to be alerted for are available in
+                            the predefined situations. To avoid an overwhelming number of events
+                            opening in a newly managed environment and, conversely to avoid missing
+                            important events because the comparison criteria were set too low, many
+                            of the predefined situations for an agent are not set to start
+                            automatically. They remain stopped until you start them manually
+                            or set them to <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-hct_cyw_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_run_at_startup.png" id="image_rtd_l53_1yb" placement="inline" width="15"/>
+                            <uicontrol class="+ topic/ph ui-d/uicontrol ">Run at startup</uicontrol>. A good way to find out which
+                            situations are set to run at startup and which ones are not, is to
+                            filter the Situation editor tree with <image class="- topic/image " height="15" href="file:/C:/Users/AbrarSyed/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-hct_cyw_v1c/t1/t2/t3/t4/t5/oxy_ex-1/Images/I_show_situations.png" id="image_i1g_m53_1yb" placement="inline" width="15"/> Show Situations, which is available when
+                            the Situation editor is opened from the Navigator pop-up menu. As agents
+                            report monitoring data, especially when that data is being collected
+                            and stored in a Marvel Data Warehouse, you can better determine the
+                            values and circumstances that are worthy of an alert, such as high CPU
+                            activity on a transaction server at peak times.</p>
+                    </dd>
+                </dlentry>
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt "><keyword class="- topic/keyword ">Policies</keyword></dt>
+                    <dd class="- topic/dd ">
+                        <p class="- topic/p ">The predefined policies that are available with some products are not set
+                            to start automatically. This is primarily because policies automate
+                            activities, as described in the policy workflow.</p>
+                    </dd>
+                </dlentry>
+            </dl>
+            <dl class="- topic/dl " id="dl_agb_djv_wxb">
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt ">Managed system groups</dt>
+                    <dd class="- topic/dd ">
+                        <p class="- topic/p ">The Marvel Enterprise Monitoring Server and every Marvel Monitoring
+                            product has at least one predefined managed system group, indicated by
+                            an asterisk at the beginning of the list name, such as
+                                <cmdname class="+ topic/keyword sw-d/cmdname ">*NT_SYSTEM</cmdname> for the Windows OS agent. When you
+                            assign one of these managed system groups to a situation, policy,
+                            historical collection configuration, or custom Navigator, all managed
+                            systems with that agent installed are selected.</p>
+                    </dd>
+                </dlentry>
+                <dlentry class="- topic/dlentry ">
+                    <dt class="- topic/dt "><keyword class="- topic/keyword ">Navigator views</keyword></dt>
+                    <dd class="- topic/dd ">Some products have custom Navigator views for access to special
+                        features.</dd>
+                </dlentry>
+            </dl>
+        </p>
+    </conbody>
+    <related-links class="- topic/related-links ">
+        <link class="- topic/link " href="oxy_ex-2/Chapter3/Concepts/C_using_workspaces.dita" type="concept"><?ditaot gentext?><linktext class="- topic/linktext ">Using Workspaces</linktext></link>
+    </related-links>
+</concept>

@@ -25,10 +25,10 @@
                     full-screen.</li>
                 <li>Change a view to a different type, such as from a pie chart to a gauge.</li>
                 <li>Edit the workspace<image href="../Images/I_workspace%20_properties.png"
-                        width="15" height="10" id="image_ypg_mch_xxb"/>properties, such as to make
+                        width="15" height="10" id="image_ypg_mch_xxb"/> properties, such as to make
                     it the default workspace.</li>
-                <li>Edit the<image href="../Images/I_properties.png" id="image_k5l_nch_xxb"
-                    />properties of the individual views to control their styles and, in table and
+                <li>Edit the<image href="../Images/I_properties.png" id="image_k5l_nch_xxb"/>
+                    properties of the individual views to control their styles and, in table and
                     chart views, what data they display.</li>
                 <li>Build a link to another workspace so that you can jump to it from this one
                     quickly.</li>

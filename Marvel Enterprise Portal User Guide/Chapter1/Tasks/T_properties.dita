@@ -22,9 +22,8 @@
         </context>
         <steps>
             <step>
-                <cmd>Click <image
-                        conref="../../Abrar-Chapter5/Concepts/C_workspace_changes.dita#C_workspace_changes/image_ypg_mch_xxb"
-                        id="image_fcb_xrn_xxb"/>
+                <cmd>Click <image href="../Images/I_workspace%20_properties.png" width="15"
+                        height="15" id="image_apr_xyw_v1c"/>
                     <uicontrol>Properties</uicontrol>. </cmd>
                 <stepresult>The <uicontrol>Properties</uicontrol> editor opens with a list of the
                     views on the left, grouped by type. On the right, the general workspace
@@ -32,21 +31,18 @@
             </step>
             <step>
                 <cmd>Select one of the views in the <uicontrol>Properties</uicontrol> tree.</cmd>
-                <info>All types of views have a <image
-                        href="../../Abrar-Chapter5/Images/I_style.png" width="10" height="10"
-                        id="image_jyy_tsn_xxb"/>
+                <info>All types of views have a <image href="../Images/I_style.png" width="15"
+                        height="15" id="image_vbc_dzw_v1c"/>
                     <uicontrol>Style</uicontrol> tab, with different options for the type of view.
-                    The table, charts, and topology views have <image
-                        href="../../Abrar-Chapter5/Images/I_query_tab.png" id="image_sr4_vsn_xxb"/>
-                    <uicontrol>Query</uicontrol> and <image
-                        href="../../Abrar-Chapter5/Images/I_filter.png" width="10" height="10"
-                        id="image_nqr_ysn_xxb"/>
+                    The table, charts, and topology views have <image href="../Images/I_query.png"
+                        width="15" height="15" id="image_dtk_hzw_v1c"/>
+                    <uicontrol>Query</uicontrol> and <image href="../Images/I_show_situations.png"
+                        width="15" height="15" id="image_w15_lzw_v1c"/>
                     <uicontrol>Filters</uicontrol> tabs, table and topology have a <image
-                        href="../../Abrar-Chapter5/Images/I_thresholds.png" width="10" height="10"
-                        id="image_ljj_ctn_xxb"/>
+                        href="../Images/I_thresold.png" width="15" height="15"
+                        id="image_lm2_pzw_v1c"/>
                     <uicontrol>Thresholds</uicontrol> tab, and terminal emulators have a <image
-                        href="../../Abrar-Chapter5/Images/I_message_log.png" width="10" height="10"
-                        id="image_vtx_2tn_xxb"/>
+                        href="../Images/log.png" width="15" height="15" id="image_eck_qzw_v1c"/>
                     <uicontrol>Configuration</uicontrol> tab. Whenever you want to change the data
                     elements that display for a chart or table or change the styling of a view, go
                     to the Properties editor.</info>

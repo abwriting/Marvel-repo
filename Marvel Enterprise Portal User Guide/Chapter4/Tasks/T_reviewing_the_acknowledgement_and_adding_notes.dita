@@ -22,8 +22,8 @@
                             id="image_j1w_x3g_51c"/> ) in the Navigator view to open the flyover
                         list of open events, then right-click the acknowledged event.</choice>
                     <choice>If you have opened the event results workspace, right-click the <image
-                            href="../Images/45.jpg" width="15" height="15" id="image_qw1_djg_51c"
-                        />event item in the Navigator.</choice>
+                            href="../Images/45.jpg" width="15" height="15" id="image_qw1_djg_51c"/>
+                        event item in the Navigator.</choice>
                     <choice>In the situation event console view, right-click a row where the Status
                         shows as Acknowledged.</choice>
                     <choice>In the Enterprise Status workspace, right-click a row in the My
@@ -32,7 +32,8 @@
             </step>
             <step>
                 <cmd>Click<image href="../Images/7.png" width="15" height="15"
-                        id="image_lk2_hjg_51c"/><b> Event Notes</b>.</cmd>
+                        id="image_lk2_hjg_51c"/>
+                    <b> Event Notes</b>.</cmd>
             </step>
         </steps>
         <result id="result_udq_4jg_51c">The Event Notes window opens for you to review and add notes

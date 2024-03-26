@@ -45,8 +45,9 @@
                             right:</cmd>
                         <itemgroup>
                             <table frame="all" id="table_nxp_x5f_51c">
+                                <title>Event Indicators</title>
                                 <tgroup cols="2">
-                                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                                    <colspec colname="c1" colnum="1" colwidth="1*" align="center"/>
                                     <colspec colname="c2" colnum="2" colwidth="1*"/>
                                     <thead>
                                         <row>
@@ -112,6 +113,7 @@
             with the event and the event results workspace opens. The event results workspace
             contains four views to help you investigate the condition and determine what action to
             take next:<table frame="all" id="table_jtv_zvf_51c">
+                <title>Event Results</title>
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>
@@ -169,6 +171,7 @@
                     height="15" id="image_w4n_2xf_51c"/> situation workspace Navigator item to open
                 the pop-up menu. The menu includes functions for responding to the event:</p><table
                 frame="all" id="table_rph_3xf_51c">
+                <title>Menu Functions</title>
                 <tgroup cols="2">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="1*"/>

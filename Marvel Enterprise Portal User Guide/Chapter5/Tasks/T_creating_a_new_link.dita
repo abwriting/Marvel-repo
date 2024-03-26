@@ -13,7 +13,7 @@
         </metadata>
     </prolog>
     <taskbody>
-        <prereq id="prereq_kmv_jyb_v1c">The workspace link feature in the Tivoli Enterprise Portal
+        <prereq id="prereq_kmv_jyb_v1c">The workspace link feature in the Marvel Enterprise Portal
             enables you to create simple links or advanced links. A simple link can originate from a
             Navigator item or from a data series in a chart or table. Context information is passed
             from the source workspace to determine which target workspace to open.</prereq>
@@ -32,7 +32,7 @@
                         <info>
                             <p>The highlighted Navigator item for this workspace.</p>
                             <p>An icon in a graphic view.</p>
-                            <p>An object in a Tivoli Management Services Infrastructure view.</p>
+                            <p>An object in a Marvel Management Services Infrastructure view.</p>
                             <p>A row in a table view or situation event console view.</p>
                             <p>A data point in a chart view.</p>
                         </info>
@@ -187,9 +187,9 @@
                     <substep>
                         <cmd>Click <b>Evaluate</b> to verify that the variable resolves correctly.
                             The Value shown must be valid for the identifier type you specified. For
-                            example, for a computer named TIVOLIUSER,
-                                <codeph>Primary:TIVOLIUSER:NT</codeph> is a valid Windows OS managed
-                            system name and TIVOLIUSER is a valid host name.</cmd>
+                            example, for a computer named MARVELUSER,
+                                <codeph>Primary:MARVELUSER:NT</codeph> is a valid Windows OS managed
+                            system name and MARVELUSER is a valid host name.</cmd>
                     </substep>
                     <substep>
                         <cmd>If no value is displayed or you get a syntax error or a value that does

@@ -21,7 +21,7 @@
             <dl id="dl_ltl_kgx_1yb">
                 <dlentry>
                     <dt><image href="../Images/I_refresh.png" width="15" height="15"
-                            id="image_kc2_xgx_1yb"/><sup>2</sup>Apply pending updates</dt>
+                            id="image_kc2_xgx_1yb"/><sup>2</sup>Apply Pending Updates</dt>
                     <dd>The <uicontrol>Apply pending updates tool</uicontrol> updates the Navigator
                         tree with the correct status of agents, in response to the count of agents
                         that have been removed from or added to the Marvel Enterprise Monitoring
@@ -32,8 +32,8 @@
                 </dlentry>
                 <dlentry>
                     <dt><image href="../Images/I_application_support_event.png" width="15"
-                            height="15" id="image_djs_chx_1yb"/><sup>6</sup>Application support
-                        event</dt>
+                            height="15" id="image_djs_chx_1yb"/><sup>6</sup>Application Support
+                        Event</dt>
                     <dd>After you start the Marvel Enterprise Portal, the application support
                         version is read from the portal client and the portal server. Any
                         discrepancies in versions between client and server are noted in the
@@ -41,7 +41,7 @@
                 </dlentry>
                 <dlentry>
                     <dt><image href="../Images/I_find_icon.png" width="15" height="15"
-                            id="image_kll_hhx_1yb"/>Find Navigator item</dt>
+                            id="image_kll_hhx_1yb"/>Find Navigator Item</dt>
                     <dd>Use <image href="../Images/I_find_icon.png" width="15" height="15"
                             id="image_ep3_jhx_1yb"/>
                         <uicontrol>Find</uicontrol> in the Navigator toolbar to look for a Navigator
@@ -52,13 +52,11 @@
                 </dlentry>
                 <dlentry>
                     <dt><image href="../Images/I_edit_navigator_view.png" width="15" height="15"
-                            id="image_sck_phx_1yb"/>Edit navigator view</dt>
+                            id="image_sck_phx_1yb"/>Edit Navigator View</dt>
                     <dd>Opens the Navigator editor for creating, deleting, and modifying Navigator
-                        views. See <xref
-                            href="../../Chapter4/Concepts/C_navigator_views_for_logical_organization.dita"
-                            /><note id="note_cn3_zhx_1yb" type="restriction">If the tool is disabled
-                            (dimmed), your user ID does not have Modify permission for Custom
-                            Navigator Views.</note></dd>
+                            views.<note id="note_cn3_zhx_1yb" type="restriction">If the tool is
+                            disabled (dimmed), your user ID does not have Modify permission for
+                            Custom Navigator Views.</note></dd>
                 </dlentry>
                 <dlentry>
                     <dt><image href="../Images/I_list_box.png" width="15" height="15"

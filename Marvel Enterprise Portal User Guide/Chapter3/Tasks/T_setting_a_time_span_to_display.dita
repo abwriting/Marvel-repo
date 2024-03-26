@@ -6,8 +6,7 @@
         database for display in a table or chart. These historical data enabled views have a tool
         for setting a range of previous data samples to be reported.</shortdesc>
     <prolog>
-        <author
-            conref="../../Commons/Reuse/author.dita#ReusableComponent_pvh_nlr_t1c/author_qc5_flr_t1c"/>
+        <author>Abrar Ahmed Syed</author>
         <metadata>
             <keywords>
                 <indexterm>Time Span</indexterm>
@@ -76,7 +75,7 @@
                             show either the global timestamp (the default) or local. Select<image
                                 href="../Images/33.jpg" id="image_nll_drk_t1c"/><b>Use Hub time</b>
                             to reflect the time at the Hub Marvel Enterprise Monitoring Server
-                            rather than at the Tivoli Enterprise Portal Server or portal
+                            rather than at the Marvel Enterprise Portal Server or portal
                             client.</cmd>
                     </substep>
                 </substeps>
@@ -106,12 +105,4 @@
                 summarization and pruning to run sooner.</p>
         </postreq>
     </taskbody>
-    <related-links>
-        <link href="../../Abrar-Chapter8/Concepts/C_historical_reporting.dita">
-            <desc>Use historical data collection and reporting to gather useful metrics about your
-                managed network. You can also use historical data with the chart baselining tools
-                for predictive analysis and in situation modeling for key performance
-                indicators.</desc>
-        </link>
-    </related-links>
 </task>

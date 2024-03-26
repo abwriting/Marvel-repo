@@ -6,7 +6,7 @@
         event status views, you can suspend refreshes to keep the data from changing while you
         investigate a problem.</shortdesc>
     <prolog>
-        <author>Lisa Adams</author>
+        <author>Abrar Ahmed Syed</author>
         <metadata>
             <keywords>
                 <indexterm>How to suspend and stop refresh<indexterm>Stop workspace

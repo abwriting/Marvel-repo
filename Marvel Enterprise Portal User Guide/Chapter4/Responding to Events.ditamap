@@ -2,20 +2,19 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Responding to Events</title>
-    <topicref href="Concepts/C_responding_to_events.dita">
-        <topicref href="Concepts/C_understanding_situation_events.dita"/>
-        <topicref href="Tasks/T_opening_the_situation_event_results_workspace.dita"/>
-        <topicref href="Concepts/C_enterprise_status_workspace.dita">
-            <topicref href="Concepts/C_event_details_workspace.dita"/>
-        </topicref>
-        <topicref href="Tasks/T_acknowledging_an_event.dita">
-            <topicref href="Concepts/C_acknowledgement_status.dita"/>
-            <topicref href="Tasks/T_reviewing_the_acknowledgement_and_adding_notes.dita"/>
-            <topicref href="Tasks/T_adding_notes_to_an_acknowledged_event.dita"/>
-            <topicref href="Tasks/T_removing_an_acknowledgement.dita"/>
-        </topicref>
-        <topicref href="Tasks/T_closing_a_situation_event.dita"/>
-        <topicref href="Tasks/T_turning_off_the_sound.dita"/>
-        <topicref href="Concepts/C_event_reporting.dita"/>
+    <topicref href="Concepts/C_responding_to_events.dita"/>
+    <topicref href="Concepts/C_understanding_situation_events.dita"/>
+    <topicref href="Tasks/T_opening_the_situation_event_results_workspace.dita"/>
+    <topicref href="Concepts/C_enterprise_status_workspace.dita">
+        <topicref href="Concepts/C_event_details_workspace.dita"/>
     </topicref>
+    <topicref href="Tasks/T_acknowledging_an_event.dita">
+        <topicref href="Concepts/C_acknowledgement_status.dita"/>
+        <topicref href="Tasks/T_reviewing_the_acknowledgement_and_adding_notes.dita"/>
+        <topicref href="Tasks/T_adding_notes_to_an_acknowledged_event.dita"/>
+        <topicref href="Tasks/T_removing_an_acknowledgement.dita"/>
+    </topicref>
+    <topicref href="Tasks/T_closing_a_situation_event.dita"/>
+    <topicref href="Tasks/T_turning_off_the_sound.dita"/>
+    <topicref href="Concepts/C_event_reporting.dita"/>
 </map>

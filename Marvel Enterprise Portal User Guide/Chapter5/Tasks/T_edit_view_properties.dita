@@ -25,7 +25,7 @@
             <step>
                 <cmd>In the <uicontrol>Query</uicontrol> tab, Click <image
                         href="../Images/I_query_tab.png" id="image_gdf_nhh_xxb" height="10"
-                        width="10"/>here to assign a query.</cmd>
+                        width="10"/> here to assign a query.</cmd>
                 <info>Queries determine from which attribute group to draw data. The Select Query
                     window opens.</info>
             </step>

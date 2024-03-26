@@ -3,6 +3,20 @@
 <concept id="C_event_details_workspace">
     <title>Event Details Workspace</title>
     <shortdesc></shortdesc>
+    <prolog>
+        <author>Abrar Ahmed Syed</author>
+        <metadata>
+            <keywords>
+                <indexterm>Event Details Workspace</indexterm>
+                <indexterm>Selected Event</indexterm>
+                <indexterm>Similar Events by</indexterm>
+                <indexterm>Similar Events by Situation Name</indexterm>
+                <indexterm>Similar Events by Source</indexterm>
+                <indexterm>Similar Events by Resource</indexterm>
+                <indexterm>Event Notes</indexterm>
+            </keywords>
+        </metadata>
+    </prolog>
     <conbody>
         <p>The Enterprise Status workspace (default for the Enterprise Navigator item) includes the
             Situation Event Console and My Acknowledged Events views, each of which has links to the
@@ -40,11 +54,12 @@
                     hypertext link. The file is launched in your default browser or in the default
                     viewer configured for the file's MIME type. You can print the notes for an event
                     by clicking <image href="../Images/6.png" width="15" height="15"
-                        id="image_hfj_jbg_51c"/><b>Print</b>. If you want to update the notes for an
-                    event, right-click the event in the Selected Event view and click <image
-                        href="../Images/7.png" width="15" height="15" id="image_akk_kbg_51c"
-                        /><b>Event Notes</b>. Click<image href="../Images/36.jpg" width="15"
-                        height="15" id="image_qxw_lbg_51c"/> to view the updates.</dd>
+                        id="image_hfj_jbg_51c"/>
+                    <b>Print</b>. If you want to update the notes for an event, right-click the
+                    event in the Selected Event view and click <image href="../Images/7.png"
+                        width="15" height="15" id="image_akk_kbg_51c"/>
+                    <b>Event Notes</b>. Click<image href="../Images/36.jpg" width="15" height="15"
+                        id="image_qxw_lbg_51c"/> to view the updates.</dd>
             </dlentry>
             <dlentry>
                 <dt>Event Tools</dt>

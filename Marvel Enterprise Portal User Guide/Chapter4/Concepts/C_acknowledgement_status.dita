@@ -22,10 +22,10 @@
             </ul></p>
         <p>The Acknowledged status changes to Closed when the situation is no longer true.</p>
         <p>If the situation is still true when the acknowledgement expires, the status will change
-            to <image href="../Images/68.jpg" width="15" height="15" id="image_xhz_ghg_51c"
-            />Expired. If the situation is still true and you cancel your ownership (remove
+            to <image href="../Images/68.jpg" width="15" height="15" id="image_xhz_ghg_51c"/>
+            Expired. If the situation is still true and you cancel your ownership (remove
             acknowledgement) the status will change to <image href="../Images/47.jpg" width="15"
-                height="15" id="image_bly_hhg_51c"/>Reopened.</p>
+                height="15" id="image_bly_hhg_51c"/> Reopened.</p>
         <p>Although you can acknowledge a pure event, the acknowledgement does not stop the arrival
             of more pure events.</p>
         <p><image href="../Images/ackk_status.png" id="image_oxy_23g_51c"/></p>

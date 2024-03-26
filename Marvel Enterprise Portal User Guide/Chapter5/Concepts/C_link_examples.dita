@@ -22,6 +22,11 @@
             row or chart point might be to a workspace with more details about that row. Notice that
             the link anchors showing in the table view and graphic view appear automatically when
             you define a link from these views.</p>
-        <p><image href="../Images/I_link_example_link_wizard.png" id="image_txl_b5p_v1c"/></p>
+        <p>
+            <fig id="fig_yb2_lhx_v1c">
+                <title>Link Wizard</title>
+                <image href="../Images/I_link_example_link_wizard.png" id="image_txl_b5p_v1c"/>
+            </fig>
+        </p>
     </conbody>
 </concept>

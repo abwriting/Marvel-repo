@@ -44,7 +44,7 @@
                     <dd>Marvel Enterprise Portal has a menu bar that includes the following four
                             menus:<table frame="all" id="table_k2p_cp3_1yb">
                             <title>Menu bar menus</title>
-                            <tgroup cols="2" align="center">
+                            <tgroup cols="2" align="left">
                                 <colspec colname="c1" colnum="1" colwidth="1*"/>
                                 <colspec colname="c2" colnum="2" colwidth="1*" align="left"/>
                                 <thead>
@@ -78,9 +78,9 @@
                                         <entry>
                                             <p>The View menu has options for opening other
                                                 workspaces for a Navigator item, hiding or showing
-                                                the toolbars and status bar, refreshing the data in this workspace, turning off
-                                                sound for events, and for opening other Navigator
-                                                views.</p>
+                                                the toolbars and status bar, refreshing the data in
+                                                this workspace, turning off sound for events, and
+                                                for opening other Navigator views.</p>
                                         </entry>
                                     </row>
                                     <row>

@@ -15,17 +15,17 @@
         </metadata>
     </prolog>
     <conbody>
-        <p><image
-                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_r41_h14_xxb"
-                id="image_lbs_kwd_byb"/><i>An application support version mismatch has been
-                detected. Click Help for more information on possible causes and actions.</i>
-            Warning events indicate that the mismatch was found at client startup.</p>
-        <p><image
-                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hwj_l14_xxb"
-                id="image_bxt_nwd_byb"/><i>New or updated application support is available. Restart
-                the Marvel Enterprise Portal client to update your application support.</i> If
-            application support updates become available while you are logged on, an Informational
-            event occurs to show that application support is waiting to be applied. Log out and
-            restart the client to have application support updates applied.</p>
+        <p><image href="../../Chapter1/Images/Warning%20Error.jpeg" width="15" height="15"
+                id="image_fpy_hcx_v1c"/>
+            <i>An application support version mismatch has been detected. Click Help for more
+                information on possible causes and actions.</i> Warning events indicate that the
+            mismatch was found at client startup.</p>
+        <p><image href="../../Chapter1/Images/I_informational.png" width="15" height="15"
+                id="image_url_jcx_v1c"/>
+            <i>New or updated application support is available. Restart the Marvel Enterprise Portal
+                client to update your application support.</i> If application support updates become
+            available while you are logged on, an Informational event occurs to show that
+            application support is waiting to be applied. Log out and restart the client to have
+            application support updates applied.</p>
     </conbody>
 </concept>

@@ -12,9 +12,7 @@
         </metadata>
     </prolog>
     <taskbody>
-        <context>
-            <p></p>
-        </context>
+        <context/>
         <steps>
             <step>
                 <cmd>Open the workspace where the link originates (source workspace).</cmd>

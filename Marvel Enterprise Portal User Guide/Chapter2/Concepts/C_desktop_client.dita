@@ -14,17 +14,17 @@
         </metadata>
     </prolog>
     <conbody>
-        <p><image
-                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_r41_h14_xxb"
-                id="image_g1x_xwd_byb"/><i>An application support version mismatch has been
-                detected. Use the Marvel Monitoring installer to add the associated application
-                support to the portal desktop client.</i> Warning events indicate that the mismatch
-            was found at client startup.</p>
-        <p><image
-                conref="../../Sridevi-Chapter1/Concepts/C_situations.dita#C_situations/image_hwj_l14_xxb"
-                id="image_wkm_zwd_byb"/><i>New or updated application support is available. Use the
-                Marvel Monitoring installer to add the associated application support to the portal
-                desktop client. </i>Informational events indicate that the mismatch was found after
-            logon to the portal server.</p>
+        <p><image href="../../Chapter1/Images/Warning%20Error.jpeg" width="15" height="15"
+                id="image_fpy_hcx_v1c"/>
+            <i>An application support version mismatch has been detected. Use the Marvel Monitoring
+                installer to add the associated application support to the portal desktop
+                client.</i> Warning events indicate that the mismatch was found at client
+            startup.</p>
+        <p><image href="../../Chapter1/Images/I_informational.png" width="15" height="15"
+                id="image_url_jcx_v1c"/>
+            <i>New or updated application support is available. Use the Marvel Monitoring installer
+                to add the associated application support to the portal desktop client.
+            </i>Informational events indicate that the mismatch was found after logon to the portal
+            server.</p>
     </conbody>
 </concept>

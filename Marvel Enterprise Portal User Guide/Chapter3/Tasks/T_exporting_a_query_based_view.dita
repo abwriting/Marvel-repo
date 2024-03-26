@@ -17,7 +17,7 @@
     <taskbody>
         <context>
             <p>When you open or refresh a workspace, the queries assigned to the table and chart
-                views are sent to the Tivoli Enterprise Monitoring Server, which returns the
+                views are sent to the Marvel Enterprise Monitoring Server, which returns the
                 requested data from the managed systems. Any filters applied to views reduce what
                 displays, such as only the relevant four columns of a seven-column table or only the
                 processes that are using the most memory.</p>

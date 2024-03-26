@@ -40,14 +40,15 @@
                 <substeps id="substeps_wmh_kqv_t1c">
                     <substep>
                         <cmd>The default function is <image href="../Images/13.jpg" width="15"
-                                height="15" id="image_ww3_mqv_t1c"/><b>Value of expression</b> (
-                                <image href="../Images/55.png" id="image_i4y_qqv_t1c"/><b>Compare
-                                Date and Time</b> for time attributes); the default operator is
-                                <image href="../Images/56.png" width="15" height="15"
+                                height="15" id="image_ww3_mqv_t1c"/>
+                            <b>Value of expression</b> ( <image href="../Images/55.png"
+                                id="image_i4y_qqv_t1c"/>
+                            <b>Compare Date and Time</b> for time attributes); the default operator
+                            is <image href="../Images/56.png" width="15" height="15"
                                 id="image_rkz_vqv_t1c"/>. If you need to change the function or
                             operator, click<image href="../Images/13.jpg" width="15" height="15"
-                                id="image_zjx_xqv_t1c"/> the or <image href="../Images/56.png"
-                                width="15" height="15" id="image_zsm_yqv_t1c"/>button and select
+                                id="image_zjx_xqv_t1c"/>  the or <image href="../Images/56.png"
+                                width="15" height="15" id="image_zsm_yqv_t1c"/> button and select
                             from the list.</cmd>
                     </substep>
                     <substep>
@@ -58,16 +59,17 @@
                             that position; use a ? question mark wildcard for a single character at
                             that position. You can also use wildcards with the <image
                                 href="../Images/57.png" width="15" height="15"
-                                id="image_est_2rv_t1c"/><b>Scan for string within a string</b> and
-                                <image href="../Images/58.png" width="15" height="15"
-                                id="image_rfl_hrv_t1c"/><b>Return a subset of the string</b>
-                            functions. See the formula function topics for a description of
-                            attribute types and other formula functions, including examples. When
-                            using the ? question mark wildcard with the <image
-                                href="../Images/13.jpg" width="15" height="15"
-                                id="image_qhx_3rv_t1c"/><b>Value of expression </b>function, append
-                            the text with an * asterisk. For example, enter Sa?e* to find Safe and
-                            Sale.</cmd>
+                                id="image_est_2rv_t1c"/>
+                            <b>Scan for string within a string</b> and <image
+                                href="../Images/58.png" width="15" height="15"
+                                id="image_rfl_hrv_t1c"/>
+                            <b>Return a subset of the string</b> functions. See the formula function
+                            topics for a description of attribute types and other formula functions,
+                            including examples. When using the ? question mark wildcard with the
+                                <image href="../Images/13.jpg" width="15" height="15"
+                                id="image_qhx_3rv_t1c"/>
+                            <b>Value of expression </b>function, append the text with an * asterisk.
+                            For example, enter Sa?e* to find Safe and Sale.</cmd>
                     </substep>
                     <substep>
                         <cmd>Most special characters are processed correctly. If you attempt to find
@@ -126,6 +128,6 @@
             Find window open for this view while you continue working with the workspace.</postreq>
     </taskbody>
     <related-links>
-        <link href="../References/r_table_find_examples.dita"/>
+        <link href="../References/R_table_find_examples.dita"/>
     </related-links>
 </task>

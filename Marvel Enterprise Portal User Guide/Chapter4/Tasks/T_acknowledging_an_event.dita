@@ -41,9 +41,9 @@
             </step>
             <step>
                 <cmd>Point to <b>Acknowledge Event</b> and click either <image
-                        href="../Images/45.jpg" width="15" height="15" id="image_mbs_gfg_51c"
-                        /><b>Quick Acknowledge</b>, to acknowledge the event with the default
-                    settings, or<image href="../Images/45.jpg" width="15" height="15"
+                        href="../Images/45.jpg" width="15" height="15" id="image_mbs_gfg_51c"/>
+                    <b>Quick Acknowledge</b>, to acknowledge the event with the default settings,
+                        or<image href="../Images/45.jpg" width="15" height="15"
                         id="image_gls_3fg_51c"/>
                     <b>Acknowledge</b> to open the Acknowledge window. A quick acknowledgement
                     creates an acknowledgement with no expiration and inserts a time stamp, your
@@ -52,8 +52,8 @@
             </step>
             <step>
                 <cmd>If you selected <image href="../Images/45.jpg" width="15" height="15"
-                        id="image_pyy_jfg_51c"/><b>Acknowledge</b> in the previous step, do any of
-                    the following:</cmd>
+                        id="image_pyy_jfg_51c"/>
+                    <b>Acknowledge</b> in the previous step, do any of the following:</cmd>
                 <choices id="choices_z5g_42g_51c">
                     <choice>Adjust the <b>Expiration</b> settings for the time when the
                         acknowledgement should expire. If you select <image href="../Images/17.jpg"
@@ -69,8 +69,8 @@
                         area and preceded with a time stamp, your user ID, and the statement, “Event
                         quick acknowledged, ownership assigned”.</choice>
                     <choice>Attach a file that is applicable to the event by clicking <image
-                            href="../Images/8.png" width="15" height="15" id="image_wdz_xfg_51c"
-                            /><b>Add an attachment</b> and selecting the file.</choice>
+                            href="../Images/8.png" width="15" height="15" id="image_wdz_xfg_51c"/>
+                        <b>Add an attachment</b> and selecting the file.</choice>
                     <choice>If your environment includes an incident management agent, such as IBM
                         Information Management, and the event corresponds to an incident, enter the
                         incident identifier in the <b>Reference ID</b> field, up to 32
@@ -93,6 +93,6 @@
             acknowledgement after it has been closed, you can access it through the view of the
             Enterprise Status workspace. If the acknowledgement expires before the event has been
             closed, the event status changes to <image href="../Images/47.jpg" width="15"
-                height="15" id="image_d4z_kgg_51c"/>Reopened.</postreq>
+                height="15" id="image_d4z_kgg_51c"/> Reopened.</postreq>
     </taskbody>
 </task>

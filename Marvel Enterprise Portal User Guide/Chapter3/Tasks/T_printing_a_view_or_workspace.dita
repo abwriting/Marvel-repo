@@ -28,7 +28,7 @@
         <result id="result_ivn_z4f_51c">When you print a table that has more columns than will fit
             the width of the page, they will wrap to the next page. If there are more rows than will
             fit on the page, they are displayed on subsequent pages.</result>
-        <postreq id="postreq_l4v_1pf_51c">The printing mechanism used by Tivoli Enterprise Portal is
+        <postreq id="postreq_l4v_1pf_51c">The printing mechanism used by Marvel Enterprise Portal is
             provided by Java, and has some limitations. When you print a notepad view, the text
             prints as an image. If you want a better quality, try selecting and copying the text
             (Ctrl+C), then pasting into your favorite text editor for formatting and printing. When

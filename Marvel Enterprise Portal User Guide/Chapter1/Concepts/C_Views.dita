@@ -16,7 +16,7 @@
         <p>
             <dl id="dl_rhf_gw3_1yb">
                 <dlentry>
-                    <dt>Query-based views</dt>
+                    <dt>Query-based Views</dt>
                     <dd>The table and chart views are the first step to getting meaningful
                         information from the data being collected. When you understand what values
                         and states are causing problems, you can refine your views to show what is
@@ -34,7 +34,7 @@
                             item.</p></dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Event views</dt>
+                    <dt>Event Views</dt>
                     <dd>The message log view and console views (universal message, situation event,
                         common event, and Marvel Enterprise Console) update automatically to show
                         new events as they arrive and changes in event status as they occur. The
@@ -67,7 +67,7 @@
                             Server with those from the Marvel Enterprise Monitoring Server.</p></dd>
                 </dlentry>
                 <dlentry>
-                    <dt>Other views</dt>
+                    <dt>Other Views</dt>
                     <dd>Marvel Enterprise Portal workspaces can also have any of the following
                         specialized views:<p>
                             <image href="../Images/Notepad.png" width="15" height="15"
